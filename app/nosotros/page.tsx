@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ChevronLeft, Target, Eye, Users, Briefcase, GraduationCap, TrendingUp, Building2, Lightbulb, Award, Rocket, Heart, CheckCircle2, ArrowRight, Play } from 'lucide-react';
+import { ChevronLeft, Target, Eye, Users, Briefcase, GraduationCap, TrendingUp, Building2, Lightbulb, Award, Rocket, Heart, CheckCircle2, ArrowRight, Play, Handshake, Shield, Laptop } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
@@ -21,28 +21,36 @@ export default function NosotrosPage() {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
   const valores = [
     {
-      icon: Award,
-      title: "Excelencia",
-      description: "Compromiso con la calidad en cada proyecto",
+      icon: Shield,
+      title: "Confianza",
+      description: "Sabemos que el tratamiento de la información contable, legal, tributaria y financiera de nuestros socios comerciales es totalmente confidencial; es por ello que mantenemos en absoluta discreción todo el proceso de consultoría, generando reportes que serán entregados única y exclusivamente a los dueños o representantes de la micro y pequeña Empresa a quien se le presta el servicio.",
       primaryColor: "#0047BB",
       secondaryColor: "#002677",
       bgColor: "from-blue-50 to-indigo-50"
     },
     {
-      icon: Heart,
-      title: "Compromiso",
-      description: "Dedicación total al éxito de nuestros clientes",
+      icon: Rocket,
+      title: "Innovación",
+      description: "Nuestra Empresa incorpora las mejores prácticas de consultoría y brinda un servicio cualificado al socio comercial. Nos basamos en novedosas técnicas disruptivas que permiten procesar la información de manera directa y muchas veces digitalmente, evitando los procesos y reprocesos que generan cola en la gestión convencional.",
       primaryColor: "#0047BB",
       secondaryColor: "#002677",
       bgColor: "from-indigo-50 to-blue-50"
     },
     {
-      icon: Rocket,
-      title: "Innovación",
-      description: "Soluciones creativas y actualizadas",
+      icon: Users,
+      title: "Servicio personalizado",
+      description: "Somos una consultora boutique que identifica la necesidad específica del cliente al cual le brindamos una atención exclusiva y diferenciada, en base a ello, proponemos soluciones hechas a medida ya que sabemos que las Empresas pasan por distintas etapas y la realidad es muy distinta para cada una de ellas.",
       primaryColor: "#0047BB",
       secondaryColor: "#002677",
       bgColor: "from-blue-50 to-sky-50"
+    },
+    {
+      icon: Laptop,
+      title: "Tecnología",
+      description: "En un mundo en el cual la única constante es el cambio; basamos toda mejora de los procesos de nuestros clientes en herramientas digitales, colgadas en la nube, de fácil acceso para los propietarios del negocio desde cualquier parte del mundo.",
+      primaryColor: "#0047BB",
+      secondaryColor: "#002677",
+      bgColor: "from-sky-50 to-blue-50"
     }
   ];
 
@@ -206,7 +214,7 @@ export default function NosotrosPage() {
       </section>
 
       {/* Quienes Somos Section */}
-      <section className="py-24 px-4 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-24 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -215,7 +223,7 @@ export default function NosotrosPage() {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
+            <div className="grid lg:grid-cols-2 gap-12 items-start px-4 md:px-8">
               {/* Left Side - Video */}
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
@@ -231,7 +239,7 @@ export default function NosotrosPage() {
                   playsInline
                   className="w-full object-cover"
                   style={{
-                    height: '740px',
+                    height: '890px',
                     WebkitBackfaceVisibility: 'hidden',
                     WebkitTransform: 'translateZ(0)',
                     transform: 'translateZ(0)'
@@ -262,31 +270,25 @@ export default function NosotrosPage() {
                 <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
                   <div className="grid grid-cols-1 gap-0">
                     <div className="p-8 lg:p-10 flex flex-col justify-center text-white" style={{ background: 'linear-gradient(135deg, #0047BB 0%, #002677 100%)' }}>
-                      <h3 className="text-2xl lg:text-3xl font-bold mb-4 font-futura-lux">Nuestro Compromiso</h3>
-                      <p className="text-blue-100 text-base lg:text-lg leading-relaxed mb-4 font-futura-book">
-                        Transformar negocios en empresas exitosas mediante estrategias innovadoras y soluciones personalizadas que generan valor real.
+                      <p className="text-lg lg:text-xl text-blue-100 leading-relaxed mb-6 font-futura-book text-justify">
+                        Somos una <span className="font-bold font-futura-lux">firma de consultoría para negocios</span> orientada a brindar soluciones para 
+la micro y pequeña Empresa (Mypes). Contamos con un equipo comprome do en 
+proteger y hacer crecer tus inversiones a través de nuestros servicios de asesoría y 
+capacitación empresarial. 
                       </p>
+                      <div className="flex gap-4">
                       <Building2 className="w-14 h-14 text-blue-200" />
+                      </div>
                     </div>
                     <div className="p-8 lg:p-10 flex flex-col justify-center bg-white">
-                      <p className="text-lg lg:text-xl text-gray-700 leading-relaxed mb-6 font-futura-book">
-                        Somos una <span className="font-bold font-futura-lux" style={{ color: '#0047BB' }}>firma de consultoría para negocios</span> orientada a la pequeña y micro empresa, comprometidos con el crecimiento y desarrollo empresarial en todo el Perú.
+                      <h3 className="text-2xl lg:text-3xl font-bold mb-4 font-futura-lux" style={{ color: '#0047BB' }}>Nuestro Compromiso</h3>
+                      <p className="text-gray-700 text-base lg:text-lg leading-relaxed mb-4 font-futura-book text-justify">
+                        Transformar emprendimientos y empresas en unidades de negocio que generen 
+fuentes de ingreso propias de su core business, capaces de mantenerse en el empo 
+con una estructura de capital opma y generando beneficios económicos para los 
+accionistas e inversionistas de la Empresa.
                       </p>
-                      <div className="space-y-3 mb-6">
-                        {["Experiencia comprobada", "Enfoque personalizado", "Resultados medibles"].map((item, index) => (
-                          <motion.div
-                            key={index}
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: index * 0.1 }}
-                            className="flex items-center gap-3"
-                          >
-                            <CheckCircle2 className="w-6 h-6 flex-shrink-0" style={{ color: '#0047BB' }} />
-                            <span className="text-gray-700 font-medium font-arial">{item}</span>
-                          </motion.div>
-                        ))}
-                      </div>
+                      <Handshake className="w-14 h-14" style={{ color: '#0047BB' }} />
                     </div>
                   </div>
                 </div>
@@ -381,7 +383,7 @@ export default function NosotrosPage() {
                   </div>
                 </div>
                 
-                <p className="text-lg text-gray-700 leading-relaxed relative z-10 font-futura-book">
+                <p className="text-lg text-gray-700 leading-relaxed relative z-10 font-futura-book text-justify">
                   Ser la firma de consultoría <span className="font-bold font-futura-lux relative" style={{ color: '#0047BB' }}>
                     más reconocida en temas empresariales
                     <span className="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500" style={{ background: 'linear-gradient(to right, #0047BB, #002677)' }} />
@@ -436,7 +438,7 @@ export default function NosotrosPage() {
                   </div>
                 </div>
                 
-                <p className="text-lg text-gray-700 leading-relaxed relative z-10 font-futura-book">
+                <p className="text-lg text-gray-700 leading-relaxed relative z-10 font-futura-book text-justify">
                   Anticipar y priorizar las necesidades de nuestros socios comerciales; <span className="font-bold font-futura-lux relative" style={{ color: '#0047BB' }}>
                     creando valor en sus inversiones
                     <span className="absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500" style={{ background: 'linear-gradient(to right, #002677, #0047BB)' }} />
@@ -532,7 +534,7 @@ export default function NosotrosPage() {
                       {valor.title}
                     </h4>
                     
-                    <p className="text-gray-600 leading-relaxed font-futura-book">
+                    <p className="text-gray-600 leading-relaxed font-futura-book text-justify">
                       {valor.description}
                     </p>
 
@@ -551,61 +553,6 @@ export default function NosotrosPage() {
                       <div className="absolute -top-10 -right-10 w-20 h-20 rounded-full opacity-20" style={{ background: `linear-gradient(135deg, ${valor.primaryColor}, ${valor.secondaryColor})` }} />
                     </div>
                   </div>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Servicios Section */}
-      <section className="py-24 px-4 bg-gradient-to-b from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <span className="font-futura-book text-sm uppercase tracking-wider" style={{ color: '#0047BB' }}>A Quiénes Servimos</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#B7BCB4] mt-4 mb-6 font-futura-lux">
-              Clientes <span style={{ color: '#0047bbff' }}>Objetivos</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-futura-book">
-              Trabajamos con empresas y emprendedores comprometidos con el crecimiento y la excelencia
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {servicios.map((servicio, index) => {
-              const Icon = servicio.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  whileHover={{ y: -5 }}
-                  className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group"
-                >
-                  <div className="p-4 rounded-xl w-fit mb-6 group-hover:scale-110 transition-transform" style={{ background: 'linear-gradient(to bottom right, #0047BB, #002677)' }}>
-                    <Icon className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-[#002677] mb-2 font-futura-lux">
-                    {servicio.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4 font-futura-book">
-                    {servicio.description}
-                  </p>
-                  <ul className="space-y-2">
-                    {servicio.items.map((item, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-gray-600 font-arial">
-                        <ArrowRight className="w-4 h-4 flex-shrink-0 mt-1" style={{ color: '#0047BB' }} />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
                 </motion.div>
               );
             })}

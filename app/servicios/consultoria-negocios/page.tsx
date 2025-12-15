@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, CheckCircle, Target, Building, FileText, ArrowRight, Users, TrendingUp } from "lucide-react";
+import { Briefcase, CheckCircle, Target, Building, FileText, ArrowRight, Users, TrendingUp, Handshake } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -11,12 +11,14 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function ConsultoriaNegocios() {
   const servicios = [
-    "Constitución de empresas y elección de razón social",
-    "Inscripción en Registros Públicos y trámites legales",
-    "Definición de público objetivo y segmentación de mercado",
-    "Desarrollo de estrategias comerciales efectivas",
-    "Análisis de viabilidad y plan de negocios",
-    "Estructuración organizacional y procesos"
+    "Asesoría contable, financiera, legal y tributaria. ",
+    "Branding y Marketing digital.",
+    "Constitución de empresas.",
+    "Inscripción en Registros públicos.",
+    "Plan económico y financiero de la Empresa.",
+    "Plan de negocios.",
+    "Registro de marca y patentes en Indecopi.",
+    "Fusiones y adquisiciones."
   ];
 
   const fases = [
@@ -79,7 +81,7 @@ export default function ConsultoriaNegocios() {
               className="inline-flex items-center justify-center w-32 h-32 rounded-full mb-8"
               style={{ background: 'rgba(255, 255, 255, 0.15)', backdropFilter: 'blur(10px)' }}
             >
-              <Briefcase className="w-16 h-16 text-white" strokeWidth={1.5} />
+              <Handshake className="w-16 h-16 text-white" strokeWidth={1.5} />
             </motion.div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
@@ -118,12 +120,16 @@ export default function ConsultoriaNegocios() {
               <h2 className="text-4xl font-bold mb-6" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
                 De la Idea a la Empresa Exitosa
               </h2>
-              <p className="text-lg mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Hacer una empresa va desde elegir el nombre o la razón social, determinar los objetos sociales que más se acomodan, realizar la inscripción en Registros Públicos, identificar un público objetivo, hasta desarrollar las estrategias para obtener los resultados propuestos.
-              </p>
-              <p className="text-lg mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Con VALTO, todo este proceso se vuelve simple y estratégico. Te acompañamos en cada paso, asegurando que tu empresa tenga bases sólidas desde el principio.
-              </p>
+              <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+Hacer una Empresa va desde elegir el nombre o la razón social, ver los objetos 
+sociales que más se acomodan a tu negocio, inscripción en Registros públicos, buscar 
+el público obje vo, desarrollar las estrategias para obtener los resultados propuestos 
+y todo lo que conlleva tener un negocio listo para empezar a generar ingresos 
+económicos.              </p>
+              <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de 
+expertos que te guiarán y te mantendrán a buen recaudo, teniendo como obje vo 
+principal tu salud financiera y el desarrollo de tus obje vos empresariales.               </p>
             </motion.div>
 
             <motion.div
@@ -152,7 +158,8 @@ export default function ConsultoriaNegocios() {
               className="bg-white rounded-2xl shadow-xl p-8"
             >
               <h3 className="text-2xl font-bold mb-6" style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                Lo que Hacemos por Ti
+                Nuestros servicios de consultoría de negocios incluyen: 
+
               </h3>
               <ul className="grid md:grid-cols-2 gap-4">
                 {servicios.map((servicio, index) => (

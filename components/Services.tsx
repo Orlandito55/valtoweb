@@ -9,10 +9,22 @@ import Lenis from '@studio-freight/lenis';
 const services = [
   {
     icon: TrendingUp,
-    title: "CAPACITACION EMPRESARIAL",
+    title: "ASESORÍA FINANCIERA",
     description:
-      "Descubre lo que podemos hacer por ti en el campo financiero: Planeamiento financiero – Flujos de caja – Presupuestos – Análisis de estados financieros – Optimización de gastos y procesos.",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+      "Tomar decisiones en base a los números que brinda tu empresa; proyectando los futuros ingresos y gastos, bajo dis ntos escenarios, es el camino correcto para generar valor en las inversiones que realizas. ",
+    image: "/gallery/capacitacion1.png",
+    features: [
+    ],
+    color: "from-[#002677] to-[#0047BB]",
+    bgColor: "#E8F0FE",
+    link: "/servicios/consultoria-financiera"
+  },
+  {
+    icon: TrendingUp,
+    title: "ASESORIA ACADÉMICA PARA ESTUDIANTES DE PRE Y POSTGRADO",
+    description:
+      "Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha conver do en el día a día de una gran can dad de estudiantes de universidades e ins tutos, pero los alumnos carecen de una base sólida en estos temas, es por ello que implementamos nuestro servicio de asesoría académica con el cual podrás comprender de manera detallada, paso a paso los conceptos de estas materias y su respec va aplicación en el mundo prác co. ",
+    image: "/gallery/chosica.jpg",
     features: [
     ],
     color: "from-[#002677] to-[#0047BB]",
@@ -21,10 +33,10 @@ const services = [
   },
   {
     icon: CreditCard,
-    title: "CONSULTORIA DE NEGOCIOS",
+    title: "CAPACITACIÓN EMPRESARIAL",
     description:
-      "Descubre lo que podemos hacer por ti en el área contable: Registro de información y auditoría, Presentación de estados financieros con ratios – Renta mensual y anual – Política de control interno – Análisis de estados.",
-    image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&q=80",
+      "Estamos convencidos que el éxito de una Empresa depende mucho del conocimiento adquirido por las personas que toman decisiones en el negocio. Es por ello que los instruimos y capacitamos con material teórico y prác co tomado de las mejores escuelas de negocios. ",
+    image: "/gallery/image2.png",
     features: [
     ],
     color: "from-[#002677] to-[#0047BB]",
@@ -33,10 +45,10 @@ const services = [
   },
   {
     icon: GraduationCap,
-    title: "CONSULTORIA FINANCIERA",
+    title: "CONSULTORÍA DE NEGOCIOS",
     description:
-      "Conoce nuestro servicio de Gestión Empresarial: Planeamiento financiero y tributario – Diagnóstico empresarial – Planeamiento estratégico – Atención al proceso – Organigrama empresarial – Manuales de función – Flujo de caja.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "Hacer una Empresa va desde elegir el nombre o la razón social, ver los objetos sociales que más se acomodan a tu negocio, inscripción en Registros públicos, buscar el público obje vo, desarrollar las estrategias para obtener los resultados propuestos y todo lo que conlleva tener un negocio listo para empezar a generar ingresos económicos.",
+    image: "/gallery/negocio.jpg",
     features: [
     ],
     color: "from-[#002677] to-[#0047BB]",
@@ -45,16 +57,17 @@ const services = [
   },
   {
     icon: GraduationCap,
-    title: "FORMACION DE EMPRENDEDORES",
+    title: "FORMACIÓN DE EMPRENDEDORES Y EMPRESARIOS",
     description:
-      "Transforma tu mentalidad emprendedora en habilidades empresariales sólidas con conocimiento, estrategia y soft skills.",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+      "Ser Emprendedor es muy dis nto a ser empresario. El emprendedor es aquella persona que ene las ganas de hacer algo propio, algo diferente, pero esto no basta para tener éxito en el enmarañado mundo de los negocios. A ello es necesario sumarle conocimiento, habilidades financieras, planificación y diferentes so skills que marcarán la diferencia en el ecosistema empresarial. ",
+    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
     features: [
     ],
     color: "from-[#002677] to-[#0047BB]",
     bgColor: "#F0F4F8",
     link: "/servicios/formacion-emprendedores"
   },
+  
 ];
 
 function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {
@@ -86,13 +99,13 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
         className="grid md:grid-cols-2 min-h-[320px] md:min-h-[440px]"
         style={{ backgroundColor: service.bgColor }}
       >
-        {/* Imagen - Izquierda en pares, derecha en impares */}
         <div className={`relative overflow-hidden min-h-[240px] md:min-h-[440px] ${!isEven ? 'md:order-2' : ''}`}>
           <div className="absolute inset-0">
             <img
               src={service.image}
               alt={service.title}
               className="w-full h-full object-cover"
+              style={service.image === "/gallery/chosica.jpg" ? { objectPosition: '00% center' } : {}}
             />
             <div className="absolute inset-0" style={{ 
               background: 'linear-gradient(135deg, rgba(0,38,119,0.7) 0%, rgba(0,71,187,0.5) 100%)'

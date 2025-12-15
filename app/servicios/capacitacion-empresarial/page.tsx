@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { GraduationCap, CheckCircle, Users, Trophy, TrendingUp, ArrowRight, BookOpen, Award } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ImageCarousel from "@/components/ImageCarousel";
@@ -11,12 +12,14 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function CapacitacionEmpresarial() {
   const beneficios = [
-    "Material de élite extraído de las mejores escuelas de negocios",
-    "Instructores con experiencia real en gestión empresarial",
-    "Enfoque práctico aplicable inmediatamente",
-    "Certificación profesional reconocida",
-    "Metodología adaptada a empresas latinoamericanas",
-    "Casos de éxito reales y aplicables"
+    "Análisis de Estados financieros.",
+    "Contabilidad para Mypes.",
+    "Costos y presupuestos. ",
+    "Estructuración financiera.",
+    "Inversiones en renta fija y variable. ",
+    "Financiamiento a corto y largo plazo",
+    "Planificación financiera.",
+    "Proyección de Estados financieros"
   ];
 
   const modulos = [
@@ -89,9 +92,9 @@ export default function CapacitacionEmpresarial() {
               animate={{ scale: 1 }}
               transition={{ delay: 0.2, type: "spring" }}
               className="inline-flex items-center justify-center w-32 h-32 rounded-full mb-8"
-              style={{ background: 'rgba(255, 255, 255, 0.15)', backdropFilter: 'blur(10px)' }}
+              style={{ background: 'rgba(255, 255, 255, 0.15)', backdropFilter: 'blurf(10px)' }}
             >
-              <GraduationCap className="w-16 h-16 text-white" strokeWidth={1.5} />
+              <Image src="/iconos/icono33.png" alt="Asesoría Académica" width={150} height={150} className="opacity-90" />
             </motion.div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
@@ -128,14 +131,12 @@ export default function CapacitacionEmpresarial() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-bold mb-6" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                El Conocimiento es la Clave del Éxito
+                El Conocimiento es la Clave del éxito en los negocios
               </h2>
-              <p className="text-lg mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Estamos convencidos que el éxito de una empresa depende mucho del conocimiento adquirido por las personas que toman decisiones en ella. Es por esto que instruimos y capacitamos a estas personas con material teórico y práctico extraído de las mejores escuelas de negocios del mundo.
-              </p>
-              <p className="text-lg mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Nuestros programas están diseñados para transformar líderes en estrategas capaces de enfrentar los desafíos del mercado moderno con confianza y conocimiento de vanguardia.
-              </p>
+              <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+                Estamos convencidos que el éxito de una Empresa depende mucho del conocimiento adquirido por las personas que toman decisiones en el negocio. Es por ello que los instruimos y capacitamos con material teórico y práctico tomado de las mejores escuelas de negocios para optimizar los recursos generando valor en la operación.              </p>
+              <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+                Ponemos al alcance de los profesionales que buscan una capacitación constante un portafolio amplio de cursos y seminarios basados en casos empresariales de éxito en sus respectivas industrias.              </p>
               <div className="flex items-center p-6 rounded-xl" style={{ backgroundColor: '#0047BB10' }}>
                 <Award className="w-12 h-12 mr-4" style={{ color: '#0047BB' }} />
                 <div>
@@ -159,7 +160,7 @@ export default function CapacitacionEmpresarial() {
                 images={[
                   "https://img.freepik.com/foto-gratis/gente-negocios-posando-sonriendo-sala-reuniones_1262-820.jpg?semt=ais_hybrid&w=740&q=80",
                   "https://blog.egade.tec.mx/hs-fs/hubfs/VEC/Imported_Blog_Media/programas-capacitacion-empresas-min.jpg?width=5472&name=programas-capacitacion-empresas-min.jpg",
-                  "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=1200&q=80"
+                  "/gallery/image.png",
                 ]}
                 autoPlay={true}
                 interval={5000}
@@ -175,7 +176,7 @@ export default function CapacitacionEmpresarial() {
               className="bg-white rounded-2xl shadow-xl p-8"
             >
               <h3 className="text-2xl font-bold mb-6" style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                ¿Por Qué Elegirnos?
+                Nuestros servicios de capacitación empresarial incluyen: 
               </h3>
               <ul className="grid md:grid-cols-2 gap-4">
                 {beneficios.map((beneficio, index) => (
@@ -257,6 +258,19 @@ export default function CapacitacionEmpresarial() {
             <p className="text-xl text-blue-100 mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
               Da el primer paso hacia la excelencia empresarial. Nuestro equipo está listo para diseñar un programa de capacitación a la medida de tus necesidades.
             </p>
+
+            <motion.a
+              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Capacitación%20Empresarial"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
+              style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
+            >
+              Solicitar Información
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </motion.a>
           </motion.div>
         </div>
       </section>

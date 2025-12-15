@@ -43,7 +43,8 @@ const navItems = [
     href: "#",
     hasDropdown: true,
     dropdownItems: [
-      { name: "Asesoria Financiera", href: "/servicios/consultoria-financiera" },
+      { name: "Asesoría Financiera", href: "/servicios/consultoria-financiera" },
+      { name: "Asesoría Académica para estudiantes de pre y postgrado", href: "/servicios/asesoria-academica-universitaria" },
       { name: "Capacitación Empresarial", href: "/servicios/capacitacion-empresarial" },
       { name: "Consultoría de Negocios", href: "/servicios/consultoria-negocios" },
       { name: "Formación de Emprendedores", href: "/servicios/formacion-emprendedores" },
@@ -254,7 +255,7 @@ export default function Navbar() {
                     rel="noopener noreferrer"
                     className="w-full aspect-square bg-white text-[#0047BB] rounded-xl flex items-center justify-center hover:bg-white/90 transition-all hover:scale-110 shadow-lg"
                   >
-                    <FacebookIcon size={18} />
+                    <FacebookIcon size={32} />
                   </a>
                   <a
                     href="https://www.instagram.com/valto.management/"
@@ -262,7 +263,7 @@ export default function Navbar() {
                     rel="noopener noreferrer"
                     className="w-full aspect-square bg-white text-[#0047BB] rounded-xl flex items-center justify-center hover:bg-white/90 transition-all hover:scale-110 shadow-lg"
                   >
-                    <InstagramIcon size={18} />
+                    <InstagramIcon size={32} />
                   </a>
                   <a
                     href="https://www.tiktok.com/@valto.management"
@@ -270,7 +271,7 @@ export default function Navbar() {
                     rel="noopener noreferrer"
                     className="w-full aspect-square bg-white text-[#0047BB] rounded-xl flex items-center justify-center hover:bg-white/90 transition-all hover:scale-110 shadow-lg"
                   >
-                    <TikTokIcon size={18} />
+                    <TikTokIcon size={32} />
                   </a>
                   <a
                     href="https://www.linkedin.com/company/gltbc/?viewAsMember=true"
@@ -278,7 +279,7 @@ export default function Navbar() {
                     rel="noopener noreferrer"
                     className="w-full aspect-square bg-white text-[#0047BB] rounded-xl flex items-center justify-center hover:bg-white/90 transition-all hover:scale-110 shadow-lg"
                   >
-                    <LinkedinIcon size={18} />
+                    <LinkedinIcon size={32} />
                   </a>
                   <a
                     href="https://www.youtube.com/channel/UCeuMGEp2CE9-trNobwxEC7Q"
@@ -286,7 +287,7 @@ export default function Navbar() {
                     rel="noopener noreferrer"
                     className="w-full aspect-square bg-white text-[#0047BB] rounded-xl flex items-center justify-center hover:bg-white/90 transition-all hover:scale-110 shadow-lg"
                   >
-                    <YoutubeIcon size={18} />
+                    <YoutubeIcon size={32} />
                   </a>
                 </div>
               </motion.div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { TrendingUp, CheckCircle, PieChart, BarChart3, Calculator, ArrowRight, DollarSign, LineChart } from "lucide-react";
+import { GraduationCap, CheckCircle, BookOpen, FileText, Calculator, ArrowRight, Award, Users } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
@@ -10,39 +10,43 @@ import ImageCarousel from "@/components/ImageCarousel";
 import FloatingSocial from "@/components/FloatingSocial";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
-export default function ConsultoriaFinanciera() {
+export default function AsesoriaAcademica() {
   const servicios = [
-    "Plan de inversiones.",
-    "Plan de financiamiento y estructuración de capital.",
-    "Flujo de caja libre para la firma",
-    "Flujo de caja libre para el accionista.",
-    "Análisis de sensibilidad y de escenarios bajo probabilidades de ocurrencia.",
-    "Planificación financiera. ",
-    "Portafolio de inversiones.",
-    "Valorización de ac vos financieros.",
-
+    "Contabilidad general.",
+    "Contabilidad financiera.",
+    "Costos y presupuestos.",
+    "Derivados financieros.",
+    "Evaluación de proyectos de inversión.",
+    "Finanzas corporativas.",
+    "Gestión financiera.",
+    "Ingeniería económica.",
+    "Instrumentos financieros.",
+    "Inversiones.",
+    "Planificación financiera.",
+    "Renta fija y renta variable.",
+    "Valorización de empresas."
   ];
 
   const areas = [
     {
-      icon: DollarSign,
-      titulo: "Gestión de Ingresos",
-      descripcion: "Optimización de fuentes de ingreso y estrategias de pricing para maximizar la rentabilidad"
+      icon: BookOpen,
+      titulo: "Contabilidad",
+      descripcion: "Comprende desde lo básico hasta temas avanzados de contabilidad general y financiera"
     },
     {
       icon: Calculator,
-      titulo: "Distribución de Recursos",
-      descripcion: "Asignación inteligente de recursos entre operación, inversión y financiamiento"
+      titulo: "Finanzas",
+      descripcion: "Domina conceptos de finanzas corporativas, inversiones y valorización de empresas"
     },
     {
-      icon: LineChart,
-      titulo: "Capital de Trabajo",
-      descripcion: "Gestión eficiente del efectivo, inventarios y cuentas por cobrar/pagar"
+      icon: FileText,
+      titulo: "Costos y Presupuestos",
+      descripcion: "Aprende gestión de costos, presupuestos y evaluación de proyectos de inversión"
     },
     {
-      icon: BarChart3,
-      titulo: "Análisis de Rentabilidad",
-      descripcion: "Evaluación de proyectos, productos y líneas de negocio para decisiones informadas"
+      icon: Award,
+      titulo: "Instrumentos Financieros",
+      descripcion: "Conoce derivados financieros, renta fija, renta variable y más"
     }
   ];
 
@@ -83,19 +87,19 @@ export default function ConsultoriaFinanciera() {
               className="inline-flex items-center justify-center w-32 h-32 rounded-full mb-8"
               style={{ background: 'rgba(255, 255, 255, 0.15)', backdropFilter: 'blur(10px)' }}
             >
-              <Image src="/iconos/icono11.png" alt="Asesoría Académica" width={150} height={150} className="opacity-90" />
+              <Image src="/iconos/icono22.png" alt="Asesoría Académica" width={150} height={150} className="opacity-90" />
             </motion.div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Asesoría Financiera
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
+              Asesoría académica para estudiantes de pre y postgrado
             </h1>
             
             <p className="text-xl lg:text-2xl text-blue-100 max-w-3xl mx-auto mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              Decisiones financieras estratégicas para el crecimiento sostenible
+              Domina Contabilidad, Economía y Finanzas con apoyo personalizado
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Consultoría%20Financiera"
+              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Asesoría%20Académica"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -103,7 +107,7 @@ export default function ConsultoriaFinanciera() {
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
-              Optimizar mis Finanzas
+              Solicitar Asesoría
               <ArrowRight className="ml-2 w-5 h-5" />
             </motion.a>
           </motion.div>
@@ -120,28 +124,22 @@ export default function ConsultoriaFinanciera() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-bold mb-6" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                Las Finanzas: El Corazón de tu Empresa
+                Domina Contabilidad, Economía y Finanzas
               </h2>
-              <p className="text-lg mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                 Tomar decisiones en base a los números que brinda tu empresa; proyectando los 
-futuros ingresos y gastos, bajo dis ntos escenarios, es el camino correcto para 
-generar valor en las inversiones que realizas.
+              <p className="text-lg text-justify mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+                Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha convertido en el día a día de una gran cantidad de estudiantes de universidades e institutos, pero los alumnos carecen de una base sólida en estos temas, es por ello que implementamos nuestro servicio de asesoría académica con el cual podrás comprender de manera detallada, paso a paso los conceptos de estas materias y su respectiva aplicación en el mundo práctico.
               </p>
-              <p className="text-lg mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Con nuestra asesoría; tus decisiones de inversión y de financiamiento enen una 
-base sólida en principios como el Valor del dinero en el empo y otros postulados 
-de la Economía moderna que man enen tus finanzas a buen recaudo, siempre 
-tomando en cuenta la relación entre el riesgo y rendimiento que estás dispuesto a 
-aceptar en la industria en la que actualmente te encuentras.
+              <p className="text-lg text-justify mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+                Tendrás acceso a nuestro centro de aprendizaje con videos tutoriales prácticos sobre los temas que requieran tu atención.
               </p>
               <div className="flex items-center p-6 rounded-xl" style={{ backgroundColor: '#0047BB10' }}>
-                <PieChart className="w-12 h-12 mr-4" style={{ color: '#0047BB' }} />
+                <Users className="w-12 h-12 mr-4" style={{ color: '#0047BB' }} />
                 <div>
                   <h3 className="font-bold text-lg mb-1" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                    Diagnóstico Financiero
+                    Atención Personalizada
                   </h3>
                   <p style={{ color: '#6B7280', fontFamily: 'Arial' }}>
-                    Análisis integral sin costo inicial
+                    Asesoría uno a uno adaptada a tu nivel
                   </p>
                 </div>
               </div>
@@ -155,9 +153,14 @@ aceptar en la industria en la que actualmente te encuentras.
             >
               <ImageCarousel
                 images={[
-                  "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-                  "/gallery/capacitacion1.png",
-                  "https://gerens.pe/blog/wp-content/uploads/2016/04/consultor-financiero.jpg"
+                  "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
+                  "/gallery/chosica.jpg",
+                  "https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1200&q=80"
+                ]}
+                imagePositions={[
+                  "center",
+                  "left center",
+                  "center"
                 ]}
                 autoPlay={true}
                 interval={5000}
@@ -173,7 +176,7 @@ aceptar en la industria en la que actualmente te encuentras.
               className="bg-white rounded-2xl shadow-xl p-8"
             >
               <h3 className="text-2xl font-bold mb-6" style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                Servicios Financieros
+                Nuestros servicios de asesoría académica incluyen:
               </h3>
               <ul className="grid md:grid-cols-2 gap-4">
                 {servicios.map((servicio, index) => (
@@ -208,7 +211,7 @@ aceptar en la industria en la que actualmente te encuentras.
               Áreas de Especialización
             </h2>
             <p className="text-xl max-w-3xl mx-auto" style={{ color: '#6B7280', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              Soluciones financieras para cada aspecto de tu empresa
+              Cobertura completa de materias financieras y contables
             </p>
           </motion.div>
 
@@ -250,13 +253,13 @@ aceptar en la industria en la que actualmente te encuentras.
             animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Toma el Control de tus Finanzas
+              Alcanza la Excelencia Académica
             </h2>
             <p className="text-xl text-blue-100 mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              No dejes las decisiones financieras al azar. Trabaja con especialistas que entienden el ciclo completo de las finanzas empresariales y pueden ayudarte a maximizar cada peso invertido.
+              No dejes que las dudas frenen tu progreso académico. Trabaja con especialistas que entienden los desafíos de estudiantes como tú y pueden ayudarte a dominar estos conceptos paso a paso.
             </p>
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20solicitar%20un%20análisis%20financiero"
+              href="https://wa.me/51920000848?text=Hola,%20necesito%20asesoría%20académica"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -264,7 +267,7 @@ aceptar en la industria en la que actualmente te encuentras.
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
-              Solicitar Análisis
+              Solicitar Asesoría
               <ArrowRight className="ml-2 w-5 h-5" />
             </motion.a>
           </motion.div>

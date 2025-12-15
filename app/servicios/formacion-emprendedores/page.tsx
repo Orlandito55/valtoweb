@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Lightbulb, CheckCircle, Rocket, Brain, Target, ArrowRight, Users, Award } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ImageCarousel from "@/components/ImageCarousel";
@@ -29,8 +30,8 @@ export default function FormacionEmprendedores() {
     },
     {
       icon: Target,
-      titulo: "Estrategia de Negocio",
-      descripcion: "Aprende a crear y ejecutar planes estratégicos efectivos"
+      titulo: "Estrategias de Negocio",
+      descripcion: "Aprende a crear y ejecutar planes estratégicos para tu emprendimiento"
     },
     {
       icon: Users,
@@ -40,17 +41,18 @@ export default function FormacionEmprendedores() {
     {
       icon: Award,
       titulo: "Competitividad",
-      descripcion: "Destaca en el ecosistema empresarial con ventajas competitivas sostenibles"
+      descripcion: "Destaca en el ecosistema empresarial con ventajas competitivas sostenibles en el tiempo"
     }
   ];
 
   const beneficios = [
-    "Conocimiento integral del mundo de los negocios",
-    "Desarrollo de habilidades financieras prácticas",
-    "Soft skills esenciales para el liderazgo",
-    "Networking con otros emprendedores",
-    "Mentoría personalizada de empresarios exitosos",
-    "Herramientas para la toma de decisiones estratégicas"
+    "Finanzas para no financieros.",
+    "Entrega de dividendos y reinversión de utilidades del negocio.",
+    "Apalancamiento con entidades financieras.",
+    "Gestión financiera.",
+    "Presupuesto maestro.",
+    "Proyecciones financieras para la Empresa.",
+    "Valuación y presupuesto de capital."
   ];
 
   return (
@@ -60,7 +62,7 @@ export default function FormacionEmprendedores() {
       <WhatsAppButton />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0047BB 0%, #6366f1 100%)' }}>
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: '( #002677 100%' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <motion.div
             animate={{
@@ -90,11 +92,11 @@ export default function FormacionEmprendedores() {
               className="inline-flex items-center justify-center w-32 h-32 rounded-full mb-8"
               style={{ background: 'rgba(255, 255, 255, 0.15)', backdropFilter: 'blur(10px)' }}
             >
-              <Lightbulb className="w-16 h-16 text-white" strokeWidth={1.5} />
+              <Image src="/iconos/icono55.png" alt="Asesoría Académica" width={150} height={150} className="opacity-90" />
             </motion.div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Formación de Emprendedores
+              Formación de Emprendedores y Empresarios
             </h1>
             
             <p className="text-xl lg:text-2xl text-blue-100 max-w-3xl mx-auto mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
@@ -127,14 +129,19 @@ export default function FormacionEmprendedores() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-bold mb-6" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                Emprendedor vs Empresario
+                Formación de emprendedores y empresarios
               </h2>
-              <p className="text-xl mb-4" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Una cosa es ser emprendedor y una muy distinta ser empresario. El emprendedor es aquel que tiene las ganas de hacer algo propio, algo diferente, pero esto no basta para tener éxito en el enmarañado mundo de los negocios.
-              </p>
-              <p className="text-xl" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                A ello es necesario sumarle conocimiento, habilidades financieras y diferentes soft skills que marcarán la diferencia en el ecosistema en que se mueve la empresa.
-              </p>
+              <p className="text-xl text-justify mb-4" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+Ser Emprendedor es muy dis nto a ser empresario. El emprendedor es aquella 
+persona que ene las ganas de hacer algo propio, algo diferente, pero esto no basta 
+para tener éxito en el enmarañado mundo de los negocios. A ello es necesario 
+sumarle conocimiento, habilidades financieras, planificación y diferentes so skills 
+que marcarán la diferencia en el ecosistema empresarial.               </p>
+              <p className="text-xl text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
+Nos encargamos de conver rte en un empresario que toma decisiones en base a los 
+números del negocio, a factores internos y externos del sector donde te desarrollas, 
+a medir los riesgos que asumes al entrar en nuevas industrias y los beneficios que 
+estas operaciones te pueden generar.               </p>
             </motion.div>
 
             <motion.div
@@ -157,58 +164,35 @@ export default function FormacionEmprendedores() {
         </div>
       </section>
 
-      {/* La Diferencia */}
+      {/* Beneficios */}
       <section className="py-20" style={{ backgroundColor: '#fff' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Emprendedor vs Empresario
-            </h2>
-            <p className="text-xl max-w-3xl mx-auto mb-4" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-              Una cosa es ser emprendedor y una muy distinta ser empresario. El emprendedor es aquel que tiene las ganas de hacer algo propio, algo diferente, pero esto no basta para tener éxito en el enmarañado mundo de los negocios.
-            </p>
-            <p className="text-xl max-w-3xl mx-auto" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-              A ello es necesario sumarle conocimiento, habilidades financieras y diferentes soft skills que marcarán la diferencia en el ecosistema en que se mueve la empresa.
-            </p>
+            <h3 className="text-3xl font-bold mb-8 text-center" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
+              Nuestros servicios de formación de emprendedores y empresarios incluyen:
+            </h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              {beneficios.map((beneficio, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.1 }}
+                  className="flex items-start"
+                >
+                  <CheckCircle className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0" style={{ color: '#0047BB' }} />
+                  <span style={{ color: '#374151', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', fontSize: '1.1rem' }}>
+                    {beneficio}
+                  </span>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {diferencias.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.2 }}
-                className="bg-white rounded-2xl p-8 shadow-lg"
-              >
-                <div className="flex items-center mb-6">
-                  {index === 0 ? (
-                    <Rocket className="w-10 h-10 mr-4" style={{ color: '#9DA5B3' }} />
-                  ) : (
-                    <Award className="w-10 h-10 mr-4" style={{ color: '#0047BB' }} />
-                  )}
-                  <h3 className="text-2xl font-bold" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                    {item.tipo}
-                  </h3>
-                </div>
-                <ul className="space-y-3">
-                  {item.caracteristicas.map((car, i) => (
-                    <li key={i} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0" style={{ color: index === 0 ? '#9DA5B3' : '#0047BB' }} />
-                      <span style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-                        {car}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -255,33 +239,6 @@ export default function FormacionEmprendedores() {
               </motion.div>
             ))}
           </div>
-
-          {/* Beneficios */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12"
-          >
-            <h3 className="text-3xl font-bold mb-8 text-center" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Lo que Obtendrás
-            </h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {beneficios.map((beneficio, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  className="flex items-start"
-                >
-                  <CheckCircle className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0" style={{ color: '#0047BB' }} />
-                  <span style={{ color: '#374151', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', fontSize: '1.1rem' }}>
-                    {beneficio}
-                  </span>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
         </div>
       </section>
 
@@ -293,7 +250,7 @@ export default function FormacionEmprendedores() {
             animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Da el Salto de Emprendedor a Empresario
+              Convierte tus habilidades de Emprendedor a Empresario
             </h2>
             <p className="text-xl text-blue-100 mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
               No dejes que la falta de conocimiento limite tu potencial. Únete a nuestra comunidad de empresarios exitosos y transforma tu emprendimiento en un negocio sólido y rentable.

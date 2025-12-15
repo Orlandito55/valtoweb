@@ -8,9 +8,10 @@ interface ImageCarouselProps {
   images: string[];
   autoPlay?: boolean;
   interval?: number;
+  imagePositions?: string[];
 }
 
-export default function ImageCarousel({ images, autoPlay = true, interval = 5000 }: ImageCarouselProps) {
+export default function ImageCarousel({ images, autoPlay = true, interval = 5000, imagePositions = [] }: ImageCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -47,6 +48,7 @@ export default function ImageCarousel({ images, autoPlay = true, interval = 5000
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
             className="w-full h-full object-cover"
+            style={imagePositions[currentIndex] ? { objectPosition: imagePositions[currentIndex] } : {}}
           />
           {/* Overlay oscuro sutil */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />

@@ -5,19 +5,11 @@ import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden text-white" style={{ 
-      background: 'linear-gradient(to bottom right, #0047BB, #002677, #001a4d)',
+    <footer className="text-white" style={{ 
+      backgroundColor: '#002677',
       fontFamily: 'Arial, sans-serif'
     }}>
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-          backgroundSize: '40px 40px'
-        }} />
-      </div>
-      
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
