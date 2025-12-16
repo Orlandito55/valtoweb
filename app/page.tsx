@@ -24,7 +24,6 @@ export default function Home() {
       <Process />
       <Testimonials />
       <CreditCalculator />
-      <Gallery />
       <FAQ />
       <CTA />
       <Footer />

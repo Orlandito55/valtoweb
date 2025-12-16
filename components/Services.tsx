@@ -11,7 +11,7 @@ const services = [
     icon: TrendingUp,
     title: "ASESORÍA FINANCIERA",
     description:
-      "Tomar decisiones en base a los números que brinda tu empresa; proyectando los futuros ingresos y gastos, bajo dis ntos escenarios, es el camino correcto para generar valor en las inversiones que realizas. ",
+      "Tomar decisiones en base a los números que brinda tu empresa; proyectando los futuros ingresos y gastos, bajo distintos escenarios, es el camino correcto para generar valor en las inversiones que realizas. ",
     image: "/gallery/capacitacion1.png",
     features: [
     ],
@@ -23,7 +23,7 @@ const services = [
     icon: TrendingUp,
     title: "ASESORIA ACADÉMICA PARA ESTUDIANTES DE PRE Y POSTGRADO",
     description:
-      "Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha conver do en el día a día de una gran can dad de estudiantes de universidades e ins tutos, pero los alumnos carecen de una base sólida en estos temas, es por ello que implementamos nuestro servicio de asesoría académica con el cual podrás comprender de manera detallada, paso a paso los conceptos de estas materias y su respec va aplicación en el mundo prác co. ",
+      "Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha convertido en el día a día de una gran cantidad de estudiantes de universidades e institutos, pero los alumnos carecen de una base sólida en estos temas, es por ello que implementamos nuestro servicio de asesoría académica con el cual podrás comprender de manera detallada, paso a paso los conceptos de estas materias y su respectiva aplicación en el mundo práctico. ",
     image: "/gallery/chosica.jpg",
     features: [
     ],
@@ -35,7 +35,7 @@ const services = [
     icon: CreditCard,
     title: "CAPACITACIÓN EMPRESARIAL",
     description:
-      "Estamos convencidos que el éxito de una Empresa depende mucho del conocimiento adquirido por las personas que toman decisiones en el negocio. Es por ello que los instruimos y capacitamos con material teórico y prác co tomado de las mejores escuelas de negocios. ",
+      "Estamos convencidos que el éxito de una Empresa depende mucho del conocimiento adquirido por las personas que toman decisiones en el negocio. Es por ello que los instruimos y capacitamos con material teórico y práctico tomado de las mejores escuelas de negocios. ",
     image: "/gallery/image2.png",
     features: [
     ],
@@ -47,7 +47,7 @@ const services = [
     icon: GraduationCap,
     title: "CONSULTORÍA DE NEGOCIOS",
     description:
-      "Hacer una Empresa va desde elegir el nombre o la razón social, ver los objetos sociales que más se acomodan a tu negocio, inscripción en Registros públicos, buscar el público obje vo, desarrollar las estrategias para obtener los resultados propuestos y todo lo que conlleva tener un negocio listo para empezar a generar ingresos económicos.",
+      "Hacer una Empresa va desde elegir el nombre o la razón social, ver los objetos sociales que más se acomodan a tu negocio, inscripción en Registros públicos, buscar el público objetivo, desarrollar las estrategias para obtener los resultados propuestos y todo lo que conlleva tener un negocio listo para empezar a generar ingresos económicos.",
     image: "/gallery/negocio.jpg",
     features: [
     ],
@@ -59,7 +59,7 @@ const services = [
     icon: GraduationCap,
     title: "FORMACIÓN DE EMPRENDEDORES Y EMPRESARIOS",
     description:
-      "Ser Emprendedor es muy dis nto a ser empresario. El emprendedor es aquella persona que ene las ganas de hacer algo propio, algo diferente, pero esto no basta para tener éxito en el enmarañado mundo de los negocios. A ello es necesario sumarle conocimiento, habilidades financieras, planificación y diferentes so skills que marcarán la diferencia en el ecosistema empresarial. ",
+      "Ser Emprendedor es muy distinto a ser empresario. El emprendedor es aquella persona que tiene las ganas de hacer algo propio, algo diferente, pero esto no basta para tener éxito en el enmarañado mundo de los negocios. A ello es necesario sumarle conocimiento, habilidades financieras, planificación y diferentes soft skills que marcarán la diferencia en el ecosistema empresarial. ",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
     features: [
     ],
@@ -127,7 +127,7 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
           </motion.h3>
 
           <motion.p
-            className="text-sm md:text-base lg:text-lg text-gray-700 mb-5 md:mb-6 leading-relaxed"
+            className="text-sm md:text-base lg:text-lg text-gray-700 mb-5 md:mb-6 leading-relaxed text-justify"
             style={{ fontFamily: 'Arial, sans-serif' }}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

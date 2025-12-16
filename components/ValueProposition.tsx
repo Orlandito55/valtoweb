@@ -152,17 +152,17 @@ export default function ValueProposition() {
             transition={{ type: "spring", duration: 0.6 }}
             className="inline-block mb-4"
           >
-            <span className="px-6 py-3 bg-valto-blue/10 text-[#9DA5B3] rounded-full text-[36px] font-semibold">
-              ¿Por qué elegirnos?
-            </span>
           </motion.div>
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 font-futura-lux">
-            <span style={{ color: '#0047BB ' }}>Lo que nos hace</span> <span className="font-bold text-white bg-[#0056D6] px-4 py-2 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
-                  DIFERENTES
+            <span style={{ color: '#0047BB ' }}>¿Por que confiar en</span> <span className="font-bold text-white bg-[#0056D6] px-4 py-2 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  NOSOTROS?
                 </span>
           </h2>
-          <p className="text-2xl md:text-3xl text-gray-600 max-w-4xl mx-auto font-futura-book">
-            No somos solo consultores, somos tu socio estratégico comprometido con tu crecimiento
+          <p className="text-2xl text-justify md:text-3xl text-gray-600 max-w-4xl mx-auto font-futura-book">
+            Contamos con una experiencia de más de nueve (09) años en el campo empresarial y hemos 
+            sido testigos de situaciones difíciles a nivel mundial como el Covid 2019, en base a ello, 
+            ofrecemos soluciones en asesoría, consultoría y capacitación que permitirán a tu negocio a seguir
+            operando bajo distintos escenarios.
           </p>
         </motion.div>
 

@@ -88,6 +88,12 @@
       "namedRegex": "^/servicios(?:/)?$"
     },
     {
+      "page": "/servicios/asesoria-academica-universitaria",
+      "regex": "^/servicios/asesoria\\-academica\\-universitaria(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/servicios/asesoria\\-academica\\-universitaria(?:/)?$"
+    },
+    {
       "page": "/servicios/capacitacion-empresarial",
       "regex": "^/servicios/capacitacion\\-empresarial(?:/)?$",
       "routeKeys": {},

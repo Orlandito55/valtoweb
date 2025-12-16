@@ -31,22 +31,22 @@ export default function AsesoriaAcademica() {
     {
       icon: BookOpen,
       titulo: "Contabilidad",
-      descripcion: "Comprende desde lo básico hasta temas avanzados de contabilidad general y financiera"
+      descripcion: "La contabilidad es la base para entender cursos relacionados a la toma de desiciones empresariales."
     },
     {
       icon: Calculator,
-      titulo: "Finanzas",
+      titulo: "Finanzas Empresariales",
       descripcion: "Domina conceptos de finanzas corporativas, inversiones y valorización de empresas"
     },
     {
       icon: FileText,
       titulo: "Costos y Presupuestos",
-      descripcion: "Aprende gestión de costos, presupuestos y evaluación de proyectos de inversión"
+      descripcion: "Aprende la gestión de costos y presupuestos en base a modelos financieros en Excel."
     },
     {
       icon: Award,
-      titulo: "Instrumentos Financieros",
-      descripcion: "Conoce derivados financieros, renta fija, renta variable y más"
+      titulo: "Economía",
+      descripcion: "La economía es fundamental para proyectar diferentes análisis de oferta y demanda en un mercado variable."
     }
   ];
 
@@ -95,13 +95,23 @@ export default function AsesoriaAcademica() {
             </h1>
             
             <p className="text-xl lg:text-2xl text-blue-100 max-w-3xl mx-auto mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              Domina Contabilidad, Economía y Finanzas con apoyo personalizado
+              Domina las materias de Contabilidad, Economía y Finanzas con apoyo personalizado mediante nuestras clases presenciales y virtuales.
             </p>
 
-            <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Asesoría%20Académica"
+            <motion.a 
+
+
+              href="https://wa.me/51920000848?text=Hola,%20necesito%20Asesoría%20Académica%20🎓"
               target="_blank"
               rel="noopener noreferrer"
+                           animate={{
+                scale: [1, 1.3, 1],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
@@ -124,7 +134,7 @@ export default function AsesoriaAcademica() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-bold mb-6" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                Domina Contabilidad, Economía y Finanzas
+                Destaca en cursos de  Contabilidad, Economía y Finanzas
               </h2>
               <p className="text-lg text-justify mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
                 Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha convertido en el día a día de una gran cantidad de estudiantes de universidades e institutos, pero los alumnos carecen de una base sólida en estos temas, es por ello que implementamos nuestro servicio de asesoría académica con el cual podrás comprender de manera detallada, paso a paso los conceptos de estas materias y su respectiva aplicación en el mundo práctico.
@@ -139,7 +149,7 @@ export default function AsesoriaAcademica() {
                     Atención Personalizada
                   </h3>
                   <p style={{ color: '#6B7280', fontFamily: 'Arial' }}>
-                    Asesoría uno a uno adaptada a tu nivel
+                    Revisamos tu material  de clase y lo adaptamos a casos practicos en Excel.
                   </p>
                 </div>
               </div>
@@ -208,14 +218,14 @@ export default function AsesoriaAcademica() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl lg:text-5xl font-bold mb-4" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Áreas de Especialización
+              Temas de aprendizaje
             </h2>
             <p className="text-xl max-w-3xl mx-auto" style={{ color: '#6B7280', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
               Cobertura completa de materias financieras y contables
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 text-justify">
             {areas.map((area, index) => (
               <motion.div
                 key={index}
@@ -253,15 +263,23 @@ export default function AsesoriaAcademica() {
             animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Alcanza la Excelencia Académica
+              Alcanza tus objetivos académicos
             </h2>
             <p className="text-xl text-blue-100 mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              No dejes que las dudas frenen tu progreso académico. Trabaja con especialistas que entienden los desafíos de estudiantes como tú y pueden ayudarte a dominar estos conceptos paso a paso.
+              Aprende de especialistas que entienden los desafíos de estudiantes como tú y pueden ayudarte a dominar estos conceptos paso a paso.
             </p>
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20necesito%20asesoría%20académica"
+              href="https://wa.me/51920000848?text=Hola,%20necesito%20Asesoría%20Académica%20🎓"
               target="_blank"
               rel="noopener noreferrer"
+                           animate={{
+                scale: [1, 1.3, 1],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"

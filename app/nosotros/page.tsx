@@ -107,10 +107,12 @@ export default function NosotrosPage() {
           className="absolute inset-0 z-0 pt-16 sm:pt-0"
           style={{ scale }}
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0047BB]/60 via-purple-900/40 to-black/60 z-10 mix-blend-multiply pt-16" />
+          <div className="absolute inset-0 z-10 mix-blend-multiply pt-20" />
+          
           <Image 
             src="/fotoportada2.png" 
             alt="VALTO Team" 
+            style={{ objectPosition: '10% 0%' }}
             fill
             className="object-cover object-top"
             quality={100}
@@ -128,7 +130,7 @@ export default function NosotrosPage() {
         </motion.div>
 
         {/* Hero Content */}
-        <div className="relative z-20 max-w-7xl mx-auto px-4 text-center flex items-center h-full pb-22 sm:pb-28 md:pb-32">
+        <div className="relative z-20 max-w-7xl mx-auto px-4 text-center flex items-end h-full pb-32 sm:pb-40 md:pb-48">
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}

@@ -26,23 +26,23 @@ export default function ConsultoriaFinanciera() {
   const areas = [
     {
       icon: DollarSign,
-      titulo: "Gestión de Ingresos",
-      descripcion: "Optimización de fuentes de ingreso y estrategias de pricing para maximizar la rentabilidad"
+      titulo: "Finanzas corporativas",
+      descripcion: "Las finanzas corporativas permiten a las empresas crecer de manera sostenible mediante decisiones financieras inteligentes."
     },
     {
       icon: Calculator,
-      titulo: "Distribución de Recursos",
-      descripcion: "Asignación inteligente de recursos entre operación, inversión y financiamiento"
+      titulo: "Gestión Financiera",
+      descripcion: "La gestión financiera asegura el uso eficiente de los recursos económicos para cumplir los objetivos de la organización en el corto y largo plazo."
     },
     {
       icon: LineChart,
-      titulo: "Capital de Trabajo",
-      descripcion: "Gestión eficiente del efectivo, inventarios y cuentas por cobrar/pagar"
+      titulo: "Valuación de inversiones",
+      descripcion: "Mide el valor actual de tus inversiones por medio de tecnicas financieras aplicadas en el mundo empresarial."
     },
     {
       icon: BarChart3,
-      titulo: "Análisis de Rentabilidad",
-      descripcion: "Evaluación de proyectos, productos y líneas de negocio para decisiones informadas"
+      titulo: "M&A - Mergers and Acquisitions",
+      descripcion: "El M&A permite a las empresas aumentar su valor mediante sinergias operativas y financieras, para ello requieren una valuación precisa y una gestión adecuada del riesgo."
     }
   ];
 
@@ -91,19 +91,27 @@ export default function ConsultoriaFinanciera() {
             </h1>
             
             <p className="text-xl lg:text-2xl text-blue-100 max-w-3xl mx-auto mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              Decisiones financieras estratégicas para el crecimiento sostenible
+              Toma decisiones financieras estratégicas para el crecimiento sostenible de tus inversiones
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Consultoría%20Financiera"
+              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20una%20Asesoría%20Financiera%20💸"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.05 }}
+              animate={{
+                scale: [1, 1.5, 1],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              whileHover={{ scale: 1.15 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
-              Optimizar mis Finanzas
+              Solicitar Asesoría
               <ArrowRight className="ml-2 w-5 h-5" />
             </motion.a>
           </motion.div>
@@ -124,13 +132,13 @@ export default function ConsultoriaFinanciera() {
               </h2>
               <p className="text-lg mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
                  Tomar decisiones en base a los números que brinda tu empresa; proyectando los 
-futuros ingresos y gastos, bajo dis ntos escenarios, es el camino correcto para 
+futuros ingresos y gastos, bajo distintos escenarios, es el camino correcto para 
 generar valor en las inversiones que realizas.
               </p>
               <p className="text-lg mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Con nuestra asesoría; tus decisiones de inversión y de financiamiento enen una 
-base sólida en principios como el Valor del dinero en el empo y otros postulados 
-de la Economía moderna que man enen tus finanzas a buen recaudo, siempre 
+                Con nuestra asesoría; tus decisiones de inversión y de financiamiento tienen una 
+base sólida en principios como el Valor del dinero en el tiempo y otros postulados 
+de la Economía moderna que mantienen tus finanzas a buen recaudo, siempre 
 tomando en cuenta la relación entre el riesgo y rendimiento que estás dispuesto a 
 aceptar en la industria en la que actualmente te encuentras.
               </p>
@@ -141,7 +149,7 @@ aceptar en la industria en la que actualmente te encuentras.
                     Diagnóstico Financiero
                   </h3>
                   <p style={{ color: '#6B7280', fontFamily: 'Arial' }}>
-                    Análisis integral sin costo inicial
+                    Análisis integral en base a tus estados financieros.
                   </p>
                 </div>
               </div>
@@ -212,7 +220,7 @@ aceptar en la industria en la que actualmente te encuentras.
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 text-justify">
             {areas.map((area, index) => (
               <motion.div
                 key={index}
@@ -253,18 +261,26 @@ aceptar en la industria en la que actualmente te encuentras.
               Toma el Control de tus Finanzas
             </h2>
             <p className="text-xl text-blue-100 mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              No dejes las decisiones financieras al azar. Trabaja con especialistas que entienden el ciclo completo de las finanzas empresariales y pueden ayudarte a maximizar cada peso invertido.
+              Trabaja con especialistas que entienden el valor del dinero en el tiempo y su implicancia en las finanzas empresariales de tu empresa.
             </p>
             <motion.a
               href="https://wa.me/51920000848?text=Hola,%20quisiera%20solicitar%20un%20análisis%20financiero"
               target="_blank"
               rel="noopener noreferrer"
+             animate={{
+                scale: [1, 1.5, 1],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
-              Solicitar Análisis
+              Solicitar Asesoría
               <ArrowRight className="ml-2 w-5 h-5" />
             </motion.a>
           </motion.div>

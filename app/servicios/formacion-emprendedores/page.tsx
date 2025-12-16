@@ -62,7 +62,7 @@ export default function FormacionEmprendedores() {
       <WhatsAppButton />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: '( #002677 100%' }}>
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #002677 0%, #0047BB 100%)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <motion.div
             animate={{
