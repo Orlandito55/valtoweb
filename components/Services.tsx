@@ -206,7 +206,7 @@ export default function Services() {
   return (
     <section className="py-20 relative" style={{ background: '#F5F7FA' }} id="servicios">
       
-      <div className="w-full max-w-[1250px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="w-full max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -228,18 +228,20 @@ export default function Services() {
           </motion.div>
           
           <motion.h2 
-            className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
+            className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
             style={{ fontFamily: 'Futura, sans-serif' }}
           >
-            Nuestros Servicios
+            Nuestros <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Servicios
+                </span>
           </motion.h2>
           
           <motion.p 
-            className="text-xl text-[#9DA5B3] max-w-2xl mx-auto"
+            className="text-xl text-gray-600 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}

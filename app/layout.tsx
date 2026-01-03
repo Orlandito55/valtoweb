@@ -14,8 +14,8 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <link rel="icon" href="/imagen2.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/imagen2.png" />
+        <link rel="icon" href="/image22.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/image22.png" />
       </head>
       <body className="antialiased">
         {children}

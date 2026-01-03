@@ -6,21 +6,21 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Henry Borda",
-    company: "Boutique La Elegancia",
+    company: "Empresario",
     text: "Profesionales con acetado conocimiento financiero, de gran utilidad para decisiones estratégicas en empresarios que desean crecer.",
     rating: 5,
     image: "https://ui-avatars.com/api/?name=Henry+Borda&background=0047BB&color=fff&size=128&bold=true",
   },
   {
     name: "Yanet Huamanttica Joruro",
-    company: "Constructora Ramírez & Asociados",
+    company: "Estudiante Univercitario",
     text: "Es exelente la ayuda es inmediata y amable y no te cobra nada la ayuda es totalmente gratis exelente servicio estoy agradecido con GLT Business Consulting gracias por llegar a mas personas como mi persona que necesita conocer y aprender sobre contabilidad muchas gracias lo recomiendo 100% 😊😊",
     rating: 5,
     image: "https://ui-avatars.com/api/?name=Yanet+Huammantica&background=0047BB&color=fff&size=128&bold=true",
   },
   {
     name: "Jahaira Guillén",
-    company: "Café Aroma",
+    company: "Emprendedora",
     text: "Sus asesorias son enfocadas en el talón de aquiles de mi emprendimiento. Ademas de ser pacientes y resolver dudas, se ponen en el lugar del emprendedor Super Recomendado 🐻💪",
     rating: 5,
     image: "https://ui-avatars.com/api/?name=Jahira+Guillen&background=0047BB&color=fff&size=128&bold=true",
@@ -30,7 +30,7 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,7 +39,12 @@ export default function Testimonials() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4">
+
+                      <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
+              Tu éxito es nuestra máxima prioridad
+            </span>
+          
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
             Lo Que Dicen <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
                   Nuestros Clientes
                 </span>
@@ -76,7 +81,7 @@ export default function Testimonials() {
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star
                     key={i}
-                    className="w-5 h-5 text-yellow-400 fill-current drop-shadow-sm"
+                    className="w-5 h-5 text-[#0047BB] fill-current drop-shadow-sm"
                   />
                 ))}
               </div>

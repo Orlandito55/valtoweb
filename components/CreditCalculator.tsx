@@ -59,20 +59,21 @@ export default function CreditCalculator() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: 'rgba(0, 71, 187, 0.1)' }}>
             <Calculator className="w-8 h-8" style={{ color: '#0047BB' }} />
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#0047BB] mb-4">
-            ¿Necesitas financiamiento para tu Empresa? Calculadora de créditos:
+
+          <h1>
+            <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
+             Calculadora de Créditos
+            </span>
+          </h1>
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
+            ¿Necesitas financiamiento <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  para tu empresa?
+                </span>
           </h2>
+                                       
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-6">
             Ingresa el importe de tu crédito, la tasa de interés y el periodo de pago para obtener la cuota exacta de tu financiamiento.
           </p>
-          <Link
-            href="/tipo-cambio"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-[#0047BB] text-white rounded-xl font-semibold hover:bg-[#003088] transition-all shadow-lg hover:shadow-xl"
-          >
-            <TrendingUp className="w-5 h-5" />
-            Ver Tipo de Cambio en Tiempo Real
-            <ExternalLink className="w-4 h-4" />
-          </Link>
         </motion.div>
 
         {/* Calculator Card */}

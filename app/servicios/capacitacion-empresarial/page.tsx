@@ -80,7 +80,7 @@ export default function CapacitacionEmpresarial() {
           />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -105,10 +105,19 @@ export default function CapacitacionEmpresarial() {
               Formación de élite para líderes que toman decisiones estratégicas
             </p>
 
+
             <motion.a
-              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20informaci%C3%B3n%20sobre%20Capacitaci%C3%B3n%20Empresarial%20%F0%9F%93%9A%F0%9F%92%BC%F0%9F%93%88"
+              href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20Capacitación%20Empresarial%20💸"
               target="_blank"
               rel="noopener noreferrer"
+                           animate={{
+                scale: [1, 1.5, 1],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
@@ -123,7 +132,7 @@ export default function CapacitacionEmpresarial() {
 
       {/* Descripción Principal con Carrusel */}
       <section className="py-20" style={{ backgroundColor: '#F5F7FA' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -201,7 +210,7 @@ export default function CapacitacionEmpresarial() {
 
       {/* Módulos del Programa */}
       <section className="py-20" style={{ backgroundColor: '#fff' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -247,7 +256,7 @@ export default function CapacitacionEmpresarial() {
 
       {/* CTA Final */}
       <section className="py-20" style={{ background: 'linear-gradient(135deg, #002677 0%, #0047BB 100%)' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -260,9 +269,17 @@ export default function CapacitacionEmpresarial() {
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20informaci%C3%B3n%20sobre%20Capacitaci%C3%B3n%20Empresarial%20%F0%9F%93%9A%F0%9F%92%BC%F0%9F%93%88"
+              href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20Capacitación%20Empresarial%20💸"
               target="_blank"
               rel="noopener noreferrer"
+                           animate={{
+                scale: [1, 1.5, 1],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"

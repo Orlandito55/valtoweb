@@ -403,11 +403,11 @@ export default function VideosPage() {
       <div className="min-h-screen pt-28 md:pt-32 pb-20 relative overflow-hidden">
         {/* Background con colores VALTO sin detalles */}
         <div className="absolute inset-0 z-0" style={{
-          background: 'linear-gradient(135deg, #0047BB 0%, #002677 100%)'
+          background: 'white'
         }} />
 
         {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -436,10 +436,12 @@ export default function VideosPage() {
                 <Play className="w-10 h-10 sm:w-12 sm:h-12 text-white fill-white" />
               </motion.div>
           </motion.div>
-          <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6">
-            Centro de Aprendizaje
-          </h1>
-          <p className="text-xl lg:text-2xl text-blue-100 max-w-3xl mx-auto">
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
+            Centro de <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Formacion y Aprendizaje
+                </span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Videos educativos y recursos gratuitos para impulsar tu negocio
           </p>
           <motion.a
@@ -447,8 +449,16 @@ export default function VideosPage() {
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
+                          animate={{
+                scale: [1, 1.5, 1],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center mt-6 px-6 py-3 bg-white hover:bg-blue-50 text-[#0047BB] rounded-full font-semibold transition-all shadow-xl hover:shadow-2xl"
+            className="inline-flex items-center mt-6 px-6 py-3 bg-[#0047BB] hover:bg-[#003088] text-white rounded-full font-semibold transition-all shadow-xl hover:shadow-2xl"
           >
             <Play className="w-5 h-5 mr-2" />
             Ver canal de YouTube
@@ -479,16 +489,16 @@ export default function VideosPage() {
                 whileTap={{ scale: 0.95 }}
                 className={`p-6 rounded-2xl font-semibold transition-all shadow-lg hover:shadow-2xl ${
                   selectedCategory === category.id
-                    ? 'bg-white text-[#0047BB]'
-                    : 'bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 border border-white/20'
+                    ? 'bg-[#0047BB] text-white'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-300'
                 }`}
               >
                 <Icon className={`w-8 h-8 mx-auto mb-3 ${
-                  selectedCategory === category.id ? 'text-[#0047BB]' : 'text-white'
+                  selectedCategory === category.id ? 'text-white' : 'text-gray-700'
                 }`} />
-                <div className="text-sm lg:text-base">{category.name}</div>
+                <div className="text-sm lg:text-base text-center">{category.name}</div>
                 {selectedCategory === category.id && category.id !== 'todos' && (
-                  <div className={`text-xs mt-1 ${selectedCategory === category.id ? 'opacity-70' : 'opacity-90'}`}>
+                  <div className={`text-xs mt-1 text-center ${selectedCategory === category.id ? 'opacity-70' : 'opacity-90'}`}>
                     {category.videos.length} videos
                   </div>
                 )}
@@ -552,13 +562,13 @@ export default function VideosPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 lg:p-12 border border-white/20 shadow-2xl"
+          className="bg-gray-50 rounded-3xl p-8 lg:p-12 border border-gray-200 shadow-2xl"
         >
-          <div className="mb-8">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-3">
+          <div className="mb-8 text-center">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#0047BB] mb-3">
               {currentCategory?.name}
             </h2>
-            <p className="text-lg text-blue-100">{currentCategory?.description}</p>
+            <p className="text-lg text-gray-700">{currentCategory?.description}</p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
@@ -620,20 +630,20 @@ export default function VideosPage() {
               animate={{ opacity: 1 }}
               className="text-center py-20"
             >
-              <div className="w-24 h-24 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl">
-                <Play className="w-12 h-12 text-white" />
+              <div className="w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl">
+                <Play className="w-12 h-12 text-[#0047BB]" />
               </div>
-              <p className="text-white text-xl font-semibold mb-2">
+              <p className="text-[#0047BB] text-xl font-semibold mb-2">
                 Próximamente
               </p>
-              <p className="text-blue-100 text-lg mb-6">
+              <p className="text-gray-700 text-lg mb-6">
                 Estamos preparando contenido educativo para esta categoría
               </p>
               <a
                 href="https://www.youtube.com/@Valtomanagementconsulting"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-white text-[#0047BB] rounded-xl font-semibold hover:bg-blue-50 transition-all shadow-xl hover:shadow-2xl"
+                className="inline-flex items-center px-6 py-3 bg-[#0047BB] text-white rounded-xl font-semibold hover:bg-[#003088] transition-all shadow-xl hover:shadow-2xl"
               >
                 Visitar nuestro canal
                 <ChevronRight className="w-5 h-5 ml-1" />
@@ -647,16 +657,16 @@ export default function VideosPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="mt-12 bg-white/10 backdrop-blur-xl rounded-3xl p-8 lg:p-12 border border-white/20 text-center shadow-2xl"
+          className="mt-12 bg-gray-50 rounded-3xl p-8 lg:p-12 border border-gray-200 text-center shadow-2xl"
         >
-          <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
+          <h3 className="text-2xl lg:text-3xl font-bold text-[#0047BB] mb-4">
             ¿Necesitas asesoría personalizada?
           </h3>
-          <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
             Nuestro equipo de expertos está listo para ayudarte a llevar tu negocio al siguiente nivel
           </p>
           <motion.a
-            href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20una%20asesor%C3%ADa%20%F0%9F%93%8A%F0%9F%92%BC"
+            href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quiero%20solicitar%20una%20asesoria%20para%20mi%20negocio"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             animate={{
@@ -667,7 +677,7 @@ export default function VideosPage() {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="inline-flex items-center px-8 py-4 bg-white text-[#0047BB] rounded-xl font-bold text-lg hover:bg-blue-50 transition-all shadow-xl"
+            className="inline-flex items-center px-8 py-4 bg-[#0047BB] text-white rounded-xl font-bold text-lg hover:bg-[#003088] transition-all shadow-xl"
           >
             Consulta con nosotros
             <ChevronRight className="w-6 h-6 ml-2" />

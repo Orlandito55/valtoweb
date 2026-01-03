@@ -67,7 +67,7 @@ export default function ConsultoriaNegocios() {
           />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -93,11 +93,11 @@ export default function ConsultoriaNegocios() {
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20información%20sobre%20Consultoría%20de%20Negocios%20%F0%9F%92%BC%F0%9F%93%88"
+              href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20Consultoría%20de%20Negocios%20💸"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}              animate={{ scale: [1, 1.15, 1] }}
+              whileTap={{ scale: 0.95 }}              animate={{ scale: [1, 1.5, 1] }}
               transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}              className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
@@ -110,7 +110,7 @@ export default function ConsultoriaNegocios() {
 
       {/* Descripción con Carrusel */}
       <section className="py-20" style={{ backgroundColor: '#F5F7FA' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -178,7 +178,7 @@ Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de e
 
       {/* Fases */}
       <section className="py-20" style={{ backgroundColor: '#fff' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -224,7 +224,7 @@ Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de e
 
       {/* CTA */}
       <section className="py-20" style={{ background: 'linear-gradient(135deg, #0047BB 0%, #002677 100%)' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -236,12 +236,12 @@ Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de e
               No dejes al azar el futuro de tu negocio. Trabaja con expertos que han ayudado a decenas de empresas a establecerse y crecer exitosamente.
             </p>
             <motion.a
-              href="/agendar-cita"
+              href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20Consultoría%20de%20Negocios%20💸"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              animate={{ scale: [1, 1.15, 1] }}
+              animate={{ scale: [1, 1.5, 1] }}
               transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}

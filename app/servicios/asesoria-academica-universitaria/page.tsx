@@ -73,7 +73,7 @@ export default function AsesoriaAcademica() {
           />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -101,11 +101,11 @@ export default function AsesoriaAcademica() {
             <motion.a 
 
 
-              href="https://wa.me/51920000848?text=Hola,%20necesito%20Asesoría%20Académica%20🎓"
+              href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20Asesoría%20Académica%20🎓"
               target="_blank"
               rel="noopener noreferrer"
-                           animate={{
-                scale: [1, 1.3, 1],
+              animate={{
+                scale: [1, 1.5, 1],
               }}
               transition={{
                 duration: 1.5,
@@ -126,7 +126,7 @@ export default function AsesoriaAcademica() {
 
       {/* Descripción con Carrusel */}
       <section className="py-20" style={{ backgroundColor: '#F5F7FA' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -212,7 +212,7 @@ Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha conve
 
       {/* Áreas */}
       <section className="py-20" style={{ backgroundColor: '#fff' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -258,7 +258,7 @@ Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha conve
 
       {/* CTA */}
       <section className="py-20" style={{ background: 'linear-gradient(135deg, #002677 0%, #0047BB 100%)' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -270,11 +270,11 @@ Llevar cursos de Contabilidad, Economía y Finanzas a nivel superior se ha conve
               Aprende de especialistas que entienden los desafíos de estudiantes como tú y pueden ayudarte a dominar estos conceptos paso a paso.
             </p>
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20necesito%20Asesoría%20Académica%20🎓"
+              href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20Asesoría%20Académica%20🎓"
               target="_blank"
               rel="noopener noreferrer"
                            animate={{
-                scale: [1, 1.3, 1],
+                scale: [1, 1.5, 1],
               }}
               transition={{
                 duration: 1.5,

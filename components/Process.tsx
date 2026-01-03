@@ -79,7 +79,7 @@ export default function Process() {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative" style={{ zIndex: 1 }}>
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -93,17 +93,18 @@ export default function Process() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="inline-block mb-4"
           >
-            <span className="px-6 py-2 bg-white text-[#0047BB] rounded-full text-sm font-bold shadow-lg border-2 border-[#0047BB]/20">
-              NUESTRO PROCESO
+                      <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
+              Tu éxito es nuestra máxima prioridad
             </span>
           </motion.div>
           
-          <h2 className="text-5xl lg:text-6xl font-bold mb-6" style={{ fontFamily: 'Futura, sans-serif' }}>
-            <span className="text-[#002677]">Cómo</span>{' '}
-            <span className="text-[#0047BB]">Trabajamos</span>
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
+            ¿Como nosotros <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Trabajamos?
+                </span>
           </h2>
           
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'Arial, sans-serif' }}>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: 'Arial, sans-serif' }}>
             Un proceso simple y efectivo para impulsar tu negocio
           </p>
         </motion.div>
@@ -122,7 +123,7 @@ export default function Process() {
           </div>
 
           {/* Steps Grid */}
-          <div className="max-w-6xl mx-auto ">
+          <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-6 ">
               {steps.slice(0, 3).map((step, index) => (
               <motion.div
@@ -141,9 +142,10 @@ export default function Process() {
               >
                 {/* Card */}
                 <motion.div
-                  className={`relative bg-white rounded-3xl  p-8 shadow-xl overflow-hidden cursor-pointer transition-all duration-300 border-[3px] border-solid ${
+                  className={`relative bg-white rounded-2xl p-6 shadow-xl overflow-hidden cursor-pointer transition-all duration-300 border-[3px] border-solid h-[400px] flex flex-col ${
                     hoveredStep === index ? 'border-[#0047BB]' : 'border-transparent'
                   }`}
+                  style={{ zIndex: 1 }}
                   whileHover={{ 
                     y: -12,
                     scale: 1.03,
@@ -169,14 +171,14 @@ export default function Process() {
 
                   {/* Number Badge */}
                   <motion.div
-                    className="relative z-10 mb-6"
+                    className="relative z-10 mb-4"
                     animate={{
                       scale: hoveredStep === index ? 1.1 : 1,
                       rotate: hoveredStep === index ? [0, -5, 5, 0] : 0
                     }}
                     transition={{ duration: 0.5 }}
                   >
-                    <div className="w-24 h-24 mx-auto bg-gradient-to-br from-[#002677] via-[#0047BB] to-[#0056D6] rounded-2xl flex items-center justify-center shadow-2xl relative overflow-hidden">
+                    <div className="w-16 h-16 mx-auto bg-gradient-to-br from-[#002677] via-[#0047BB] to-[#0056D6] rounded-xl flex items-center justify-center shadow-2xl relative overflow-hidden">
                       {/* Shine effect */}
                       <motion.div
                         className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent"
@@ -190,7 +192,7 @@ export default function Process() {
                         }}
                       />
                       
-                      <span className="text-5xl font-black text-white relative z-10" style={{ fontFamily: 'Futura, sans-serif' }}>
+                      <span className="text-3xl font-black text-white relative z-10" style={{ fontFamily: 'Futura, sans-serif' }}>
                         {step.number}
                       </span>
                     </div>
@@ -198,7 +200,7 @@ export default function Process() {
 
                   {/* Title */}
                   <h3 
-                    className="text-2xl font-bold text-center mb-4 relative z-10"
+                    className="text-xl font-bold text-center mb-3 relative z-10"
                     style={{ 
                       fontFamily: 'Futura, sans-serif',
                       color: hoveredStep === index ? '#0047BB' : '#002677'
@@ -209,7 +211,7 @@ export default function Process() {
 
                   {/* Description */}
                   <p 
-                    className="text-gray-600 text-justify leading-relaxed mb-6 relative z-10"
+                    className="text-gray-600 text-justify leading-relaxed mb-4 relative z-10 flex-1"
                     style={{ fontFamily: 'Arial, sans-serif' }}
                   >
                     {step.description}
@@ -223,8 +225,8 @@ export default function Process() {
                     }}
                     transition={{ duration: 0.3 }}
                   >
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center shadow-lg">
-                      <CheckCircle2 className="w-7 h-7 text-white" strokeWidth={3} />
+                    <div className="w-10 h-10 bg-gradient-to-br from-[#0047BB] to-[#002677] rounded-full flex items-center justify-center shadow-lg">
+                      <CheckCircle2 className="w-6 h-6 text-white" strokeWidth={3} />
                     </div>
                   </motion.div>
 
@@ -263,7 +265,7 @@ export default function Process() {
             </div>
 
             {/* Segunda fila con 2 tarjetas centradas */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-6 mt-8 lg:mt-6 max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-6 mt-8 lg:mt-6 max-w-2xl mx-auto">
               {steps.slice(3, 5).map((step, index) => {
                 const actualIndex = index + 3;
                 return (
@@ -283,9 +285,10 @@ export default function Process() {
               >
                 {/* Card */}
                 <motion.div
-                  className={`relative bg-white rounded-3xl p-8 shadow-xl overflow-hidden cursor-pointer transition-all duration-300 border-[3px] border-solid ${
+                  className={`relative bg-white rounded-2xl p-6 shadow-xl overflow-hidden cursor-pointer transition-all duration-300 border-[3px] border-solid h-[400px] flex flex-col ${
                     hoveredStep === actualIndex ? 'border-[#0047BB]' : 'border-transparent'
                   }`}
+                  style={{ zIndex: 1 }}
                   whileHover={{ 
                     y: -12,
                     scale: 1.03,
@@ -311,14 +314,14 @@ export default function Process() {
 
                   {/* Number Badge */}
                   <motion.div
-                    className="relative z-10 mb-6"
+                    className="relative z-10 mb-4"
                     animate={{
                       scale: hoveredStep === index ? 1.1 : 1,
                       rotate: hoveredStep === index ? [0, -5, 5, 0] : 0
                     }}
                     transition={{ duration: 0.5 }}
                   >
-                    <div className="w-24 h-24 mx-auto bg-gradient-to-br from-[#002677] via-[#0047BB] to-[#0056D6] rounded-2xl flex items-center justify-center shadow-2xl relative overflow-hidden">
+                    <div className="w-16 h-16 mx-auto bg-gradient-to-br from-[#002677] via-[#0047BB] to-[#0056D6] rounded-xl flex items-center justify-center shadow-2xl relative overflow-hidden">
                       {/* Shine effect */}
                       <motion.div
                         className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent"
@@ -332,7 +335,7 @@ export default function Process() {
                         }}
                       />
                       
-                      <span className="text-5xl font-black text-white relative z-10" style={{ fontFamily: 'Futura, sans-serif' }}>
+                      <span className="text-3xl font-black text-white relative z-10" style={{ fontFamily: 'Futura, sans-serif' }}>
                         {step.number}
                       </span>
                     </div>
@@ -340,7 +343,7 @@ export default function Process() {
 
                   {/* Title */}
                   <h3 
-                    className="text-2xl font-bold text-center mb-4 relative z-10"
+                    className="text-xl font-bold text-center mb-3 relative z-10"
                     style={{ 
                       fontFamily: 'Futura, sans-serif',
                       color: hoveredStep === index ? '#0047BB' : '#002677'
@@ -351,7 +354,7 @@ export default function Process() {
 
                   {/* Description */}
                   <p 
-                    className="text-gray-600 text-justify leading-relaxed mb-6 relative z-10"
+                    className="text-gray-600 text-justify leading-relaxed mb-4 relative z-10 flex-1"
                     style={{ fontFamily: 'Arial, sans-serif' }}
                   >
                     {step.description}
@@ -365,8 +368,8 @@ export default function Process() {
                     }}
                     transition={{ duration: 0.3 }}
                   >
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center shadow-lg">
-                      <CheckCircle2 className="w-7 h-7 text-white" strokeWidth={3} />
+                    <div className="w-10 h-10 bg-gradient-to-br from-[#0047BB] to-[#002677] rounded-full flex items-center justify-center shadow-lg">
+                      <CheckCircle2 className="w-6 h-6 text-white" strokeWidth={3} />
                     </div>
                   </motion.div>
 

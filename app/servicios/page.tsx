@@ -145,7 +145,7 @@ export default function ServiciosPage() {
           }} />
         </div>
 
-        <div className="max-w-7xl mx-auto relative z-10">
+        <div className="max-w-5xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -383,10 +383,11 @@ export default function ServiciosPage() {
             <p className="text-xl mb-10 max-w-2xl mx-auto font-futura-book" style={{ color: '#B7BCB4' }}>
               Contáctanos hoy y descubre cómo podemos ayudarte a alcanzar tus objetivos empresariales
             </p>
+            Hola quiero solicitar una capacitacion para emprededores y empresarios
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20consultor%C3%ADa%20%F0%9F%93%8A%F0%9F%92%BC"
+                href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20capacitacion%20de%20Emprendedores%20y%20Empresarios%20💸"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 inline-flex items-center justify-center gap-2 font-futura-lux"
@@ -397,7 +398,7 @@ export default function ServiciosPage() {
               </a>
               
               <a
-                href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20o%20una%20asesor%C3%ADa%20%F0%9F%93%8A%F0%9F%92%BC"
+                href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20capacitacion%20de%20Emprendedores%20y%20Empresarios%20💸"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 inline-flex items-center justify-center gap-2 font-futura-lux"

@@ -70,7 +70,7 @@ export default function ConsultoriaFinanciera() {
           />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -96,7 +96,7 @@ export default function ConsultoriaFinanciera() {
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20una%20Asesoría%20Financiera%20💸"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20solicitar%20una%20Asesoría%20Financiera%20%F0%9F%92%B0%F0%9F%93%88%F0%9F%92%BC"
               target="_blank"
               rel="noopener noreferrer"
               animate={{
@@ -121,7 +121,7 @@ export default function ConsultoriaFinanciera() {
 
       {/* Descripción con Carrusel */}
       <section className="py-20" style={{ backgroundColor: '#F5F7FA' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -201,7 +201,7 @@ export default function ConsultoriaFinanciera() {
 
       {/* Áreas */}
       <section className="py-20" style={{ backgroundColor: '#fff' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -247,7 +247,7 @@ export default function ConsultoriaFinanciera() {
 
       {/* CTA */}
       <section className="py-20" style={{ background: 'linear-gradient(135deg, #002677 0%, #0047BB 100%)' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-3xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -259,7 +259,7 @@ export default function ConsultoriaFinanciera() {
               Trabaja con especialistas que entienden el valor del dinero en el tiempo y su implicancia en las finanzas empresariales de tu empresa.
             </p>
             <motion.a
-              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20solicitar%20un%20análisis%20financiero%20%F0%9F%92%B0%F0%9F%93%88%F0%9F%92%BC"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20solicitar%20una%20Asesoría%20Financiera%20%F0%9F%92%B0%F0%9F%93%88%F0%9F%92%BC"
               target="_blank"
               rel="noopener noreferrer"
              animate={{

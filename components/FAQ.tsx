@@ -43,18 +43,20 @@ export default function FAQ() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: 'rgba(0, 71, 187, 0.1)' }}>
             <HelpCircle className="w-8 h-8" style={{ color: '#0047BB' }} />
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#9DA5B3] mb-4">
+                    <h1>
+          </h1>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#9DA5B3] mb-4 mt-5" >
             Preguntas <span className="font-bold text-white bg-[#0056D6] px-2 sm:px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
                   Frecuentes
                 </span>
           </h2>
-          <p className="text-xl text-[#002677] max-w-2xl mx-auto">
-            Resolvemos tus dudas sobre nuestros servicios y procesos
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Resolvemos tus consultas sobre negocios y emprendimiento.
           </p>
         </motion.div>
 
         {/* FAQ List */}
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto ">
           {faqs.map((faq, index) => (
             <motion.div
               key={index}
@@ -90,7 +92,7 @@ export default function FAQ() {
                       transition={{ duration: 0.3 }}
                       className="overflow-hidden"
                     >
-                      <p className="text-gray-600 mt-4 leading-relaxed">
+                      <p className="text-gray-600 mt-4 leading-relaxed text-justify">
                         {faq.answer}
                       </p>
                     </motion.div>
@@ -111,11 +113,12 @@ export default function FAQ() {
           <p className="text-gray-600 mb-6">¿Deseas mayor información sobre estas preguntas o tienes otras preguntas para nosotros? Estamos para ayudarte.</p>
           <a
             href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20información%20sobre%20su%20servicio%20%F0%9F%93%8A%F0%9F%92%BC"
-            className="inline-block px-8 py-4 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg transform hover:scale-105"
+            className="inline-block px-8 py-4 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg transform hover:scale-105 animate-heartbeat"
             style={{ backgroundColor: '#0047BB' }}
           >
             Contáctanos Directamente
-          </a>        </motion.div>
+          </a>        
+          </motion.div>
       </div>
     </section>
   );

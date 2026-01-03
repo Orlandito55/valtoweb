@@ -53,14 +53,7 @@ ${formData.proyecto}
 
   return (
     <section className="relative -mt-1">
-      {/* Wave divider - sin líneas visibles */}
-      <div className="w-full overflow-hidden leading-[0]">
-        <svg className="relative block w-full h-32 md:h-48" style={{ display: 'block' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-          <path fill="#0047BB" fillOpacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,170.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-        </svg>
-      </div>
-
-      <div className="py-24 relative overflow-hidden" style={{ backgroundColor: '#0047BB', marginTop: '-1px' }}>
+      <div className="py-24 relative overflow-hidden" style={{ backgroundColor: '#0047BB' }}>
         {/* Animated background patterns */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <motion.div
@@ -101,7 +94,7 @@ ${formData.proyecto}
           />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left content */}
             <motion.div
@@ -130,11 +123,6 @@ ${formData.proyecto}
                 <div className="flex items-center">
                   <MapPin className="w-6 h-6 mr-3" />
                   <span className="text-lg">Lima – Perú.</span>
-                </div>
-
-                <div className="flex items-center">
-                  <ShieldCheck className="w-6 h-6 mr-3" />
-                  <span className="text-lg">Marca registrada en Indecopi.</span>
                 </div>
               </div>
               <motion.button
@@ -210,9 +198,10 @@ ${formData.proyecto}
                     required
                   >
                     <option value="" disabled>Servicio de interés</option>
+                    <option value="Asesoría Financiera">Asesoría Financiera</option>
+                    <option value="Asesoría Académica para estudiantes de pre y postgrado">Asesoría Académica para estudiantes de pre y postgrado</option>
                     <option value="Capacitación Empresarial">Capacitación Empresarial</option>
-                    <option value="Consultoría de Negocios">Consultoría de Negocios</option>
-                    <option value="Consultoría Financiera">Consultoría Financiera</option>
+                    <option value="Consultoria de Negocios">Consultoria de Negocios</option>
                     <option value="Formación de Emprendedores y Empresarios">Formación de Emprendedores y Empresarios</option>
                   </select>
                 </div>

@@ -136,7 +136,7 @@ export default function ValueProposition() {
         />
       </div>
 
-      <div className="w-full max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="w-full max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -152,21 +152,35 @@ export default function ValueProposition() {
             className="inline-block mb-4"
           >
           </motion.div>
-          <h2 className="text-4xl md:text-6xl lg:text-6xl font-bold text-gray-900 mb-6 font-futura-lux">
-            <span style={{ color: '#0047BB ' }}>¿Por que confiar en</span> <span className="font-bold text-white bg-[#0056D6] px-4 py-2 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
-                  NOSOTROS?
+
+                      <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
+              Respaldo y confianza
+            </span>
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
+            ¿Por que confiar <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  en Nosotros?
                 </span>
           </h2>
-          <p className="text-xl text-justify md:text-xl text-gray-600 max-w-4xl mx-auto font-futura-book">
+
+                    <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            El éxito de tus inversiones son la maxima prioridad.
+          </p>
+
+
+          <p className="text-xl text-justify md:text-xl text-gray-600 max-w-4xl mx-auto font-futura-book pt-6">
             Contamos con una experiencia de más de nueve (09) años en el campo empresarial y hemos 
             sido testigos de situaciones difíciles a nivel mundial como el Covid 2019, en base a ello, 
-            ofrecemos soluciones en asesoría, consultoría y capacitación que permitirán a tu negocio a seguir
-            operando bajo distintos escenarios.
+            ofrecemos soluciones en asesoría, consultoría y capacitación que permitirán a tu negocio seguir operando bajo distintos escenarios en la industria en la cual se desarrolla. 
           </p>
+
+          <p className="text-xl text-justify md:text-xl text-gray-600 max-w-4xl mx-auto font-futura-book pt-6">
+            Nuestro objetivo es generar valor en cada una de las asesorías o consultorías que tomes con nuestro equipo. Tendrás soluciones reales a medida de tus necesidades en temas financieros, contables y de gestión empresarial, todo esto de la mano de expertos y personal capacitado en la práctica de los negocios realizados por la micro y la pequeña empresa.
+          </p>
+          
         </motion.div>
 
         {/* Differentiators Grid - Estilo de la imagen */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8 mb-16 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-5 mb-16 items-stretch">
           {differentiators.map((item, index) => {
             // eslint-disable-next-line react-hooks/rules-of-hooks
             const cardRef = useRef<HTMLDivElement>(null);
@@ -178,8 +192,8 @@ export default function ValueProposition() {
 
             // Alternamos entre izquierda y derecha según el índice
             const isLeft = index % 2 === 0;
-            // Para desktop: parallax horizontal - se acercan más al centro
-            const xDesktop = useTransform(scrollYProgress, [0, 1], [isLeft ? -120 : 120, isLeft ? 30 : -30]);
+            // Para desktop: parallax horizontal - empiezan más centrados
+            const xDesktop = useTransform(scrollYProgress, [0, 1], [isLeft ? -30 : 30, 0]);
             // Para móvil: fade in desde abajo
             const yMobile = useTransform(scrollYProgress, [0, 1], [50, 0]);
             const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [0, 1, 1]);
@@ -200,41 +214,41 @@ export default function ValueProposition() {
                   whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
                   className="hidden md:block w-full"
                 >
-                  <div className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 h-full bg-white min-h-[400px]">
+                  <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 h-full bg-white min-h-[320px]">
                     <div className="grid grid-cols-2 h-full">
                       {/* Left side - White background */}
-                      <div className="p-6 lg:p-8 bg-white flex flex-col justify-between min-h-full">
-                        <p className="text-gray-700 text-sm lg:text-base mb-4 leading-relaxed" style={{ fontFamily: 'Arial, sans-serif' }} dangerouslySetInnerHTML={{ __html: item.leftDescription }} />
+                      <div className="p-4 lg:p-5 bg-white flex flex-col justify-between min-h-full">
+                        <p className="text-gray-700 text-xs lg:text-sm mb-3 leading-relaxed" style={{ fontFamily: 'Arial, sans-serif' }} dangerouslySetInnerHTML={{ __html: item.leftDescription }} />
                         
                         {/* Features list */}
-                        <div className="space-y-2">
+                        <div className="space-y-1.5">
                           {item.features.map((feature, i) => (
-                            <div key={i} className="flex items-center space-x-3">
-                              <div className="w-6 h-6 rounded-full bg-[#0047BB] flex items-center justify-center flex-shrink-0">
-                                <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <div key={i} className="flex items-center space-x-2">
+                              <div className="w-5 h-5 rounded-full bg-[#0047BB] flex items-center justify-center flex-shrink-0">
+                                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                                 </svg>
                               </div>
-                              <span className="text-gray-700 text-xs lg:text-sm font-medium">{feature}</span>
+                              <span className="text-gray-700 text-xs font-medium">{feature}</span>
                             </div>
                           ))}
                         </div>
                       </div>
                       
                       {/* Right side - Blue VALTO background with gradient */}
-                      <div className="p-6 lg:p-8 bg-gradient-to-br from-[#002677] to-[#0047BB] flex flex-col justify-center items-center">
+                      <div className="p-4 lg:p-5 bg-gradient-to-br from-[#002677] to-[#0047BB] flex flex-col justify-center items-center">
                         <motion.div
                           whileHover={{ scale: 1.1 }}
-                          className="w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center mb-4 bg-white/10 backdrop-blur-sm"
+                          className="w-12 h-12 lg:w-14 lg:h-14 rounded-xl flex items-center justify-center mb-3 bg-white/10 backdrop-blur-sm"
                         >
-                          <item.icon className="w-8 h-8 lg:w-10 lg:h-10 text-white" />
+                          <item.icon className="w-6 h-6 lg:w-7 lg:h-7 text-white" />
                         </motion.div>
                         
-                        <h3 className="text-xl lg:text-2xl font-bold text-white mb-3 text-center" style={{ fontFamily: 'Futura, sans-serif' }}>
+                        <h3 className="text-lg lg:text-xl font-bold text-white mb-2 text-center" style={{ fontFamily: 'Futura, sans-serif' }}>
                           {item.title}
                         </h3>
                         
-                        <p className="text-white/90 text-sm lg:text-base leading-relaxed text-center" style={{ fontFamily: 'Arial, sans-serif' }}>
+                        <p className="text-white/90 text-xs lg:text-sm leading-relaxed text-center" style={{ fontFamily: 'Arial, sans-serif' }}>
                           {item.description}
                         </p>
                       </div>

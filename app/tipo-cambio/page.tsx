@@ -150,80 +150,10 @@ export default function TipoCambioPage() {
       <FloatingSocial />
       <WhatsAppButton />
       <div className="min-h-screen relative pt-28 md:pt-32 pb-20 overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image 
-            src="/valtoimage.png" 
-            alt="Business Background" 
-            fill
-            className="object-cover object-center"
-            quality={100}
-            priority
-            sizes="100vw"
-          />
-          {/* Dark overlay with gradient */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0047BB]/95 via-[#0056D6]/90 to-[#003088]/95" />
-          
-          {/* Animated business pattern overlay */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute inset-0"
-              style={{
-                backgroundImage: `
-                  repeating-linear-gradient(
-                    45deg,
-                    transparent,
-                    transparent 35px,
-                    rgba(255, 255, 255, 0.1) 35px,
-                    rgba(255, 255, 255, 0.1) 70px
-                  ),
-                  repeating-linear-gradient(
-                    -45deg,
-                    transparent,
-                    transparent 35px,
-                    rgba(255, 255, 255, 0.05) 35px,
-                    rgba(255, 255, 255, 0.05) 70px
-                  )
-                `,
-              }}
-            />
-          </div>
-          
-          {/* Money symbols pattern */}
-          <div className="absolute inset-0 opacity-5"
-            style={{
-              backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
-              backgroundSize: '50px 50px'
-            }}
-          />
-          
-          {/* Animated gradient orbs */}
-          <motion.div
-            className="absolute top-0 -right-40 w-96 h-96 bg-gradient-to-br from-cyan-400/30 to-blue-500/30 rounded-full filter blur-3xl"
-            animate={{
-              y: [0, 50, 0],
-              x: [0, 30, 0],
-            }}
-            transition={{
-              duration: 20,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-          <motion.div
-            className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-purple-500/30 to-pink-500/30 rounded-full filter blur-3xl"
-            animate={{
-              y: [0, -50, 0],
-              x: [0, -30, 0],
-            }}
-            transition={{
-              duration: 15,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-        </div>
+        {/* Background blanco */}
+        <div className="absolute inset-0 z-0" style={{ background: 'white' }} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -245,10 +175,12 @@ export default function TipoCambioPage() {
                   <DollarSign className="w-10 h-10 text-white" />
                 </div>
               </motion.div>
-              <h1 className="text-5xl lg:text-6xl font-bold text-white mb-4">
-                Tipo de Cambio
-              </h1>
-              <p className="text-xl text-blue-100">
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
+            Tipo De Cambio <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Del Dolar Americano
+                </span>
+          </h2>
+              <p className="text-xl text-gray-700">
                 Dólar estadounidense (USD) - Sol peruano (PEN)
               </p>
             </div>
@@ -262,43 +194,43 @@ export default function TipoCambioPage() {
             className="grid md:grid-cols-2 gap-6 mb-8"
           >
             {/* Compra */}
-            <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 border border-white/20 shadow-2xl">
+            <div className="bg-gray-50 rounded-3xl p-8 border border-gray-200 shadow-2xl">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-2xl font-bold text-white">Compra</h3>
-                {trend === 'up' && <TrendingUp className="w-8 h-8 text-green-400" />}
-                {trend === 'down' && <TrendingDown className="w-8 h-8 text-red-400" />}
+                <h3 className="text-2xl font-bold text-[#0047BB]">Compra</h3>
+                {trend === 'up' && <TrendingUp className="w-8 h-8 text-green-500" />}
+                {trend === 'down' && <TrendingDown className="w-8 h-8 text-red-500" />}
               </div>
               {loading ? (
                 <div className="animate-pulse">
-                  <div className="h-20 bg-white/20 rounded-xl"></div>
+                  <div className="h-20 bg-gray-200 rounded-xl"></div>
                 </div>
               ) : (
                 <div className="text-center">
-                  <p className="text-6xl font-bold text-white mb-2">
+                  <p className="text-6xl font-bold text-[#0047BB] mb-2">
                     {exchangeRate?.compra.toFixed(3)}
                   </p>
-                  <p className="text-blue-100 text-lg">Soles por Dólar</p>
+                  <p className="text-gray-700 text-lg">Soles por Dólar</p>
                 </div>
               )}
             </div>
 
             {/* Venta */}
-            <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 border border-white/20 shadow-2xl">
+            <div className="bg-gray-50 rounded-3xl p-8 border border-gray-200 shadow-2xl">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-2xl font-bold text-white">Venta</h3>
-                {trend === 'up' && <TrendingUp className="w-8 h-8 text-green-400" />}
-                {trend === 'down' && <TrendingDown className="w-8 h-8 text-red-400" />}
+                <h3 className="text-2xl font-bold text-[#0047BB]">Venta</h3>
+                {trend === 'up' && <TrendingUp className="w-8 h-8 text-green-500" />}
+                {trend === 'down' && <TrendingDown className="w-8 h-8 text-red-500" />}
               </div>
               {loading ? (
                 <div className="animate-pulse">
-                  <div className="h-20 bg-white/20 rounded-xl"></div>
+                  <div className="h-20 bg-gray-200 rounded-xl"></div>
                 </div>
               ) : (
                 <div className="text-center">
-                  <p className="text-6xl font-bold text-white mb-2">
+                  <p className="text-6xl font-bold text-[#0047BB] mb-2">
                     {exchangeRate?.venta.toFixed(3)}
                   </p>
-                  <p className="text-blue-100 text-lg">Soles por Dólar</p>
+                  <p className="text-gray-700 text-lg">Soles por Dólar</p>
                 </div>
               )}
             </div>
@@ -309,12 +241,12 @@ export default function TipoCambioPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20 shadow-2xl mb-8"
+            className="bg-gray-50 rounded-3xl p-6 border border-gray-200 shadow-2xl mb-8"
           >
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <div className="text-white">
+              <div className="text-gray-900">
                 <p className="text-lg font-semibold mb-1">Última actualización</p>
-                <p className="text-blue-100">
+                <p className="text-gray-700">
                   {exchangeRate?.fecha ? new Date(exchangeRate.fecha).toLocaleDateString('es-PE', {
                     weekday: 'long',
                     year: 'numeric',
@@ -336,7 +268,7 @@ export default function TipoCambioPage() {
               <button
                 onClick={fetchExchangeRate}
                 disabled={loading}
-                className="flex items-center gap-2 bg-white text-[#0047BB] px-6 py-3 rounded-xl font-semibold hover:bg-blue-50 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex items-center gap-2 bg-[#0047BB] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[#003088] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <RefreshCw className={`w-5 h-5 ${loading ? 'animate-spin' : ''}`} />
                 Actualizar
@@ -349,21 +281,21 @@ export default function TipoCambioPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.45 }}
-            className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 md:p-10 border border-white/20 shadow-2xl mb-8"
+            className="bg-gray-50 rounded-3xl p-8 md:p-10 border border-gray-200 shadow-2xl mb-8"
           >
             {/* Header */}
             <div className="text-center mb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
+              <h3 className="text-2xl md:text-3xl font-bold text-[#0047BB] mb-3">
                 Tipo de Cambio del dólar hoy en Perú
               </h3>
               <div className="flex items-center justify-center gap-6 text-lg">
-                <div className="bg-white/20 backdrop-blur-sm px-5 py-2 rounded-xl border border-white/30">
-                  <span className="text-blue-100 text-sm">Compra:</span>{' '}
-                  <span className="font-bold text-white text-xl">{exchangeRate?.compra.toFixed(3)}</span>
+                <div className="bg-white px-5 py-2 rounded-xl border border-gray-300 shadow-lg">
+                  <span className="text-gray-700 text-sm">Compra:</span>{' '}
+                  <span className="font-bold text-[#0047BB] text-xl">{exchangeRate?.compra.toFixed(3)}</span>
                 </div>
-                <div className="bg-white/20 backdrop-blur-sm px-5 py-2 rounded-xl border border-white/30">
-                  <span className="text-blue-100 text-sm">Venta:</span>{' '}
-                  <span className="font-bold text-white text-xl">{exchangeRate?.venta.toFixed(3)}</span>
+                <div className="bg-white px-5 py-2 rounded-xl border border-gray-300 shadow-lg">
+                  <span className="text-gray-700 text-sm">Venta:</span>{' '}
+                  <span className="font-bold text-[#0047BB] text-xl">{exchangeRate?.venta.toFixed(3)}</span>
                 </div>
               </div>
             </div>
@@ -451,7 +383,7 @@ export default function TipoCambioPage() {
             </div>
 
             {/* Disclaimer */}
-            <p className="text-center text-blue-100 text-sm mt-6 max-w-2xl mx-auto">
+            <p className="text-center text-gray-600 text-sm mt-6 max-w-2xl mx-auto">
               * Los tipos de cambio se actualizan en tiempo real y pueden variar según la entidad financiera.
             </p>
           </motion.div>
@@ -464,22 +396,22 @@ export default function TipoCambioPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 border border-white/20 shadow-2xl mb-8"
+                className="bg-gray-50 rounded-3xl p-8 border border-gray-200 shadow-2xl mb-8"
               >
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
                   <div className="flex items-center gap-3">
-                    <BarChart3 className="w-6 h-6 text-white" />
-                    <h3 className="text-2xl font-bold text-white">Evolución del Tipo de Cambio</h3>
+                    <BarChart3 className="w-6 h-6 text-[#0047BB]" />
+                    <h3 className="text-2xl font-bold text-[#0047BB]">Evolución del Tipo de Cambio</h3>
                   </div>
                   
                   {/* Filtros de tiempo */}
-                  <div className="flex gap-2 bg-white/5 p-1 rounded-xl">
+                  <div className="flex gap-2 bg-white p-1 rounded-xl border border-gray-200">
                     <button
                       onClick={() => setTimeFilter('1D')}
                       className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                         timeFilter === '1D'
                           ? 'bg-[#0047BB] text-white shadow-lg'
-                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                          : 'text-gray-700 hover:text-[#0047BB] hover:bg-gray-100'
                       }`}
                     >
                       1D
@@ -489,7 +421,7 @@ export default function TipoCambioPage() {
                       className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                         timeFilter === '1W'
                           ? 'bg-[#0047BB] text-white shadow-lg'
-                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                          : 'text-gray-700 hover:text-[#0047BB] hover:bg-gray-100'
                       }`}
                     >
                       1S
@@ -499,7 +431,7 @@ export default function TipoCambioPage() {
                       className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                         timeFilter === '1M'
                           ? 'bg-[#0047BB] text-white shadow-lg'
-                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                          : 'text-gray-700 hover:text-[#0047BB] hover:bg-gray-100'
                       }`}
                     >
                       1M
@@ -509,7 +441,7 @@ export default function TipoCambioPage() {
                       className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                         timeFilter === '3M'
                           ? 'bg-[#0047BB] text-white shadow-lg'
-                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                          : 'text-gray-700 hover:text-[#0047BB] hover:bg-gray-100'
                       }`}
                     >
                       3M
@@ -519,7 +451,7 @@ export default function TipoCambioPage() {
                       className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                         timeFilter === '6M'
                           ? 'bg-[#0047BB] text-white shadow-lg'
-                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                          : 'text-gray-700 hover:text-[#0047BB] hover:bg-gray-100'
                       }`}
                     >
                       6M
@@ -529,7 +461,7 @@ export default function TipoCambioPage() {
                       className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                         timeFilter === '1Y'
                           ? 'bg-[#0047BB] text-white shadow-lg'
-                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                          : 'text-gray-700 hover:text-[#0047BB] hover:bg-gray-100'
                       }`}
                     >
                       1A
@@ -621,17 +553,17 @@ export default function TipoCambioPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
-                className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 border border-white/20 shadow-2xl"
+                className="bg-gray-50 rounded-3xl p-8 border border-gray-200 shadow-2xl"
               >
-                <h3 className="text-2xl font-bold text-white mb-6">Historial Detallado</h3>
+                <h3 className="text-2xl font-bold text-[#0047BB] mb-6">Historial Detallado</h3>
               <div className="overflow-x-auto">
                 <table className="w-full">
                   <thead>
-                    <tr className="border-b border-white/20">
-                      <th className="text-left text-white font-semibold py-3 px-4">Fecha</th>
-                      <th className="text-right text-white font-semibold py-3 px-4">Compra</th>
-                      <th className="text-right text-white font-semibold py-3 px-4">Venta</th>
-                      <th className="text-right text-white font-semibold py-3 px-4">Tendencia</th>
+                    <tr className="border-b border-gray-300">
+                      <th className="text-left text-[#0047BB] font-semibold py-3 px-4">Fecha</th>
+                      <th className="text-right text-[#0047BB] font-semibold py-3 px-4">Compra</th>
+                      <th className="text-right text-[#0047BB] font-semibold py-3 px-4">Venta</th>
+                      <th className="text-right text-[#0047BB] font-semibold py-3 px-4">Tendencia</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -642,20 +574,20 @@ export default function TipoCambioPage() {
                         : 'stable';
                       
                       return (
-                        <tr key={rate.fecha} className="border-b border-white/10 hover:bg-white/5 transition-colors">
-                          <td className="text-blue-100 py-3 px-4">
+                        <tr key={rate.fecha} className="border-b border-gray-200 hover:bg-gray-100 transition-colors">
+                          <td className="text-gray-700 py-3 px-4">
                             {new Date(rate.fecha).toLocaleDateString('es-PE')}
                           </td>
-                          <td className="text-white text-right py-3 px-4 font-mono">
+                          <td className="text-gray-900 text-right py-3 px-4 font-mono">
                             {rate.compra.toFixed(3)}
                           </td>
-                          <td className="text-white text-right py-3 px-4 font-mono">
+                          <td className="text-gray-900 text-right py-3 px-4 font-mono">
                             {rate.venta.toFixed(3)}
                           </td>
                           <td className="text-right py-3 px-4">
-                            {localTrend === 'up' && <TrendingUp className="w-5 h-5 text-green-400 inline" />}
-                            {localTrend === 'down' && <TrendingDown className="w-5 h-5 text-red-400 inline" />}
-                            {localTrend === 'stable' && <span className="text-blue-100">-</span>}
+                            {localTrend === 'up' && <TrendingUp className="w-5 h-5 text-green-500 inline" />}
+                            {localTrend === 'down' && <TrendingDown className="w-5 h-5 text-red-500 inline" />}
+                            {localTrend === 'stable' && <span className="text-gray-500">-</span>}
                           </td>
                         </tr>
                       );
@@ -674,8 +606,8 @@ export default function TipoCambioPage() {
             transition={{ delay: 0.6 }}
             className="mt-8 text-center"
           >
-            <p className="text-blue-100 text-sm">
-              Tipo de cambio referencial de BCR.
+            <p className="text-gray-600 text-sm">
+              Tipo de cambio referencial de BCRP.
             </p>
           </motion.div>
 
@@ -684,16 +616,16 @@ export default function TipoCambioPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="mt-16 bg-white/10 backdrop-blur-xl rounded-3xl p-8 lg:p-12 border border-white/20 text-center shadow-2xl"
+            className="mt-16 bg-gray-50 rounded-3xl p-8 lg:p-12 border border-gray-200 text-center shadow-2xl"
           >
-            <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
-              ¿Necesitas asesoría financiera o consultoría?
+            <h3 className="text-2xl lg:text-3xl font-bold text-[#0047BB] mb-4">
+              ¿Necesitas una asesoría o consultoría financiera?
             </h3>
-            <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
               Contáctanos ahora y recibe orientación personalizada sobre tus inversiones, finanzas y negocios
             </p>
             <motion.a
-              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20necesito%20asesor%C3%ADa%20financiera%20%F0%9F%92%BC%F0%9F%92%B0"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quiero%20solicitar%20una%20asesoria%20financiera%20%F0%9F%92%BC%F0%9F%92%B0"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

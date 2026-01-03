@@ -5,6 +5,8 @@ import { Calendar, Clock, User, Mail, Briefcase, FileText, Send, CheckCircle } f
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingSocial from "@/components/FloatingSocial";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 
@@ -24,10 +26,11 @@ export default function AgendarCita() {
   });
 
   const servicios = [
+    "Asesoría Financiera",
+    "Asesoría Académica para estudiantes de pre y postgrado",
     "Capacitación Empresarial",
-    "Consultoría de Negocios",
-    "Consultoría Financiera",
-    "Formación de Emprendedores",
+    "Consultoria de Negocios",
+    "Formacíon de emprendedores y empresarios",
   ];
 
   const horarios = [
@@ -170,6 +173,8 @@ _Cita agendada desde www.valtomanagement.com_`;
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
+      <FloatingSocial />
+      <WhatsAppButton />
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0047BB 0%, #0056D6 50%, #003088 100%)' }}>
@@ -200,7 +205,7 @@ _Cita agendada desde www.valtomanagement.com_`;
           />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -230,7 +235,7 @@ _Cita agendada desde www.valtomanagement.com_`;
 
       {/* Formulario y Calendario */}
       <section className="py-20" style={{ backgroundColor: '#F5F7FA' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16">
           <div className="grid lg:grid-cols-2 gap-12">
             
             {/* Calendario */}

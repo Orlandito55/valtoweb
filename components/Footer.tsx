@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, ShieldCheck } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
       backgroundColor: '#002677',
       fontFamily: 'Arial, sans-serif'
     }}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
@@ -102,7 +102,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-white/80">
           <p>© 2026 VALTO Management Consulting. Todos los derechos reservados.</p>
-          <p>Marca registrada por indecopi.</p>
+                          <div className="flex items-center">
+                  <ShieldCheck className="w-4 h-6 mr-3" />
+                  <span className="text-sm">Marca registrada en Indecopi.</span>
+                </div>
           <p>
             Diseñado por{' '}
             <a 
