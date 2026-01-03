@@ -5,25 +5,25 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "María González",
+    name: "Henry Borda",
     company: "Boutique La Elegancia",
-    text: "Gracias a VALTO conseguimos el financiamiento que necesitábamos para expandir nuestro negocio. Su asesoría fue clave para nuestro crecimiento.",
+    text: "Profesionales con acetado conocimiento financiero, de gran utilidad para decisiones estratégicas en empresarios que desean crecer.",
     rating: 5,
-    image: "https://ui-avatars.com/api/?name=Maria+Gonzalez&background=0047BB&color=fff&size=128&bold=true",
+    image: "https://ui-avatars.com/api/?name=Henry+Borda&background=0047BB&color=fff&size=128&bold=true",
   },
   {
-    name: "Carlos Ramírez",
+    name: "Yanet Huamanttica Joruro",
     company: "Constructora Ramírez & Asociados",
-    text: "El equipo de VALTO nos ayudó a estructurar un plan financiero que nos permitió duplicar nuestra capacidad operativa. Altamente recomendados.",
+    text: "Es exelente la ayuda es inmediata y amable y no te cobra nada la ayuda es totalmente gratis exelente servicio estoy agradecido con GLT Business Consulting gracias por llegar a mas personas como mi persona que necesita conocer y aprender sobre contabilidad muchas gracias lo recomiendo 100% 😊😊",
     rating: 5,
-    image: "https://ui-avatars.com/api/?name=Carlos+Ramirez&background=0047BB&color=fff&size=128&bold=true",
+    image: "https://ui-avatars.com/api/?name=Yanet+Huammantica&background=0047BB&color=fff&size=128&bold=true",
   },
   {
-    name: "Ana Martínez",
+    name: "Jahaira Guillén",
     company: "Café Aroma",
-    text: "Las capacitaciones que recibimos transformaron la manera en que gestionamos nuestro negocio. Profesionales comprometidos con el éxito de sus clientes.",
+    text: "Sus asesorias son enfocadas en el talón de aquiles de mi emprendimiento. Ademas de ser pacientes y resolver dudas, se ponen en el lugar del emprendedor Super Recomendado 🐻💪",
     rating: 5,
-    image: "https://ui-avatars.com/api/?name=Ana+Martinez&background=0047BB&color=fff&size=128&bold=true",
+    image: "https://ui-avatars.com/api/?name=Jahira+Guillen&background=0047BB&color=fff&size=128&bold=true",
   },
 ];
 

@@ -20,7 +20,6 @@ export default function Home() {
       <Hero />
       <Services />
       <ValueProposition />
-      <About />
       <Process />
       <Testimonials />
       <CreditCalculator />

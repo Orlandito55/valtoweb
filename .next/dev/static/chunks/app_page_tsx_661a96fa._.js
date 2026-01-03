@@ -1,12 +1,12 @@
 (globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
-  "static/chunks/components_59be0ea6._.js",
+  "static/chunks/components_2647ac4a._.js",
   "static/chunks/node_modules_motion-dom_dist_es_3f659a55._.js",
   "static/chunks/node_modules_framer-motion_dist_es_9be50d9a._.js",
   "static/chunks/node_modules_libphonenumber-js_4fa29673._.js",
   "static/chunks/node_modules_react-phone-number-input_073edee2._.js",
-  "static/chunks/node_modules_a3ad7c57._.js",
+  "static/chunks/node_modules_184a4eb8._.js",
   "static/chunks/node_modules_react-phone-number-input_style_e1f21a86.css"
 ],
     source: "dynamic"

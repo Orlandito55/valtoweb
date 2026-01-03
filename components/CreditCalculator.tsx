@@ -60,10 +60,10 @@ export default function CreditCalculator() {
             <Calculator className="w-8 h-8" style={{ color: '#0047BB' }} />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-[#0047BB] mb-4">
-            Calculadora de Créditos
+            ¿Necesitas financiamiento para tu Empresa? Calculadora de créditos:
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-6">
-            Simula tu crédito y conoce cuánto pagarías mensualmente
+            Ingresa el importe de tu crédito, la tasa de interés y el periodo de pago para obtener la cuota exacta de tu financiamiento.
           </p>
           <Link
             href="/tipo-cambio"

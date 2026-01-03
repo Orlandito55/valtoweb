@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Play, ChevronRight, BookOpen, TrendingUp, Users, Scale, AlertTriangle, DollarSign, FileText } from "lucide-react";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import FloatingSocial from "@/components/FloatingSocial";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -143,7 +144,7 @@ const categories = [
       {
         id: 5,
         title: "Planificación Financiera Parte V. Financiamiento y Proyecciones financieras. Caso práctico en Excel.",
-        thumbnail: "https://i.ytimg.com/vi/NvqoZ7PWPYk/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCRQwfLZlNGGwX2bREe4_QTLLvkMg",
+        thumbnail: "https://i.ytimg.com/vi/NvqoZ7PWPYk/maxresdefault.jpg",
         duration: "23:52",
         url: "https://www.youtube.com/embed/NvqoZ7PWPYk"
       },
@@ -400,227 +401,12 @@ export default function VideosPage() {
       <FloatingSocial />
       <WhatsAppButton />
       <div className="min-h-screen pt-28 md:pt-32 pb-20 relative overflow-hidden">
-        {/* Background Image Layer */}
-        <div className="absolute inset-0 z-0">
-          <div 
-            className="absolute inset-0 w-full h-full opacity-50"
-            style={{
-              backgroundImage: 'url(/valtoimage.png)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
-            }}
-          />
-          {/* Gradient Overlay - VALTO Colors */}
-          <div 
-            className="absolute inset-0"
-            style={{
-              background: 'linear-gradient(135deg, #0047BB 0%, #002677 50%, #0047BB 100%)'
-            }}
-          />
-          {/* Radial Light Circles - VALTO Colors */}
-          <div 
-            className="absolute inset-0 opacity-30"
-            style={{
-              background: `
-                radial-gradient(circle at 20% 30%, rgba(0,71,187,0.8) 0%, transparent 40%),
-                radial-gradient(circle at 80% 70%, rgba(0,38,119,0.7) 0%, transparent 50%),
-                radial-gradient(circle at 50% 50%, rgba(0,71,187,0.6) 0%, transparent 60%)
-              `
-            }}
-          />
-          {/* Diagonal Light Streaks */}
-          <div 
-            className="absolute inset-0 opacity-15"
-            style={{
-              background: `
-                linear-gradient(45deg, transparent 20%, rgba(255,255,255,0.6) 50%, transparent 80%),
-                linear-gradient(-45deg, transparent 30%, rgba(255,255,255,0.4) 60%, transparent 90%)
-              `,
-              backgroundSize: '250% 250%',
-              backgroundPosition: '0% 0%'
-            }}
-          />
-        </div>
+        {/* Background con colores VALTO sin detalles */}
+        <div className="absolute inset-0 z-0" style={{
+          background: 'linear-gradient(135deg, #0047BB 0%, #002677 100%)'
+        }} />
 
-        {/* Animated background elements - Más dinámico */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none z-10">
-          {/* Patrón geométrico de aprendizaje - More visible */}
-          <div 
-            className="absolute inset-0 opacity-[0.18]"
-            style={{
-              backgroundImage: `
-                linear-gradient(30deg, transparent 35%, rgba(255, 255, 255, 0.25) 35%, rgba(255, 255, 255, 0.25) 65%, transparent 65%),
-                linear-gradient(150deg, transparent 35%, rgba(255, 255, 255, 0.20) 35%, rgba(255, 255, 255, 0.20) 65%, transparent 65%),
-                repeating-linear-gradient(90deg, transparent 0px, transparent 20px, rgba(255, 255, 255, 0.05) 20px, rgba(255, 255, 255, 0.05) 22px)
-              `,
-              backgroundSize: '60px 60px, 60px 60px, 100% 100%'
-            }}
-          />
-        
-        {/* Círculos animados de conocimiento */}
-        <motion.div
-          animate={{
-            y: [0, -80, 0],
-            x: [0, 50, 0],
-            scale: [1, 1.3, 1],
-          }}
-          transition={{
-            duration: 25,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute -top-48 -left-48 w-[500px] h-[500px]"
-        >
-          <div className="w-full h-full bg-gradient-to-br from-[#0047BB]/30 via-[#002677]/20 to-transparent rounded-full blur-3xl" />
-        </motion.div>
-        
-        <motion.div
-          animate={{
-            y: [0, 80, 0],
-            x: [0, -50, 0],
-            scale: [1, 1.3, 1],
-            rotate: [0, -90, 0],
-          }}
-          transition={{
-            duration: 25,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute top-1/4 -right-32 w-[600px] h-[600px]"
-        >
-          <div className="w-full h-full bg-gradient-to-bl from-[#0047BB]/25 via-[#002677]/15 to-transparent rounded-full blur-3xl" />
-        </motion.div>
-        
-        <motion.div
-          animate={{
-            y: [0, -50, 0],
-            x: [0, 30, 0],
-            scale: [1, 1.25, 1],
-            rotate: [0, 45, 0],
-          }}
-          transition={{
-            duration: 22,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute bottom-0 left-1/3 w-[700px] h-[700px]"
-        >
-          <div className="w-full h-full bg-gradient-to-tr from-[#002677]/20 via-[#0047BB]/10 to-transparent rounded-full blur-3xl" />
-        </motion.div>
-        
-        {/* Formas geométricas flotantes */}
-        <motion.div
-          animate={{
-            y: [0, -100, 0],
-            rotate: [0, 180, 360],
-            opacity: [0.08, 0.2, 0.08],
-          }}
-          transition={{
-            duration: 18,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute top-1/4 left-1/4 w-64 h-64 border-2 border-white/30 rounded-3xl"
-          style={{ transform: 'rotate(45deg)' }}
-        />
-        
-        <motion.div
-          animate={{
-            y: [0, 80, 0],
-            rotate: [0, -180, -360],
-            opacity: [0.06, 0.15, 0.06],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: 2,
-          }}
-          className="absolute bottom-1/3 right-1/4 w-48 h-48 border-2 border-white/25 rounded-full"
-        />
-        
-        {/* Partículas brillantes */}
-        {[...Array(15)].map((_, i) => (
-          <motion.div
-            key={i}
-            animate={{
-              y: [0, -40, 0],
-              opacity: [0.3, 0.8, 0.3],
-              scale: [1, 1.5, 1],
-            }}
-            transition={{
-              duration: 4 + i * 0.5,
-              repeat: Infinity,
-              ease: "easeInOut",
-              delay: i * 0.3,
-            }}
-            className="absolute w-2 h-2 bg-white rounded-full shadow-lg shadow-white/50"
-            style={{
-              left: `${10 + i * 6}%`,
-              top: `${15 + (i % 4) * 20}%`,
-            }}
-          />
-        ))}
-        
-        {/* Líneas onduladas */}
-        <motion.div
-          animate={{
-            x: ['-100%', '100%'],
-          }}
-          transition={{
-            duration: 25,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-          className="absolute top-1/3 left-0 w-full h-0.5"
-        >
-          <div className="w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-        </motion.div>
-        
-        <motion.div
-          animate={{
-            x: ['100%', '-100%'],
-          }}
-          transition={{
-            duration: 30,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-          className="absolute bottom-1/3 left-0 w-full h-0.5"
-        >
-          <div className="w-full h-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-        </motion.div>
-        
-        {/* Destellos de luz */}
-        <motion.div
-          animate={{
-            opacity: [0, 0.2, 0],
-            scale: [0.8, 1.2, 0.8],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute top-20 right-20 w-32 h-32 bg-white/15 rounded-full blur-2xl"
-        />
-        
-        <motion.div
-          animate={{
-            opacity: [0, 0.18, 0],
-            scale: [0.9, 1.3, 0.9],
-          }}
-          transition={{
-            duration: 5,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: 2,
-          }}
-          className="absolute bottom-32 left-32 w-40 h-40 bg-white/12 rounded-full blur-2xl"
-        />
-      </div>
-
+        {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -788,7 +574,17 @@ export default function VideosPage() {
               >
                 <div className="relative overflow-hidden">
                   <img
-                    src={video.thumbnail}
+                    src={(() => {
+                      const videoId = video.thumbnail.match(/\/vi\/([^\/\?]+)/)?.[1];
+                      return videoId ? `https://i.ytimg.com/vi/${videoId}/sddefault.jpg` : video.thumbnail;
+                    })()}
+                    onError={(e) => {
+                      const videoId = video.thumbnail.match(/\/vi\/([^\/\?]+)/)?.[1];
+                      if (videoId && !e.currentTarget.dataset.fallbackAttempted) {
+                        e.currentTarget.dataset.fallbackAttempted = 'true';
+                        e.currentTarget.src = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+                      }
+                    }}
                     alt={video.title}
                     className="w-full h-52 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
@@ -860,9 +656,17 @@ export default function VideosPage() {
             Nuestro equipo de expertos está listo para ayudarte a llevar tu negocio al siguiente nivel
           </p>
           <motion.a
-            href="https://wa.me/51920000848?text=Hola,%20quisiera%20una%20asesoría"
+            href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20una%20asesor%C3%ADa%20%F0%9F%93%8A%F0%9F%92%BC"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            animate={{
+              scale: [1, 1.15, 1],
+            }}
+            transition={{
+              duration: 1.5,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
             className="inline-flex items-center px-8 py-4 bg-white text-[#0047BB] rounded-xl font-bold text-lg hover:bg-blue-50 transition-all shadow-xl"
           >
             Consulta con nosotros
@@ -871,6 +675,7 @@ export default function VideosPage() {
         </motion.div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

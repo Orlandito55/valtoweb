@@ -25,23 +25,23 @@ export default function CapacitacionEmpresarial() {
   const modulos = [
     {
       icon: Users,
-      titulo: "Liderazgo Estratégico",
-      descripcion: "Desarrollo de habilidades de liderazgo para la toma de decisiones efectivas"
+      titulo: "Análisis de estados financieros",
+      descripcion: "Los Estados financieros de la Empresa tienen información relevante sobre los activos, pasivos, capital, ingresos y egresos del negocio. Dicha información debe ser analizada en base a ratios, tendencias y equivalencias para obtener un conocimiento adecuado de la realidad y que mejoras se puede realizar con el fin de generar mejores resultados."
     },
     {
       icon: TrendingUp,
-      titulo: "Gestión Financiera",
-      descripcion: "Fundamentos financieros para la dirección de empresas exitosas"
+      titulo: "Contabilidad gerencial",
+      descripcion: "Generar un presupuesto maestro es una habilidad que todo gerente debe conocer para la mejor toma de decisiones. Herramientas como esta, permiten proyectar ingresos, costos, gastos, pago de intereses e impuestos y mostrar una utilidad que puede ser reinvertida en el negocio o repartida entre los accionistas."
     },
     {
       icon: Trophy,
-      titulo: "Innovación y Competitividad",
-      descripcion: "Estrategias para destacar en mercados altamente competitivos"
+      titulo: "Planeación financiera",
+      descripcion: "El profesional contable y financiero debe conocer a detalle las pautas necesarias para una correcta planeación financiera a corto y largo plazo, cumpliendo con las expectativas de los inversores, financistas y los accionistas de la Empresa. Desarrollar la planeación financiera es hacer un mapa o ruta del éxito para un negocio."
     },
     {
       icon: BookOpen,
-      titulo: "Marketing Estratégico",
-      descripcion: "Técnicas modernas de posicionamiento y captación de clientes"
+      titulo: "Presupuesto de capital",
+      descripcion: "Buscar financiamiento en el mercado se ha convertido en una tarea titánica, ya que los inversionistas buscan asegurar el retorno de su capital más los intereses generados por el dinero invertido. Es aquí donde el profesional debe estar capacitado en la formulación de modelos financieros que muestren la solidez de su empresa y aseguren los rendimientos y la generación de valor de la Empresa."
     }
   ];
 
@@ -106,7 +106,7 @@ export default function CapacitacionEmpresarial() {
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Capacitación%20Empresarial"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20informaci%C3%B3n%20sobre%20Capacitaci%C3%B3n%20Empresarial%20%F0%9F%93%9A%F0%9F%92%BC%F0%9F%93%88"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -134,7 +134,7 @@ export default function CapacitacionEmpresarial() {
                 El Conocimiento es la Clave del éxito en los negocios
               </h2>
               <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Estamos convencidos que el éxito de una Empresa depende mucho del conocimiento adquirido por las personas que toman decisiones en el negocio. Es por ello que los instruimos y capacitamos con material teórico y práctico tomado de las mejores escuelas de negocios para optimizar los recursos generando valor en la operación.              </p>
+                Estamos convencidos que el éxito de una Empresa depende mucho del conocimiento adquirido por las personas que toman decisiones en el negocio. Es por ello que los instruimos y capacitamos con material teórico y práctico tomado de las mejores escuelas de negocios para optimizar los recursos generando valor en la operación.             </p>
               <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
                 Ponemos al alcance de los profesionales que buscan una capacitación constante un portafolio amplio de cursos y seminarios basados en casos empresariales de éxito en sus respectivas industrias.              </p>
               <div className="flex items-center p-6 rounded-xl" style={{ backgroundColor: '#0047BB10' }}>
@@ -223,7 +223,7 @@ export default function CapacitacionEmpresarial() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ y: -5 }}
-                className="bg-white rounded-2xl p-8 shadow-lg border-2"
+                className="bg-white rounded-2xl p-8 shadow-lg border-2 text-justify"
                 style={{ borderColor: '#E5E7EB' }}
               >
                 <div className="flex items-start">
@@ -260,7 +260,7 @@ export default function CapacitacionEmpresarial() {
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Capacitación%20Empresarial"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20informaci%C3%B3n%20sobre%20Capacitaci%C3%B3n%20Empresarial%20%F0%9F%93%9A%F0%9F%92%BC%F0%9F%93%88"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

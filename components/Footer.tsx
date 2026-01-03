@@ -17,7 +17,7 @@ export default function Footer() {
               <img 
                 src="/logo222.png" 
                 alt="VALTO Management Consulting" 
-                className="h-20 w-auto object-contain"
+                className="h-16 md:h-22 w-auto object-contain"
               />
             </div>
             <p className="text-white/80 text-sm">
@@ -30,23 +30,28 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2 text-sm">
               <li>
+                <Link href="/servicios/consultoria-financiera" className="text-white/80 hover:text-white transition-colors">
+                  Asesoría Financiera
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicios/asesoria-academica-universitaria" className="text-white/80 hover:text-white transition-colors">
+                  Asesoría Académica Universitaria
+                </Link>
+              </li>
+              <li>
                 <Link href="/servicios/capacitacion-empresarial" className="text-white/80 hover:text-white transition-colors">
-                  Capacitacion Empresarial
+                  Capacitación Empresarial
                 </Link>
               </li>
               <li>
                 <Link href="/servicios/consultoria-negocios" className="text-white/80 hover:text-white transition-colors">
-                  Consultoria de Negocios
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicios/consultoria-financiera" className="text-white/80 hover:text-white transition-colors">
-                  Consultoria Financiera
+                  Consultoría de Negocios
                 </Link>
               </li>
               <li>
                 <Link href="/servicios/formacion-emprendedores" className="text-white/80 hover:text-white transition-colors">
-                  Formacion de Emprendedores
+                  Formación de emprendedores y empresarios
                 </Link>
               </li>
             </ul>
@@ -80,15 +85,15 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center text-white/80">
                 <Phone className="w-4 h-4 mr-2" />
-                +51 985 123 456
+                +51 920 000 848
               </li>
               <li className="flex items-center text-white/80">
                 <Mail className="w-4 h-4 mr-2" />
-                info@valto.com.gt
+                glatorre@valto.com.pe
               </li>
               <li className="flex items-start text-white/80">
                 <MapPin className="w-4 h-4 mr-2 mt-0.5" />
-                Perú, Perú
+                Lima – Perú.
               </li>
             </ul>
           </div>
@@ -96,7 +101,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-white/80">
-          <p>© 2025 VALTO Management Consulting. Todos los derechos reservados.</p>
+          <p>© 2026 VALTO Management Consulting. Todos los derechos reservados.</p>
           <p>Marca registrada por indecopi.</p>
           <p>
             Diseñado por{' '}

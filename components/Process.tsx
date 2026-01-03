@@ -1,294 +1,453 @@
 "use client";
 
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
-import { CheckCircle2, ArrowRight, Zap, Star } from "lucide-react";
-import { useRef, useState, useEffect } from "react";
-import Lenis from '@studio-freight/lenis';
+import { motion, useInView } from "framer-motion";
+import { CheckCircle2 } from "lucide-react";
+import { useRef, useState } from "react";
 
 const steps = [
   {
     number: "01",
     title: "Contacto Inicial",
-    description: "Agendar una consulta para conocer tus necesidades y objetivos empresariales.",
+    description: "Solicitar una asesoría para que Valto conozca tu consulta, tus necesidades y que aporte de valor esperas recibir de nuestro equipo de trabajo.",
   },
   {
     number: "02",
     title: "Evaluación",
-    description: "Análisis detallado de tu situación financiera y oportunidades de crecimiento.",
+    description: "Diagnostico y análisis detallado de los puntos a tener en cuenta para proceder a realizar la asesoría y los tiempos que tomara la misma.",
   },
   {
     number: "03",
     title: "Propuesta",
-    description: "Presentamos soluciones personalizadas adaptadas a tus necesidades específicas.",
+    description: "Presentación de la propuesta de Valor teniendo en cuenta las estrategias y la manera adecuada de implementar las soluciones adaptadas a las necesidades específicas del cliente.ades específicas.",
   },
   {
     number: "04",
     title: "Implementación",
-    description: "Acompañamiento continuo hasta alcanzar tus metas empresariales.",
+    description: "Puesta en marcha del plan de trabajo y acompañamiento continuo en todo el proceso de materialización de la asesoría desarrollada",
+  },
+    {
+    number: "05",
+    title: "Informe final",
+    description: "Cuantificación de los resultados obtenidos luego de llevar a cabo la asesoría y especificaciones para futuras consultorías y capacitaciones.",
   },
 ];
 
 export default function Process() {
   const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, { once: true, amount: 0.3 });
-  const [activeStep, setActiveStep] = useState<number | null>(null);
-  
-  // Lenis smooth scroll
-  useEffect(() => {
-    const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smoothWheel: true,
-      wheelMultiplier: 1,
-      touchMultiplier: 2,
-    });
+  const isInView = useInView(sectionRef, { once: true, amount: 0.2 });
+  const [hoveredStep, setHoveredStep] = useState<number | null>(null);
 
-    function raf(time: number) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-
-    return () => {
-      lenis.destroy();
-    };
-  }, []);
-  
-  // Para el scroll en móviles
-  const containerRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start center", "end center"]
-  });
-  
-  // Transformar el scroll progress a altura de línea (0% a 100%)
-  const progressLineHeight = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  
-  // Activar paso basado en scroll progress
-  useEffect(() => {
-    const unsubscribe = scrollYProgress.on('change', (latest) => {
-      if (latest < 0.25) {
-        setActiveStep(0);
-      } else if (latest < 0.5) {
-        setActiveStep(1);
-      } else if (latest < 0.75) {
-        setActiveStep(2);
-      } else {
-        setActiveStep(3);
-      }
-    });
-    
-    return () => unsubscribe();
-  }, [scrollYProgress]);
-
-  // Transformar el scroll progress a altura de línea (0% a 100%)
-  const lineHeight = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  
-  // Activar paso basado en scroll progress
-  useEffect(() => {
-    const unsubscribe = scrollYProgress.on('change', (latest) => {
-      if (latest < 0.25) {
-        setActiveStep(0);
-      } else if (latest < 0.5) {
-        setActiveStep(1);
-      } else if (latest < 0.75) {
-        setActiveStep(2);
-      } else {
-        setActiveStep(3);
-      }
-    });
-    
-    return () => unsubscribe();
-  }, [scrollYProgress]);
+  console.log('hoveredStep:', hoveredStep);
 
   return (
-    <section ref={sectionRef} className="py-24 bg-gradient-to-b from-white via-[#F5F7FA] to-white relative overflow-hidden">
+    <section 
+      ref={sectionRef} 
+      className="py-24 relative overflow-hidden"
+      style={{ 
+        background: 'linear-gradient(135deg, #f8fafc 0%, #e0e7ff 50%, #f8fafc 100%)'
+      }}
+    >
+      {/* Background decorations */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <motion.div
+          animate={{
+            scale: [1, 1.2, 1],
+            rotate: [0, 180, 360],
+            opacity: [0.3, 0.5, 0.3]
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          className="absolute -top-40 -right-40 w-96 h-96 rounded-full"
+          style={{ background: 'radial-gradient(circle, rgba(0,71,187,0.1) 0%, transparent 70%)' }}
+        />
+        <motion.div
+          animate={{
+            scale: [1.2, 1, 1.2],
+            rotate: [360, 180, 0],
+            opacity: [0.3, 0.5, 0.3]
+          }}
+          transition={{
+            duration: 25,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          className="absolute -bottom-40 -left-40 w-96 h-96 rounded-full"
+          style={{ background: 'radial-gradient(circle, rgba(0,86,214,0.1) 0%, transparent 70%)' }}
+        />
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#0047BB] mb-4" style={{ fontFamily: 'Futura, sans-serif' }}>
-            Cómo Trabajamos
+          <motion.div
+            initial={{ scale: 0.5, opacity: 0 }}
+            animate={isInView ? { scale: 1, opacity: 1 } : {}}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="inline-block mb-4"
+          >
+            <span className="px-6 py-2 bg-white text-[#0047BB] rounded-full text-sm font-bold shadow-lg border-2 border-[#0047BB]/20">
+              NUESTRO PROCESO
+            </span>
+          </motion.div>
+          
+          <h2 className="text-5xl lg:text-6xl font-bold mb-6" style={{ fontFamily: 'Futura, sans-serif' }}>
+            <span className="text-[#002677]">Cómo</span>{' '}
+            <span className="text-[#0047BB]">Trabajamos</span>
           </h2>
-          <p className="text-xl text-gray-700 max-w-2xl mx-auto" style={{ fontFamily: 'Arial, sans-serif' }}>
+          
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'Arial, sans-serif' }}>
             Un proceso simple y efectivo para impulsar tu negocio
           </p>
         </motion.div>
 
-        {/* Steps */}
-        <div ref={containerRef} className="relative">
-          {/* Connection line - desktop */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gray-200/30 transform -translate-y-1/2 rounded-full overflow-hidden">
-            {/* Animated progress line */}
+        {/* Timeline Steps */}
+        <div className="relative">
+          {/* Connecting line - Desktop */}
+          <div className="hidden lg:block absolute top-32 left-0 right-0 h-2">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-300 to-transparent opacity-30 rounded-full" />
             <motion.div
-              className="h-full bg-gradient-to-r from-[#0047BB] via-[#0056D6] to-[#0047BB]"
-              initial={{ width: "0%" }}
-              animate={isInView ? { 
-                width: "100%",
-              } : { width: "0%" }}
-              transition={{ 
-                duration: 8,
-                repeat: Infinity,
-                ease: "linear"
-              }}
-            />
-            
-            {/* Running light effect */}
-            <motion.div
-              className="absolute top-0 left-0 h-full w-20 bg-gradient-to-r from-transparent via-white/60 to-transparent"
-              animate={{
-                left: ["-20%", "120%"]
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                ease: "linear"
-              }}
+              className="absolute inset-0 bg-gradient-to-r from-[#002677] via-[#0047BB] to-[#0056D6] rounded-full origin-left"
+              initial={{ scaleX: 0 }}
+              animate={isInView ? { scaleX: 1 } : {}}
+              transition={{ duration: 2, ease: "easeInOut", delay: 0.5 }}
             />
           </div>
 
-          {/* Pulsing dots on the line */}
-          {[0, 1, 2, 3].map((i) => (
-            <motion.div
-              key={i}
-              className="hidden lg:block absolute top-1/2 w-4 h-4 bg-white rounded-full border-2 border-[#0047BB] shadow-lg transform -translate-y-1/2"
-              style={{ left: `${(i * 25) + 12.5}%` }}
-              animate={{
-                scale: activeStep === i ? [1, 1.5, 1] : 1,
-                boxShadow: activeStep === i 
-                  ? ["0 0 0 0 rgba(0,71,187,0.7)", "0 0 0 10px rgba(0,71,187,0)", "0 0 0 0 rgba(0,71,187,0)"]
-                  : "0 0 0 0 rgba(0,71,187,0)",
-              }}
-              transition={{ duration: 1, repeat: activeStep === i ? Infinity : 0 }}
-            >
-              <motion.div
-                className="w-full h-full rounded-full bg-[#0047BB]"
-                animate={{
-                  opacity: activeStep === i ? [0.5, 1, 0.5] : 0.5
-                }}
-                transition={{ duration: 1, repeat: Infinity }}
-              />
-            </motion.div>
-          ))}
-
-          {/* Vertical Connection Line - Mobile (scroll-based) */}
-          <div className="lg:hidden absolute left-1/2 top-0 bottom-0 w-1 -translate-x-1/2 pointer-events-none">
-            {/* Background line */}
-            <div className="absolute inset-0 bg-gray-200/30 rounded-full" />
-            
-            {/* Animated progress line based on scroll */}
-            <motion.div
-              className="absolute top-0 left-0 right-0 bg-[#0047BB] rounded-full origin-top"
-              style={{ height: progressLineHeight }}
-            />
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {steps.map((step, index) => (
+          {/* Steps Grid */}
+          <div className="max-w-6xl mx-auto ">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-6 ">
+              {steps.slice(0, 3).map((step, index) => (
               <motion.div
                 key={step.number}
-                initial={{ opacity: 0, y: 50, scale: 0.8 }}
-                whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                viewport={{ once: true }}
+                initial={{ opacity: 0, y: 50 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ 
                   duration: 0.6, 
-                  delay: index * 0.15,
+                  delay: 0.8 + (index * 0.2),
                   type: "spring",
                   stiffness: 100
                 }}
-                whileHover={{ y: -10, scale: 1.03 }}
-                onHoverStart={() => setActiveStep(index)}
+                onMouseEnter={() => setHoveredStep(index)}
+                onMouseLeave={() => setHoveredStep(null)}
                 className="relative"
               >
-                <motion.div 
-                  className="bg-white rounded-2xl p-6 shadow-lg transition-all duration-300 relative z-10 border group overflow-hidden cursor-pointer"
-                  animate={{
-                    borderColor: activeStep === index ? "#0047BB" : "rgba(229, 231, 235, 1)",
-                    boxShadow: activeStep === index 
-                      ? "0 20px 60px rgba(0, 71, 187, 0.15)" 
-                      : "0 10px 30px rgba(0, 0, 0, 0.05)"
+                {/* Card */}
+                <motion.div
+                  className={`relative bg-white rounded-3xl  p-8 shadow-xl overflow-hidden cursor-pointer transition-all duration-300 border-[3px] border-solid ${
+                    hoveredStep === index ? 'border-[#0047BB]' : 'border-transparent'
+                  }`}
+                  whileHover={{ 
+                    y: -12,
+                    scale: 1.03,
+                    boxShadow: "0 25px 50px rgba(0,71,187,0.2)"
                   }}
-                  whileTap={{ scale: 0.97 }}
+                  transition={{ duration: 0.3 }}
                 >
-                  {/* Decorative top bar with animation */}
-                  <motion.div 
-                    className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#002677] via-[#0047BB] to-[#0056D6]"
+                  {/* Animated gradient background */}
+                  <motion.div
+                    className="absolute inset-0 opacity-0"
                     animate={{
-                      opacity: activeStep === index ? [0.5, 1, 0.5] : 0.3
+                      opacity: hoveredStep === index ? 0.05 : 0
                     }}
-                    transition={{ duration: 1.5, repeat: Infinity }}
+                    style={{
+                      background: 'linear-gradient(135deg, #0047BB 0%, #0056D6 100%)'
+                    }}
                   />
-                  
 
-                  
-                  {/* Background decoration */}
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#0047BB]/5 to-transparent rounded-full blur-2xl" />
+                  {/* Decorative corner accent */}
+                  <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
+                    <div className="absolute top-0 right-0 w-full h-full bg-[#0047BB] rounded-bl-full" />
+                  </div>
 
-
-                  
-                  {/* Number with enhanced animation */}
-                  <motion.div 
-                    className={`w-20 h-20 bg-gradient-to-br from-[#0056D6] to-[#0047BB] rounded-xl flex items-center justify-center mb-4 mx-auto shadow-lg transition-all relative z-10 ring-4 ${
-                      activeStep === index ? 'ring-[#0047BB]/30' : 'ring-[#0047BB]/10'
-                    }`}
+                  {/* Number Badge */}
+                  <motion.div
+                    className="relative z-10 mb-6"
                     animate={{
-                      scale: activeStep === index ? 1.1 : 1
+                      scale: hoveredStep === index ? 1.1 : 1,
+                      rotate: hoveredStep === index ? [0, -5, 5, 0] : 0
                     }}
-                    transition={{ duration: 0.3 }}
+                    transition={{ duration: 0.5 }}
                   >
-                    <span className="text-4xl font-black text-white" style={{ fontFamily: 'Futura, sans-serif' }}>
-                      {step.number}
-                    </span>
+                    <div className="w-24 h-24 mx-auto bg-gradient-to-br from-[#002677] via-[#0047BB] to-[#0056D6] rounded-2xl flex items-center justify-center shadow-2xl relative overflow-hidden">
+                      {/* Shine effect */}
+                      <motion.div
+                        className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent"
+                        animate={{
+                          x: hoveredStep === index ? ['-100%', '200%'] : '-100%'
+                        }}
+                        transition={{
+                          duration: 1,
+                          repeat: hoveredStep === index ? Infinity : 0,
+                          repeatDelay: 0.5
+                        }}
+                      />
+                      
+                      <span className="text-5xl font-black text-white relative z-10" style={{ fontFamily: 'Futura, sans-serif' }}>
+                        {step.number}
+                      </span>
+                    </div>
                   </motion.div>
 
-                  {/* Title with animation */}
-                  <motion.h3 
-                    className="text-xl font-bold mb-3 text-center relative z-10 transition-colors"
-                    style={{ fontFamily: 'Futura, sans-serif' }}
-                    animate={{
-                      color: activeStep === index ? "#0047BB" : "#374151"
+                  {/* Title */}
+                  <h3 
+                    className="text-2xl font-bold text-center mb-4 relative z-10"
+                    style={{ 
+                      fontFamily: 'Futura, sans-serif',
+                      color: hoveredStep === index ? '#0047BB' : '#002677'
                     }}
                   >
                     {step.title}
-                  </motion.h3>
+                  </h3>
 
                   {/* Description */}
-                  <motion.p 
-                    className="text-gray-600 text-center leading-relaxed relative z-10 text-sm"
+                  <p 
+                    className="text-gray-600 text-justify leading-relaxed mb-6 relative z-10"
                     style={{ fontFamily: 'Arial, sans-serif' }}
-                    animate={{
-                      opacity: activeStep === index ? 1 : 0.7
-                    }}
                   >
                     {step.description}
-                  </motion.p>
+                  </p>
 
-                  {/* Check icon with pulse */}
-                  <div className="mt-4 flex justify-center relative z-10">
-                    <div className={`rounded-full p-1.5 transition-colors ${
-                      activeStep === index ? 'bg-green-100' : 'bg-green-50'
-                    }`}>
-                      <CheckCircle2 className="w-6 h-6 text-green-600" />
+                  {/* Check Icon */}
+                  <motion.div 
+                    className="flex justify-center relative z-10"
+                    animate={{
+                      scale: hoveredStep === index ? [1, 1.2, 1] : 1
+                    }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center shadow-lg">
+                      <CheckCircle2 className="w-7 h-7 text-white" strokeWidth={3} />
                     </div>
-                  </div>
+                  </motion.div>
+
+                  {/* Hover glow effect */}
+                  <motion.div
+                    className="absolute -inset-1 bg-gradient-to-r from-[#0047BB] to-[#0056D6] rounded-3xl opacity-0 blur-xl"
+                    animate={{
+                      opacity: hoveredStep === index ? 0.3 : 0
+                    }}
+                    style={{ zIndex: -1 }}
+                  />
                 </motion.div>
 
-                {/* Arrow connector - mobile */}
-                {index < steps.length - 1 && (
-                  <div className="lg:hidden flex justify-center py-4">
-                    <ArrowRight className="w-8 h-8 text-[#0047BB]/40 rotate-90" />
+                {/* Connecting Arrow - Mobile */}
+                {index < 2 && (
+                  <div className="lg:hidden flex justify-center py-6">
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={isInView ? { opacity: 1, y: 0 } : {}}
+                      transition={{ delay: 1 + (index * 0.2) }}
+                    >
+                      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <path 
+                          d="M20 10 L20 30 M15 25 L20 30 L25 25" 
+                          stroke="#0047BB" 
+                          strokeWidth="3" 
+                          strokeLinecap="round" 
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </motion.div>
                   </div>
                 )}
               </motion.div>
             ))}
+            </div>
+
+            {/* Segunda fila con 2 tarjetas centradas */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-6 mt-8 lg:mt-6 max-w-3xl mx-auto">
+              {steps.slice(3, 5).map((step, index) => {
+                const actualIndex = index + 3;
+                return (
+              <motion.div
+                key={step.number}
+                initial={{ opacity: 0, y: 50 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ 
+                  duration: 0.6, 
+                  delay: 0.8 + (actualIndex * 0.2),
+                  type: "spring",
+                  stiffness: 100
+                }}
+                onMouseEnter={() => setHoveredStep(actualIndex)}
+                onMouseLeave={() => setHoveredStep(null)}
+                className="relative"
+              >
+                {/* Card */}
+                <motion.div
+                  className={`relative bg-white rounded-3xl p-8 shadow-xl overflow-hidden cursor-pointer transition-all duration-300 border-[3px] border-solid ${
+                    hoveredStep === actualIndex ? 'border-[#0047BB]' : 'border-transparent'
+                  }`}
+                  whileHover={{ 
+                    y: -12,
+                    scale: 1.03,
+                    boxShadow: "0 25px 50px rgba(0,71,187,0.2)"
+                  }}
+                  transition={{ duration: 0.3 }}
+                >
+                  {/* Animated gradient background */}
+                  <motion.div
+                    className="absolute inset-0 opacity-0"
+                    animate={{
+                      opacity: hoveredStep === actualIndex ? 0.05 : 0
+                    }}
+                    style={{
+                      background: 'linear-gradient(135deg, #0047BB 0%, #0056D6 100%)'
+                    }}
+                  />
+
+                  {/* Decorative corner accent */}
+                  <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
+                    <div className="absolute top-0 right-0 w-full h-full bg-[#0047BB] rounded-bl-full" />
+                  </div>
+
+                  {/* Number Badge */}
+                  <motion.div
+                    className="relative z-10 mb-6"
+                    animate={{
+                      scale: hoveredStep === index ? 1.1 : 1,
+                      rotate: hoveredStep === index ? [0, -5, 5, 0] : 0
+                    }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <div className="w-24 h-24 mx-auto bg-gradient-to-br from-[#002677] via-[#0047BB] to-[#0056D6] rounded-2xl flex items-center justify-center shadow-2xl relative overflow-hidden">
+                      {/* Shine effect */}
+                      <motion.div
+                        className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent"
+                        animate={{
+                          x: hoveredStep === index ? ['-100%', '200%'] : '-100%'
+                        }}
+                        transition={{
+                          duration: 1,
+                          repeat: hoveredStep === index ? Infinity : 0,
+                          repeatDelay: 0.5
+                        }}
+                      />
+                      
+                      <span className="text-5xl font-black text-white relative z-10" style={{ fontFamily: 'Futura, sans-serif' }}>
+                        {step.number}
+                      </span>
+                    </div>
+                  </motion.div>
+
+                  {/* Title */}
+                  <h3 
+                    className="text-2xl font-bold text-center mb-4 relative z-10"
+                    style={{ 
+                      fontFamily: 'Futura, sans-serif',
+                      color: hoveredStep === index ? '#0047BB' : '#002677'
+                    }}
+                  >
+                    {step.title}
+                  </h3>
+
+                  {/* Description */}
+                  <p 
+                    className="text-gray-600 text-justify leading-relaxed mb-6 relative z-10"
+                    style={{ fontFamily: 'Arial, sans-serif' }}
+                  >
+                    {step.description}
+                  </p>
+
+                  {/* Check Icon */}
+                  <motion.div 
+                    className="flex justify-center relative z-10"
+                    animate={{
+                      scale: hoveredStep === index ? [1, 1.2, 1] : 1
+                    }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center shadow-lg">
+                      <CheckCircle2 className="w-7 h-7 text-white" strokeWidth={3} />
+                    </div>
+                  </motion.div>
+
+                  {/* Hover glow effect */}
+                  <motion.div
+                    className="absolute -inset-1 bg-gradient-to-r from-[#0047BB] to-[#0056D6] rounded-3xl opacity-0 blur-xl"
+                    animate={{
+                      opacity: hoveredStep === actualIndex ? 0.3 : 0
+                    }}
+                    style={{ zIndex: -1 }}
+                  />
+                </motion.div>
+
+                {/* Connecting Arrow - Mobile */}
+                {index < 1 && (
+                  <div className="lg:hidden flex justify-center py-6">
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={isInView ? { opacity: 1, y: 0 } : {}}
+                      transition={{ delay: 1 + (actualIndex * 0.2) }}
+                    >
+                      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <path 
+                          d="M20 10 L20 30 M15 25 L20 30 L25 25" 
+                          stroke="#0047BB" 
+                          strokeWidth="3" 
+                          strokeLinecap="round" 
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </motion.div>
+                  </div>
+                )}
+              </motion.div>
+              );
+            })}
+            </div>
           </div>
         </div>
+
+        {/* CTA Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 2.2 }}
+          className="text-center mt-16"
+        >
+          <motion.a
+            href="/agendar-cita"
+            className="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-[#002677] via-[#0047BB] to-[#0056D6] text-white text-lg font-bold rounded-full shadow-2xl"
+            whileHover={{ 
+              scale: 1.05,
+              boxShadow: "0 20px 40px rgba(0,71,187,0.4)"
+            }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <span>¡Comienza Ahora!</span>
+            <motion.svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              animate={{
+                x: [0, 5, 0]
+              }}
+              transition={{
+                duration: 1,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
+              <path
+                d="M5 12h14M12 5l7 7-7 7"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </motion.svg>
+          </motion.a>
+        </motion.div>
       </div>
     </section>
   );

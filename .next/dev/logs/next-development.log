@@ -1,118 +1,806 @@
-[00:00:01.362] Server  LOG      ✓ Ready in 983ms
-[00:00:09.304] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.179] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:04:28.742] Server  LOG      ✓ Compiled in 64ms
-[00:04:34.309] Server  LOG      ✓ Compiled in 41ms
-[00:06:20.331] Server  LOG      ✓ Compiled in 46ms
-[00:06:27.495] Server  LOG      ✓ Compiled in 47ms
-[00:11:49.538] Server  LOG      ✓ Compiled in 38ms
-[00:13:57.842] Server  LOG      ✓ Compiled in 37ms
-[00:14:22.494] Server  LOG      ✓ Compiled in 37ms
-[00:14:32.858] Server  LOG      ✓ Compiled in 44ms
-[00:15:01.350] Server  LOG      ✓ Compiled in 41ms
-[00:15:18.778] Server  LOG      ✓ Compiled in 37ms
-[00:15:47.925] Server  LOG      ✓ Compiled in 41ms
-[00:16:19.372] Server  LOG      ✓ Compiled in 41ms
-[00:16:50.796] Server  LOG      ✓ Compiled in 49ms
-[00:17:11.223] Server  LOG      ✓ Compiled in 44ms
-[00:17:30.072] Server  LOG      ✓ Compiled in 35ms
-[00:18:42.956] Server  LOG      ✓ Compiled in 44ms
-[00:19:06.074] Server  LOG      ✓ Compiled in 32ms
-[00:20:11.054] Server  LOG      ✓ Compiled in 129ms
-[00:21:36.027] Server  LOG      ✓ Compiled in 43ms
-[00:22:03.641] Server  LOG      ✓ Compiled in 34ms
-[00:22:15.545] Server  LOG      ✓ Compiled in 35ms
-[00:22:47.716] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:03.406] Server  LOG      ✓ Compiled in 42ms
-[00:26:23.496] Server  LOG      ✓ Compiled in 50ms
-[00:26:35.453] Server  LOG      ✓ Compiled in 38ms
-[00:27:04.158] Server  LOG      ✓ Compiled in 34ms
-[00:28:51.856] Server  LOG      ✓ Compiled in 37ms
-[00:30:01.413] Server  LOG      ✓ Compiled in 37ms
-[00:31:12.877] Server  LOG      ✓ Compiled in 44ms
-[00:31:52.300] Server  LOG      ✓ Compiled in 36ms
-[00:32:49.587] Server  LOG      ✓ Compiled in 40ms
-[00:33:10.054] Server  LOG      ✓ Compiled in 40ms
-[00:37:10.489] Server  LOG      ✓ Compiled in 43ms
-[00:37:31.380] Server  LOG      ✓ Compiled in 36ms
-[00:39:34.616] Server  LOG      ✓ Compiled in 34ms
-[00:39:50.214] Server  LOG      ✓ Compiled in 38ms
-[00:41:15.265] Server  LOG      ✓ Compiled in 39ms
-[00:43:28.670] Server  LOG      ✓ Compiled in 39ms
-[00:44:00.816] Server  LOG      ✓ Compiled in 66ms
-[00:44:16.333] Server  LOG      ✓ Compiled in 39ms
-[00:44:18.478] Server  LOG      ✓ Compiled in 44ms
-[00:44:23.824] Server  LOG      ✓ Compiled in 41ms
-[00:45:11.621] Server  LOG      ✓ Compiled in 35ms
-[00:45:15.390] Server  LOG      ✓ Compiled in 33ms
-[00:46:43.281] Server  LOG      ✓ Compiled in 40ms
-[00:47:16.169] Server  LOG      ✓ Compiled in 36ms
-[00:47:52.147] Server  LOG      ✓ Compiled in 33ms
-[00:49:37.674] Server  LOG      ✓ Compiled in 53ms
-[00:50:03.124] Server  LOG      ✓ Compiled in 36ms
-[00:50:41.301] Server  LOG      ✓ Compiled in 36ms
-[00:50:54.482] Server  LOG      ✓ Compiled in 32ms
-[00:50:59.352] Server  LOG      ✓ Compiled in 30ms
-[00:53:10.438] Server  LOG      ✓ Compiled in 38ms
-[00:53:40.093] Server  LOG      ✓ Compiled in 32ms
-[00:59:46.435] Server  LOG      ✓ Compiled in 54ms
-[01:00:34.413] Server  LOG      ✓ Compiled in 36ms
-[01:00:43.372] Server  LOG      ✓ Compiled in 42ms
-[01:00:53.358] Server  LOG      ✓ Compiled in 39ms
-[01:05:33.175] Server  LOG      ✓ Compiled in 42ms
-[01:05:52.721] Server  LOG      ✓ Compiled in 36ms
-[01:06:08.613] Server  LOG      ✓ Compiled in 33ms
-[01:09:16.341] Server  LOG      ✓ Compiled in 42ms
-[01:15:23.479] Server  LOG      ✓ Compiled in 41ms
-[01:16:00.914] Server  LOG      ✓ Compiled in 46ms
-[01:16:52.955] Server  LOG      ✓ Compiled in 40ms
-[01:17:09.347] Server  LOG      ✓ Compiled in 37ms
-[01:19:23.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:19:29.423] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:19:33.146] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:20:59.026] Server  LOG      ✓ Compiled in 47ms
-[01:21:42.208] Server  LOG      ✓ Compiled in 40ms
-[01:22:00.123] Server  LOG      ✓ Compiled in 45ms
-[01:22:29.126] Server  LOG      ✓ Compiled in 39ms
-[01:27:14.135] Server  LOG      ✓ Compiled in 38ms
-[01:28:23.266] Server  LOG      ✓ Compiled in 38ms
-[01:30:20.486] Server  LOG      ✓ Compiled in 39ms
-[01:31:58.452] Server  LOG      ✓ Compiled in 42ms
-[01:32:02.443] Server  LOG      ✓ Compiled in 35ms
-[01:32:13.170] Server  LOG      ✓ Compiled in 43ms
-[01:33:50.678] Server  LOG      ✓ Compiled in 67ms
-[01:35:27.398] Server  LOG      ✓ Compiled in 54ms
-[01:35:58.963] Server  LOG      ✓ Compiled in 38ms
-[01:36:25.169] Server  LOG      ✓ Compiled in 39ms
-[01:36:25.998] Server  LOG      ✓ Compiled in 36ms
-[01:36:31.116] Server  LOG      ✓ Compiled in 34ms
-[01:38:26.908] Server  LOG      ✓ Compiled in 44ms
-[01:39:57.847] Server  LOG      ✓ Compiled in 34ms
-[01:42:18.375] Browser WARN    Image with src "/fotoportada2.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[00:00:01.844] Server  LOG      ✓ Ready in 1288ms
+[00:00:16.754] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.063] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:01:20.644] Server  LOG      ✓ Compiled in 116ms
+[00:02:10.689] Server  LOG      ✓ Compiled in 39ms
+[00:02:19.025] Server  LOG      ✓ Compiled in 37ms
+[00:02:23.438] Server  LOG      ✓ Compiled in 34ms
+[00:02:26.122] Server  LOG      ✓ Compiled in 35ms
+[00:02:35.815] Server  LOG      ✓ Compiled in 52ms
+[00:02:43.031] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:43.268] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:03:14.006] Server  LOG      ✓ Compiled in 33ms
+[00:03:18.717] Server  LOG      ✓ Compiled in 32ms
+[00:03:23.443] Server  LOG      ✓ Compiled in 31ms
+[00:03:42.378] Server  LOG      ✓ Compiled in 37ms
+[00:05:15.640] Server  LOG      ✓ Compiled in 52ms
+[00:05:33.987] Server  LOG      ✓ Compiled in 48ms
+[00:05:40.960] Server  LOG      ✓ Compiled in 32ms
+[00:06:12.449] Server  LOG      ✓ Compiled in 98ms
+[00:06:51.724] Server  LOG      ✓ Compiled in 55ms
+[00:06:59.458] Server  LOG      ✓ Compiled in 32ms
+[00:09:43.775] Server  LOG      ✓ Compiled in 55ms
+[00:09:56.332] Server  LOG      ✓ Compiled in 32ms
+[00:10:19.775] Server  LOG      ✓ Compiled in 44ms
+[00:10:43.328] Server  LOG      ✓ Compiled in 36ms
+[00:11:14.632] Server  LOG      ✓ Compiled in 50ms
+[00:11:20.376] Server  LOG      ✓ Compiled in 52ms
+[00:13:16.346] Server  LOG      ✓ Compiled in 51ms
+[00:13:57.158] Server  LOG      ✓ Compiled in 34ms
+[00:14:44.245] Server  LOG      ✓ Compiled in 36ms
+[00:15:12.984] Server  LOG      ✓ Compiled in 31ms
+[00:15:49.074] Server  LOG      ✓ Compiled in 77ms
+[00:16:10.475] Server  LOG      ✓ Compiled in 33ms
+[00:16:38.712] Server  LOG      ✓ Compiled in 38ms
+[00:16:50.244] Server  LOG      ✓ Compiled in 30ms
+[00:17:13.179] Server  LOG      ✓ Compiled in 38ms
+[00:23:03.124] Server  LOG      ✓ Compiled in 43ms
+[00:23:31.697] Server  LOG      ✓ Compiled in 33ms
+[00:32:31.879] Server  LOG      ✓ Compiled in 36ms
+[00:32:37.636] Server  LOG      ✓ Compiled in 37ms
+[00:32:41.367] Server  LOG      ✓ Compiled in 34ms
+[00:32:56.174] Server  LOG      ✓ Compiled in 45ms
+[00:33:02.204] Server  LOG      ✓ Compiled in 31ms
+[00:33:06.424] Server  LOG      ✓ Compiled in 29ms
+[00:33:16.064] Server  LOG      ✓ Compiled in 36ms
+[00:33:18.289] Server  LOG      ✓ Compiled in 39ms
+[00:34:27.747] Server  LOG      ✓ Compiled in 113ms
+[00:34:41.580] Server  LOG      ✓ Compiled in 34ms
+[00:34:44.016] Server  LOG      ✓ Compiled in 33ms
+[00:34:46.872] Server  LOG      ✓ Compiled in 30ms
+[00:35:04.229] Server  LOG      ✓ Compiled in 35ms
+[00:35:10.526] Server  LOG      ✓ Compiled in 30ms
+[00:35:14.800] Server  LOG      ✓ Compiled in 31ms
+[00:35:34.156] Server  LOG      ✓ Compiled in 31ms
+[00:39:03.856] Server  LOG      ✓ Compiled in 63ms
+[00:43:44.871] Server  LOG      ✓ Compiled in 44ms
+[00:44:13.450] Server  LOG      ✓ Compiled in 121ms
+[00:44:35.496] Server  LOG      ✓ Compiled in 53ms
+[00:44:49.755] Server  LOG      ✓ Compiled in 34ms
+[00:45:24.793] Server  LOG      ✓ Compiled in 75ms
+[00:45:45.672] Server  LOG      ✓ Compiled in 155ms
+[00:46:36.077] Server  LOG      ✓ Compiled in 123ms
+[00:46:44.936] Server  LOG      ✓ Compiled in 104ms
+[00:47:38.433] Server  LOG      ✓ Compiled in 38ms
+[00:48:03.540] Server  LOG      ✓ Compiled in 34ms
+[00:48:46.919] Server  LOG      ✓ Compiled in 51ms
+[00:48:47.774] Browser ERROR   ./components/ValueProposition.tsx:293:28
+Parsing ecmascript source code failed
+  291 |                         </div>
+  292 |                       </div>
+> 293 |                     </Link>
+      |                            ^
+> 294 |                   ) : (
+      | ^^^^^^^^^^^^^^^^^^^^^^^
+> 295 |                     <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 h-full bg-white">
+      | ^^^^^^^^^^^^^^^^^^^^^
+  296 |                       <div className="grid grid-cols-1">
+  297 |                         {/* Left side - White background */}
+  298 |                         <div className="p-5 bg-white">
+
+Expected '</', got 'jsx text (
+                  ) : (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/ValueProposition.tsx
+    ./app/page.tsx
+[00:49:46.444] Server  LOG      ✓ Compiled in 109ms
+[00:51:15.489] Server  LOG      ✓ Compiled in 77ms
+[00:51:15.765] Browser ERROR   ./components/Process.tsx:305:15
+Parsing ecmascript source code failed
+  303 | }
+  304 |                 ease: "linear"
+> 305 |               }}
+      |               ^
+  306 |             />
+  307 |           </div>
+  308 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[00:52:36.451] Server  LOG      ✓ Compiled in 39ms
+[00:52:51.441] Server  LOG      ✓ Compiled in 35ms
+[00:53:13.184] Server  LOG      ✓ Compiled in 38ms
+[00:53:32.033] Server  LOG      ✓ Compiled in 40ms
+[00:53:56.442] Server  LOG      ✓ Compiled in 34ms
+[00:54:45.209] Server  LOG      ✓ Compiled in 93ms
+[00:54:50.193] Server  LOG      ✓ Compiled in 187ms
+[00:55:24.813] Server  LOG      ✓ Compiled in 71ms
+[00:55:24.940] Browser ERROR   ./components/Process.tsx:309:1
+Parsing ecmascript source code failed
+  307 |     </section>
+  308 |   );
+> 309 | }
+      | ^
+  310 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[00:55:49.671] Server  LOG      ✓ Compiled in 128ms
+[00:55:49.776] Browser ERROR   ./components/Process.tsx:404:14
+Parsing ecmascript source code failed
+  402 |                 )}
+  403 |               </motion.div>
+> 404 |             ))}
+      |              ^
+  405 |           </div>
+  406 |         </div>
+  407 |
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[00:57:08.992] Server  LOG      ✓ Compiled in 69ms
+[00:57:09.768] Browser ERROR   uncaughtError: ReferenceError: actualIndex is not defined
+[00:57:15.434] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:57:15.721] Server  ERROR   D:\PROYECTOS FLUTTER\valtoweb\.next\dev\server\chunks\ssr\[root-of-the-server]__2c742d3d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:57:15.724] Server  ERROR    ⨯ ReferenceError: actualIndex is not defined
+[00:57:15.746] Server  LOG      ✓ Compiled in 38ms
+[00:57:26.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:30.235] Browser ERROR   uncaughtError: ReferenceError: actualIndex is not defined
+[00:59:14.438] Server  LOG      ✓ Compiled in 54ms
+[00:59:16.166] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:59:23.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:24.234] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:00:19.667] Server  LOG      ✓ Compiled in 35ms
+[01:01:14.765] Server  LOG      ✓ Compiled in 97ms
+[01:01:46.722] Server  LOG      ✓ Compiled in 45ms
+[01:01:48.606] Browser LOG     hoveredStep: null
+[01:01:48.607] Browser LOG     hoveredStep: null
+[01:01:53.241] Browser LOG     hoveredStep: 4
+[01:01:53.241] Browser LOG     hoveredStep: 4
+[01:01:53.570] Browser LOG     hoveredStep: 3
+[01:01:53.570] Browser LOG     hoveredStep: 3
+[01:01:53.816] Browser LOG     hoveredStep: null
+[01:01:53.816] Browser LOG     hoveredStep: null
+[01:01:53.816] Browser LOG     hoveredStep: 4
+[01:01:53.816] Browser LOG     hoveredStep: 4
+[01:01:54.578] Server  LOG     hoveredStep: null
+[01:02:01.899] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:02.166] Browser LOG     hoveredStep: null
+[01:02:02.166] Browser LOG     hoveredStep: null
+[01:02:02.455] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:02:02.455] Browser LOG     hoveredStep: null
+[01:02:02.456] Browser LOG     hoveredStep: null
+[01:02:10.273] Browser LOG     hoveredStep: 1
+[01:02:10.273] Browser LOG     hoveredStep: 1
+[01:02:10.273] Browser LOG     hoveredStep: null
+[01:02:10.273] Browser LOG     hoveredStep: null
+[01:02:10.407] Browser LOG     hoveredStep: 1
+[01:02:10.407] Browser LOG     hoveredStep: 1
+[01:02:10.876] Browser LOG     hoveredStep: 2
+[01:02:10.876] Browser LOG     hoveredStep: 2
+[01:02:11.285] Browser LOG     hoveredStep: null
+[01:02:11.285] Browser LOG     hoveredStep: null
+[01:02:11.285] Browser LOG     hoveredStep: 1
+[01:02:11.285] Browser LOG     hoveredStep: 1
+[01:02:11.285] Browser LOG     hoveredStep: 3
+[01:02:11.285] Browser LOG     hoveredStep: 3
+[01:02:11.552] Browser LOG     hoveredStep: null
+[01:02:11.552] Browser LOG     hoveredStep: null
+[01:02:11.552] Browser LOG     hoveredStep: 4
+[01:02:11.552] Browser LOG     hoveredStep: 4
+[01:02:12.085] Browser LOG     hoveredStep: null
+[01:02:12.085] Browser LOG     hoveredStep: null
+[01:02:20.981] Server  LOG     hoveredStep: null
+[01:02:21.455] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:28.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:28.780] Browser LOG     hoveredStep: null
+[01:02:28.781] Browser LOG     hoveredStep: null
+[01:02:31.449] Browser LOG     hoveredStep: 4
+[01:02:31.449] Browser LOG     hoveredStep: 4
+[01:02:31.449] Browser LOG     hoveredStep: null
+[01:02:31.449] Browser LOG     hoveredStep: null
+[01:02:31.449] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:02:31.449] Browser LOG     hoveredStep: null
+[01:02:31.449] Browser LOG     hoveredStep: null
+[01:02:31.449] Browser LOG     hoveredStep: 4
+[01:02:31.449] Browser LOG     hoveredStep: 4
+[01:02:32.334] Browser LOG     hoveredStep: null
+[01:02:32.334] Browser LOG     hoveredStep: null
+[01:02:32.334] Browser LOG     hoveredStep: 1
+[01:02:32.334] Browser LOG     hoveredStep: 1
+[01:02:32.764] Browser LOG     hoveredStep: null
+[01:02:32.764] Browser LOG     hoveredStep: null
+[01:02:33.223] Browser LOG     hoveredStep: 1
+[01:02:33.223] Browser LOG     hoveredStep: 1
+[01:02:33.570] Browser LOG     hoveredStep: null
+[01:02:33.570] Browser LOG     hoveredStep: null
+[01:02:33.570] Browser LOG     hoveredStep: null
+[01:02:33.570] Browser LOG     hoveredStep: null
+[01:02:33.570] Browser LOG     hoveredStep: 3
+[01:02:33.570] Browser LOG     hoveredStep: 3
+[01:02:33.858] Browser LOG     hoveredStep: null
+[01:02:33.858] Browser LOG     hoveredStep: null
+[01:06:41.895] Server  LOG      ✓ Compiled in 42ms
+[01:08:17.319] Server  LOG      ✓ Compiled in 36ms
+[01:08:36.544] Server  LOG      ✓ Compiled in 40ms
+[01:10:02.653] Server  LOG      ✓ Compiled in 39ms
+[01:11:00.508] Browser LOG     hoveredStep: 4
+[01:11:00.508] Browser LOG     hoveredStep: 4
+[01:11:00.671] Browser LOG     hoveredStep: null
+[01:11:00.671] Browser LOG     hoveredStep: null
+[01:11:00.671] Browser LOG     hoveredStep: 3
+[01:11:00.671] Browser LOG     hoveredStep: 3
+[01:11:01.204] Browser LOG     hoveredStep: null
+[01:11:01.205] Browser LOG     hoveredStep: null
+[01:11:01.205] Browser LOG     hoveredStep: 0
+[01:11:01.205] Browser LOG     hoveredStep: 0
+[01:11:01.605] Browser LOG     hoveredStep: null
+[01:11:01.605] Browser LOG     hoveredStep: null
+[01:11:34.528] Server  LOG      ✓ Compiled in 33ms
+[01:11:35.727] Browser LOG     hoveredStep: 2
+[01:11:35.727] Browser LOG     hoveredStep: 2
+[01:11:35.727] Browser LOG     hoveredStep: null
+[01:11:35.727] Browser LOG     hoveredStep: null
+[01:11:35.727] Browser LOG     hoveredStep: 2
+[01:11:35.727] Browser LOG     hoveredStep: 2
+[01:11:35.727] Browser LOG     hoveredStep: null
+[01:11:35.727] Browser LOG     hoveredStep: null
+[01:11:35.727] Browser LOG     hoveredStep: 1
+[01:11:35.727] Browser LOG     hoveredStep: 1
+[01:11:35.727] Browser LOG     hoveredStep: 1
+[01:11:35.727] Browser LOG     hoveredStep: 1
+[01:11:36.381] Browser LOG     hoveredStep: null
+[01:11:36.381] Browser LOG     hoveredStep: null
+[01:11:36.381] Browser LOG     hoveredStep: 0
+[01:11:36.381] Browser LOG     hoveredStep: 0
+[01:11:37.790] Browser LOG     hoveredStep: null
+[01:11:37.790] Browser LOG     hoveredStep: null
+[01:11:44.861] Server  LOG      ✓ Compiled in 33ms
+[01:11:45.189] Browser LOG     hoveredStep: 2
+[01:11:45.189] Browser LOG     hoveredStep: 2
+[01:11:45.189] Browser LOG     hoveredStep: null
+[01:11:45.189] Browser LOG     hoveredStep: null
+[01:11:45.999] Browser LOG     hoveredStep: null
+[01:11:45.999] Browser LOG     hoveredStep: null
+[01:11:54.193] Server  LOG      ✓ Compiled in 36ms
+[01:11:54.534] Browser LOG     hoveredStep: 2
+[01:11:54.534] Browser LOG     hoveredStep: 2
+[01:11:54.534] Browser LOG     hoveredStep: null
+[01:11:54.534] Browser LOG     hoveredStep: null
+[01:11:55.296] Browser LOG     hoveredStep: null
+[01:11:55.296] Browser LOG     hoveredStep: null
+[01:12:05.444] Server  LOG      ✓ Compiled in 35ms
+[01:12:06.057] Browser LOG     hoveredStep: 2
+[01:12:06.057] Browser LOG     hoveredStep: 2
+[01:12:06.639] Browser LOG     hoveredStep: 2
+[01:12:06.639] Browser LOG     hoveredStep: 2
+[01:12:07.775] Browser LOG     hoveredStep: null
+[01:12:07.775] Browser LOG     hoveredStep: null
+[01:12:09.615] Server  LOG      ✓ Compiled in 35ms
+[01:12:10.017] Browser LOG     hoveredStep: 2
+[01:12:10.017] Browser LOG     hoveredStep: 2
+[01:12:10.018] Browser LOG     hoveredStep: 2
+[01:12:10.018] Browser LOG     hoveredStep: 2
+[01:12:10.727] Browser LOG     hoveredStep: 2
+[01:12:10.727] Browser LOG     hoveredStep: 2
+[01:12:11.804] Browser LOG     hoveredStep: null
+[01:12:11.804] Browser LOG     hoveredStep: null
+[01:12:12.242] Server  LOG      ✓ Compiled in 30ms
+[01:12:13.765] Browser LOG     hoveredStep: null
+[01:12:13.765] Browser LOG     hoveredStep: null
+[01:12:16.715] Server  LOG      ✓ Compiled in 36ms
+[01:12:17.233] Browser LOG     hoveredStep: 2
+[01:12:17.233] Browser LOG     hoveredStep: 2
+[01:12:17.233] Browser LOG     hoveredStep: 2
+[01:12:17.233] Browser LOG     hoveredStep: 2
+[01:12:17.233] Browser LOG     hoveredStep: null
+[01:12:17.233] Browser LOG     hoveredStep: null
+[01:12:17.855] Browser LOG     hoveredStep: null
+[01:12:17.855] Browser LOG     hoveredStep: null
+[01:12:47.793] Browser LOG     hoveredStep: 2
+[01:12:47.794] Browser LOG     hoveredStep: 2
+[01:12:47.794] Browser LOG     hoveredStep: 1
+[01:12:47.794] Browser LOG     hoveredStep: 1
+[01:12:48.679] Browser LOG     hoveredStep: null
+[01:12:48.679] Browser LOG     hoveredStep: null
+[01:12:48.679] Browser LOG     hoveredStep: 0
+[01:12:48.679] Browser LOG     hoveredStep: 0
+[01:12:49.587] Browser LOG     hoveredStep: null
+[01:12:49.588] Browser LOG     hoveredStep: null
+[01:12:49.588] Browser LOG     hoveredStep: 1
+[01:12:49.588] Browser LOG     hoveredStep: 1
+[01:12:50.777] Browser LOG     hoveredStep: null
+[01:12:50.777] Browser LOG     hoveredStep: null
+[01:12:52.007] Browser LOG     hoveredStep: 2
+[01:12:52.007] Browser LOG     hoveredStep: 2
+[01:12:52.007] Browser LOG     hoveredStep: null
+[01:12:52.007] Browser LOG     hoveredStep: null
+[01:12:52.007] Browser LOG     hoveredStep: 1
+[01:12:52.007] Browser LOG     hoveredStep: 1
+[01:12:52.467] Browser LOG     hoveredStep: null
+[01:12:52.467] Browser LOG     hoveredStep: null
+[01:12:52.467] Browser LOG     hoveredStep: 2
+[01:12:52.467] Browser LOG     hoveredStep: 2
+[01:12:52.861] Browser LOG     hoveredStep: null
+[01:12:52.861] Browser LOG     hoveredStep: null
+[01:12:52.861] Browser LOG     hoveredStep: 1
+[01:12:52.861] Browser LOG     hoveredStep: 1
+[01:12:52.861] Browser LOG     hoveredStep: null
+[01:12:52.861] Browser LOG     hoveredStep: null
+[01:12:52.861] Browser LOG     hoveredStep: 3
+[01:12:52.861] Browser LOG     hoveredStep: 3
+[01:12:53.430] Browser LOG     hoveredStep: 4
+[01:12:53.431] Browser LOG     hoveredStep: 4
+[01:12:53.909] Browser LOG     hoveredStep: null
+[01:12:53.909] Browser LOG     hoveredStep: null
+[01:13:11.043] Server  LOG      ✓ Compiled in 58ms
+[01:13:12.115] Browser LOG     hoveredStep: null
+[01:13:12.115] Browser LOG     hoveredStep: null
+[01:13:20.958] Server  LOG      ✓ Compiled in 48ms
+[01:13:22.012] Browser LOG     hoveredStep: null
+[01:13:22.012] Browser LOG     hoveredStep: null
+[01:14:12.321] Browser LOG     hoveredStep: 4
+[01:14:12.321] Browser LOG     hoveredStep: 4
+[01:14:12.321] Browser LOG     hoveredStep: null
+[01:14:12.321] Browser LOG     hoveredStep: null
+[01:15:23.008] Server  LOG      ✓ Compiled in 32ms
+[01:15:31.168] Server  LOG      ✓ Compiled in 42ms
+[01:15:33.523] Server  LOG      ✓ Compiled in 35ms
+[01:15:35.571] Server  LOG      ✓ Compiled in 35ms
+[01:15:38.510] Server  LOG      ✓ Compiled in 37ms
+[01:16:21.112] Server  LOG      ✓ Compiled in 43ms
+[01:16:34.244] Server  LOG      ✓ Compiled in 34ms
+[01:17:30.160] Server  LOG      ✓ Compiled in 35ms
+[01:17:38.990] Server  LOG      ✓ Compiled in 38ms
+[01:17:55.816] Server  LOG      ✓ Compiled in 42ms
+[01:18:34.433] Server  LOG      ✓ Compiled in 36ms
+[01:19:13.641] Server  LOG      ✓ Compiled in 30ms
+[01:19:47.159] Server  LOG      ✓ Compiled in 37ms
+[01:19:57.820] Server  LOG      ✓ Compiled in 40ms
+[01:21:18.083] Server  LOG      ✓ Compiled in 38ms
+[01:21:33.416] Server  LOG      ✓ Compiled in 32ms
+[01:23:41.867] Server  LOG      ✓ Compiled in 37ms
+[01:23:52.385] Server  LOG      ✓ Compiled in 39ms
+[01:24:00.343] Server  LOG      ✓ Compiled in 37ms
+[01:24:09.030] Server  LOG      ✓ Compiled in 35ms
+[01:24:17.067] Server  LOG      ✓ Compiled in 34ms
+[01:24:19.018] Server  LOG      ✓ Compiled in 38ms
+[01:24:22.212] Server  LOG      ✓ Compiled in 31ms
+[01:24:25.559] Server  LOG      ✓ Compiled in 35ms
+[01:24:35.436] Server  LOG      ✓ Compiled in 38ms
+[01:24:38.842] Server  LOG      ✓ Compiled in 73ms
+[01:24:41.697] Server  LOG      ✓ Compiled in 61ms
+[01:25:04.685] Server  LOG      ✓ Compiled in 47ms
+[01:25:41.310] Server  LOG      ✓ Compiled in 36ms
+[01:25:54.370] Server  LOG      ✓ Compiled in 32ms
+[01:26:04.413] Server  LOG      ✓ Compiled in 36ms
+[01:26:14.431] Server  LOG      ✓ Compiled in 39ms
+[01:26:21.214] Server  LOG      ✓ Compiled in 41ms
+[01:26:54.040] Server  LOG      ✓ Compiled in 41ms
+[01:27:24.399] Server  LOG      ✓ Compiled in 2.3s
+[01:27:26.795] Browser ERROR   ./components/CTA.tsx:4:1
+Export Trademark doesn't exist in target module
+  2 | "use client";
+  3 | import { motion } from "framer-motion";
+> 4 | import { ArrowRight, Phone, Mail, MapPin, Trademark } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PhoneInput from 'react-phone-number-input';
+  6 | import 'react-phone-number-input/style.css';
+  7 | import { useState } from "react";
+
+The export Trademark was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import Landmark?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/CTA.tsx
+    ./app/page.tsx
+[01:27:26.795] Browser ERROR   ./components/CTA.tsx:4:1
+Export Trademark doesn't exist in target module
+  2 | "use client";
+  3 | import { motion } from "framer-motion";
+> 4 | import { ArrowRight, Phone, Mail, MapPin, Trademark } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PhoneInput from 'react-phone-number-input';
+  6 | import 'react-phone-number-input/style.css';
+  7 | import { useState } from "react";
+
+The export Trademark was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import Landmark?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/CTA.tsx
+    ./app/page.tsx
+[01:27:39.709] Server  LOG      ✓ Compiled in 86ms
+[01:27:40.771] Browser LOG     hoveredStep: null
+[01:27:40.771] Browser LOG     hoveredStep: null
+[01:27:45.869] Server  LOG      ✓ Compiled in 85ms
+[01:28:17.116] Server  LOG      ✓ Compiled in 31ms
+[01:28:20.324] Server  LOG     hoveredStep: null
+[01:28:22.796] Server  LOG     hoveredStep: null
+[01:28:32.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:35.793] Browser LOG     hoveredStep: null
+[01:28:35.793] Browser LOG     hoveredStep: null
+[01:29:19.315] Server  LOG      ✓ Compiled in 58ms
+[01:29:52.236] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:30:32.048] Server  LOG      ✓ Compiled in 73ms
+[01:31:09.852] Server  LOG      ✓ Compiled in 37ms
+[01:31:36.617] Server  LOG      ✓ Compiled in 31ms
+[01:31:46.604] Server  LOG      ✓ Compiled in 45ms
+[01:34:05.211] Server  LOG      ✓ Compiled in 37ms
+[01:35:09.619] Server  LOG      ✓ Compiled in 34ms
+[01:36:32.521] Server  LOG      ✓ Compiled in 41ms
+[01:38:28.997] Server  LOG      ✓ Compiled in 37ms
+[01:38:29.779] Browser ERROR   ./app/servicios/capacitacion-empresarial/page.tsx:150:26
+Parsing ecmascript source code failed
+  148 |                 </div>
+  149 |               </div>
+> 150 |             </motion.div>
+      |                          ^
+> 151 |
+      | ^
+> 152 |             <motion.div
+      | ^^^^^^^^^^^^^
+  153 |               initial={{ opacity: 0, x: 30 }}
+  154 |               animate={{ opacity: 1, x: 0 }}
+  155 |               transition={{ duration: 0.6 }}
+
+Expected '</', got 'jsx text (
+
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./app/servicios/capacitacion-empresarial/page.tsx [Client Component Browser]
+    ./app/servicios/capacitacion-empresarial/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/servicios/capacitacion-empresarial/page.tsx [Client Component SSR]
+    ./app/servicios/capacitacion-empresarial/page.tsx [Server Component]
+[01:40:51.615] Server  LOG      ✓ Compiled in 35ms
+[01:41:14.278] Server  LOG      ✓ Compiled in 40ms
+[01:43:30.945] Server  LOG      ✓ Compiled in 35ms
+[01:45:09.935] Server  LOG      ✓ Compiled in 40ms
+[01:45:23.199] Server  LOG      ✓ Compiled in 66ms
+[01:48:02.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:07.577] Server  LOG      ✓ Compiled in 43ms
+[01:54:46.543] Server  LOG      ✓ Compiled in 41ms
+[01:56:39.126] Browser WARN    Image with src "/fotoportada2.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[01:42:57.844] Server  LOG      ✓ Compiled in 40ms
-[01:43:06.387] Server  LOG      ✓ Compiled in 42ms
-[01:43:12.426] Server  LOG      ✓ Compiled in 43ms
-[01:43:16.516] Server  LOG      ✓ Compiled in 41ms
-[01:44:08.964] Server  LOG      ✓ Compiled in 40ms
-[01:44:12.793] Server  LOG      ✓ Compiled in 92ms
-[01:44:16.314] Server  LOG      ✓ Compiled in 34ms
-[01:44:20.970] Server  LOG      ✓ Compiled in 85ms
-[01:44:22.797] Server  LOG      ✓ Compiled in 51ms
-[01:44:25.270] Server  LOG      ✓ Compiled in 76ms
-[01:44:27.410] Server  LOG      ✓ Compiled in 37ms
-[01:45:48.937] Server  LOG      ✓ Compiled in 80ms
-[01:45:53.388] Server  LOG      ✓ Compiled in 75ms
-[01:45:55.886] Server  LOG      ✓ Compiled in 42ms
-[01:46:45.242] Server  LOG      ✓ Compiled in 113ms
-[01:47:09.807] Server  LOG      ✓ Compiled in 82ms
-[01:47:36.067] Server  LOG      ✓ Compiled in 50ms
-[01:47:49.660] Server  LOG      ✓ Compiled in 62ms
-[01:47:54.759] Server  LOG      ✓ Compiled in 35ms
-[01:47:57.658] Server  LOG      ✓ Compiled in 36ms
-[01:47:59.594] Server  LOG      ✓ Compiled in 36ms
-[01:48:01.924] Server  LOG      ✓ Compiled in 39ms
-[01:48:03.830] Server  LOG      ✓ Compiled in 33ms
-[01:48:05.167] Server  LOG      ✓ Compiled in 36ms
-[01:48:06.904] Server  LOG      ✓ Compiled in 41ms
-[01:49:40.673] Server  LOG      ✓ Compiled in 97ms
+[01:56:39.246] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:58:43.465] Server  LOG      ✓ Compiled in 42ms
+[01:58:43.643] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:58:56.297] Server  LOG      ✓ Compiled in 35ms
+[01:59:05.351] Server  LOG      ✓ Compiled in 40ms
+[01:59:08.973] Server  LOG      ✓ Compiled in 35ms
+[01:59:11.931] Server  LOG      ✓ Compiled in 41ms
+[01:59:15.722] Server  LOG      ✓ Compiled in 51ms
+[01:59:18.072] Server  LOG      ✓ Compiled in 37ms
+[02:00:03.897] Server  WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:00:04.215] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:04.764] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:00:05.286] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:00:11.922] Server  LOG      ✓ Compiled in 40ms
+[02:00:12.315] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/image2.png" "received" null
+[02:00:12.764] Browser WARN    Image with src "/image2.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:00:15.475] Server  LOG      ✓ Compiled in 40ms
+[02:00:29.619] Server  LOG      ✓ Compiled in 39ms
+[02:00:33.139] Server  LOG      ✓ Compiled in 36ms
+[02:00:38.815] Server  LOG      ✓ Compiled in 40ms
+[02:01:02.765] Server  LOG      ✓ Compiled in 37ms
+[02:01:04.946] Server  LOG      ✓ Compiled in 35ms
+[02:01:06.590] Server  LOG      ✓ Compiled in 49ms
+[02:01:30.498] Server  LOG      ✓ Compiled in 43ms
+[02:01:34.359] Server  LOG      ✓ Compiled in 39ms
+[02:01:36.728] Server  LOG      ✓ Compiled in 33ms
+[02:01:40.505] Server  LOG      ✓ Compiled in 43ms
+[02:01:45.286] Server  LOG      ✓ Compiled in 38ms
+[02:01:48.846] Server  LOG      ✓ Compiled in 40ms
+[02:01:49.043] Browser ERROR   ./app/nosotros/page.tsx:115:44
+Parsing ecmascript source code failed
+  113 |             src="/image.png" 
+  114 |             alt="VALTO Team" 
+> 115 |             style={{ objectPosition: 20% 0%' }}
+      |                                            ^^^^
+  116 |             fill
+  117 |             className="object-cover object-top"
+  118 |             quality={100}
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/nosotros/page.tsx [Client Component Browser]
+    ./app/nosotros/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/nosotros/page.tsx [Client Component SSR]
+    ./app/nosotros/page.tsx [Server Component]
+[02:01:55.607] Server  LOG      ✓ Compiled in 39ms
+[02:01:58.850] Server  LOG      ✓ Compiled in 38ms
+[02:02:00.717] Server  LOG      ✓ Compiled in 38ms
+[02:02:18.644] Server  LOG      ✓ Compiled in 79ms
+[02:02:22.160] Server  LOG      ✓ Compiled in 37ms
+[02:02:35.165] Server  LOG      ✓ Compiled in 35ms
+[02:02:44.594] Server  LOG      ✓ Compiled in 37ms
+[02:02:52.953] Server  LOG      ✓ Compiled in 42ms
+[02:03:13.323] Server  LOG      ✓ Compiled in 40ms
+[02:03:16.752] Server  LOG      ✓ Compiled in 43ms
+[02:03:24.080] Server  LOG      ✓ Compiled in 38ms
+[02:03:35.499] Server  LOG      ✓ Compiled in 35ms
+[02:03:46.708] Server  LOG      ✓ Compiled in 42ms
+[02:03:57.991] Server  LOG      ✓ Compiled in 45ms
+[02:04:03.875] Server  LOG      ✓ Compiled in 34ms
+[02:04:08.776] Server  LOG      ✓ Compiled in 37ms
+[02:04:27.264] Server  LOG      ✓ Compiled in 47ms
+[02:04:29.930] Server  LOG      ✓ Compiled in 39ms
+[02:04:31.229] Server  LOG      ✓ Compiled in 37ms
+[02:04:40.279] Server  LOG      ✓ Compiled in 37ms
+[02:05:24.082] Server  LOG      ✓ Compiled in 95ms
+[02:05:50.152] Server  WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:05:56.458] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:05:56.458] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:05:56.551] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:06:08.770] Server  LOG      ✓ Compiled in 47ms
+[02:06:41.143] Server  LOG      ✓ Compiled in 65ms
+[02:06:56.228] Server  LOG      ✓ Compiled in 45ms
+[02:07:27.018] Server  LOG      ✓ Compiled in 176ms
+[02:08:16.680] Server  LOG      ✓ Compiled in 122ms
+[02:09:03.089] Server  LOG      ✓ Compiled in 45ms
+[02:39:25.492] Browser LOG     hoveredStep: null
+[02:39:25.492] Browser LOG     hoveredStep: null
+[02:39:33.272] Browser LOG     hoveredStep: null
+[02:39:33.272] Browser LOG     hoveredStep: null
+[02:39:35.322] Browser LOG     hoveredStep: 1
+[02:39:35.322] Browser LOG     hoveredStep: 1
+[02:39:37.782] Browser LOG     hoveredStep: null
+[02:39:37.782] Browser LOG     hoveredStep: null
+[02:41:23.828] Server  LOG      ✓ Compiled in 97ms
+[02:42:29.988] Server  LOG      ✓ Compiled in 82ms
+[02:42:55.172] Server  LOG      ✓ Compiled in 40ms
+[02:43:27.935] Browser WARN    Image with src "/valtoimage.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:43:29.796] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:43:29.950] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:44:13.354] Server  LOG      ✓ Compiled in 232ms
+[02:44:29.133] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:45:17.737] Server  LOG      ✓ Compiled in 93ms
+[02:45:28.258] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:46:29.151] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:47:11.556] Server  LOG      ✓ Compiled in 75ms
+[02:47:29.121] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:48:29.206] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:49:29.151] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:51:00.142] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:51:49.945] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:52:10.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:53:20.334] Server  LOG      ✓ Compiled in 44ms
+[02:53:25.271] Server  LOG      ✓ Compiled in 44ms
+[02:53:30.064] Server  LOG      ✓ Compiled in 38ms
+[02:53:48.787] Browser WARN    Image with src "/valtoimage.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:53:48.869] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:53:49.166] Server  LOG     ✅ Tasa interbancaria: 3.360121 "→ Tasa comercial ajustada:" 3.343
+[02:55:04.232] Server  LOG      ✓ Compiled in 40ms
+[02:55:39.598] Server  LOG      ✓ Compiled in 40ms
+[02:55:39.785] Browser ERROR   ./app/servicios/formacion-emprendedores/page.tsx:260:44
+Parsing ecmascript source code failed
+  258 |               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
+  259 |             >
+> 260 |               Comenzar mi Transformación ->
+      |                                            ^
+  261 |               <ArrowRight className="ml-2 w-5 h-5" />
+  262 |             </motion.a>
+  263 |           </motion.div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/servicios/formacion-emprendedores/page.tsx [Client Component Browser]
+    ./app/servicios/formacion-emprendedores/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/servicios/formacion-emprendedores/page.tsx [Client Component SSR]
+    ./app/servicios/formacion-emprendedores/page.tsx [Server Component]
+[02:56:57.140] Server  LOG      ✓ Compiled in 67ms
+[02:57:07.519] Server  LOG      ✓ Compiled in 49ms
+[03:08:56.826] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:08:56.826] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:09:17.271] Browser LOG     hoveredStep: null
+[03:09:17.271] Browser LOG     hoveredStep: null
+[03:10:08.042] Server  LOG      ✓ Compiled in 81ms
+[03:10:48.270] Server  LOG      ✓ Compiled in 74ms
+[03:11:10.504] Server  LOG      ✓ Compiled in 44ms
+[03:11:17.884] Browser LOG     hoveredStep: null
+[03:11:17.884] Browser LOG     hoveredStep: null
+[03:11:53.571] Server  LOG      ✓ Compiled in 87ms
+[03:12:50.104] Server  LOG      ✓ Compiled in 131ms
+[03:13:37.934] Server  LOG      ✓ Compiled in 80ms
+[03:14:26.505] Server  LOG      ✓ Compiled in 127ms
+[03:14:51.643] Server  LOG      ✓ Compiled in 137ms
+[03:15:22.221] Server  LOG      ✓ Compiled in 78ms
+[03:16:15.772] Server  LOG      ✓ Compiled in 233ms
+[03:16:27.516] Server  LOG      ✓ Compiled in 204ms
+[03:16:37.541] Server  LOG      ✓ Compiled in 71ms
+[03:17:06.109] Server  LOG      ✓ Compiled in 57ms
+[03:17:14.238] Server  LOG      ✓ Compiled in 104ms
+[03:17:30.058] Server  LOG      ✓ Compiled in 48ms
+[03:17:37.594] Browser LOG     hoveredStep: 0
+[03:17:37.594] Browser LOG     hoveredStep: 0
+[03:17:38.208] Browser LOG     hoveredStep: null
+[03:17:38.208] Browser LOG     hoveredStep: null
+[03:17:38.208] Browser LOG     hoveredStep: 1
+[03:17:38.208] Browser LOG     hoveredStep: 1
+[03:17:38.469] Browser LOG     hoveredStep: null
+[03:17:38.469] Browser LOG     hoveredStep: null
+[03:17:38.469] Browser LOG     hoveredStep: 2
+[03:17:38.469] Browser LOG     hoveredStep: 2
+[03:17:38.978] Browser LOG     hoveredStep: null
+[03:17:38.978] Browser LOG     hoveredStep: null
+[03:17:38.978] Browser LOG     hoveredStep: 1
+[03:17:38.978] Browser LOG     hoveredStep: 1
+[03:17:38.978] Browser LOG     hoveredStep: null
+[03:17:38.978] Browser LOG     hoveredStep: null
+[03:17:38.978] Browser LOG     hoveredStep: 3
+[03:17:38.978] Browser LOG     hoveredStep: 3
+[03:17:39.283] Browser LOG     hoveredStep: null
+[03:17:39.283] Browser LOG     hoveredStep: null
+[03:17:39.283] Browser LOG     hoveredStep: 4
+[03:17:39.283] Browser LOG     hoveredStep: 4
+[03:17:39.748] Browser LOG     hoveredStep: null
+[03:17:39.748] Browser LOG     hoveredStep: null
+[03:17:39.996] Browser LOG     hoveredStep: 3
+[03:17:39.996] Browser LOG     hoveredStep: 3
+[03:17:40.233] Browser LOG     hoveredStep: null
+[03:17:40.233] Browser LOG     hoveredStep: null
+[03:17:40.233] Browser LOG     hoveredStep: 0
+[03:17:40.233] Browser LOG     hoveredStep: 0
+[03:17:40.567] Browser LOG     hoveredStep: null
+[03:17:40.567] Browser LOG     hoveredStep: null
+[03:17:40.567] Browser LOG     hoveredStep: 1
+[03:17:40.567] Browser LOG     hoveredStep: 1
+[03:17:40.870] Browser LOG     hoveredStep: null
+[03:17:40.870] Browser LOG     hoveredStep: null
+[03:17:40.870] Browser LOG     hoveredStep: 4
+[03:17:40.870] Browser LOG     hoveredStep: 4
+[03:17:40.870] Browser LOG     hoveredStep: null
+[03:17:40.870] Browser LOG     hoveredStep: null
+[03:17:40.870] Browser LOG     hoveredStep: 3
+[03:17:40.870] Browser LOG     hoveredStep: 3
+[03:17:41.053] Browser LOG     hoveredStep: null
+[03:17:41.053] Browser LOG     hoveredStep: null
+[03:17:42.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:17:47.143] Server  LOG     hoveredStep: null
+[03:17:47.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:17:47.676] Browser LOG     hoveredStep: null
+[03:17:47.676] Browser LOG     hoveredStep: null
+[03:17:47.676] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:17:47.676] Browser LOG     hoveredStep: null
+[03:17:47.676] Browser LOG     hoveredStep: null
+[03:18:06.402] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:19:25.390] Server  LOG      ✓ Compiled in 43ms
+[03:19:51.592] Browser LOG     hoveredStep: null
+[03:19:51.592] Browser LOG     hoveredStep: null
+[03:20:17.128] Server  LOG      ✓ Compiled in 41ms
+[03:21:16.169] Browser LOG     hoveredStep: null
+[03:21:16.169] Browser LOG     hoveredStep: null
+[03:21:17.717] Browser LOG     hoveredStep: 0
+[03:21:17.717] Browser LOG     hoveredStep: 0
+[03:21:20.682] Browser LOG     hoveredStep: 1
+[03:21:20.682] Browser LOG     hoveredStep: 1
+[03:21:22.755] Browser LOG     hoveredStep: 2
+[03:21:22.756] Browser LOG     hoveredStep: 2
+[03:21:24.480] Browser LOG     hoveredStep: 3
+[03:21:24.480] Browser LOG     hoveredStep: 3
+[03:21:25.616] Browser LOG     hoveredStep: null
+[03:21:25.616] Browser LOG     hoveredStep: null
+[03:21:26.071] Browser LOG     hoveredStep: 4
+[03:21:26.071] Browser LOG     hoveredStep: 4
+[03:21:26.771] Browser LOG     hoveredStep: null
+[03:21:26.771] Browser LOG     hoveredStep: null
+[03:23:16.549] Server  LOG      ✓ Compiled in 44ms
+[03:24:11.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:31.906] Server  LOG      ✓ Compiled in 82ms
+[03:25:03.199] Server  LOG      ✓ Compiled in 63ms
+[03:27:02.742] Server  LOG      ✓ Compiled in 40ms
+[03:28:34.917] Server  LOG      ✓ Compiled in 45ms
+[03:29:15.358] Server  LOG      ✓ Compiled in 76ms
+[03:31:01.359] Server  LOG      ✓ Compiled in 64ms
+[03:31:28.520] Server  LOG      ✓ Compiled in 46ms
+[03:37:13.376] Server  LOG      ✓ Compiled in 57ms
+[03:37:50.571] Server  LOG      ✓ Compiled in 52ms
+[03:38:00.573] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:39:38.482] Server  LOG      ✓ Compiled in 53ms
+[03:39:46.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:40:16.958] Server  LOG      ✓ Compiled in 72ms
+[03:40:54.835] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:41:10.939] Server  LOG      ✓ Compiled in 65ms
+[03:41:45.301] Server  LOG      ✓ Compiled in 75ms
+[03:43:05.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:43:29.651] Server  LOG      ✓ Compiled in 86ms
+[03:44:50.545] Server  LOG     hoveredStep: null
+[03:45:34.654] Server  LOG      ✓ Compiled in 52ms
+[03:46:28.046] Server  LOG      ✓ Compiled in 46ms
+[03:57:53.500] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:57:53.500] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:59:34.736] Server  LOG      ✓ Compiled in 99ms
+[03:59:34.858] Browser ERROR   ./app/centro-de-aprendizaje/page.tsx:408:12
+Parsing ecmascript source code failed
+  406 |           background: 'linear-gradient(135deg, #0047BB 0%, #002677 100%)'
+  407 |         }} />
+> 408 |           />
+      |            ^
+  409 |           {/* Radial Light Circles - VALTO Colors */}
+  410 |           <div 
+  411 |             className="absolute inset-0 opacity-30"
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/centro-de-aprendizaje/page.tsx [Client Component Browser]
+    ./app/centro-de-aprendizaje/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/centro-de-aprendizaje/page.tsx [Client Component SSR]
+    ./app/centro-de-aprendizaje/page.tsx [Server Component]
+[03:59:51.686] Server  LOG      ✓ Compiled in 83ms
+[03:59:51.795] Browser ERROR   ./app/centro-de-aprendizaje/page.tsx:418:10
+Parsing ecmascript source code failed
+  416 |           }}
+  417 |           className="absolute bottom-1/3 right-1/4 w-48 h-48 border-2 border-white/25 rounded-full"
+> 418 |         />
+      |          ^
+  419 |         
+  420 |         {/* Partículas brillantes */}
+  421 |         {[...Array(15)].map((_, i) => (
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/centro-de-aprendizaje/page.tsx [Client Component Browser]
+    ./app/centro-de-aprendizaje/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/centro-de-aprendizaje/page.tsx [Client Component SSR]
+    ./app/centro-de-aprendizaje/page.tsx [Server Component]
+[03:59:51.795] Browser ERROR   ./app/centro-de-aprendizaje/page.tsx:410:12
+Parsing ecmascript source code failed
+  408 |
+  409 |         {/* Content */}
+> 410 |           }}
+      |            ^
+  411 |           transition={{
+  412 |             duration: 20,
+  413 |             repeat: Infinity,
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/centro-de-aprendizaje/page.tsx [Client Component Browser]
+    ./app/centro-de-aprendizaje/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/centro-de-aprendizaje/page.tsx [Client Component SSR]
+    ./app/centro-de-aprendizaje/page.tsx [Server Component]
+[04:00:15.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

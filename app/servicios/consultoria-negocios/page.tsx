@@ -24,23 +24,23 @@ export default function ConsultoriaNegocios() {
   const fases = [
     {
       icon: FileText,
-      titulo: "Fase 1: Constitución Legal",
-      descripcion: "Asesoría completa en la creación de tu empresa, desde la elección del nombre hasta la inscripción en registros"
+      titulo: "Creación y formación de la Empresa",
+      descripcion: "Tener una Empresa es mucho más que comprar y vender, es generar una fuente de ingresos sostenible en el tiempo, que se anticipe a los cambios en el mercado y genere utilidades para reinvertirlas en el negocio. Hacer Empresa es un proyecto de vida que toma tiempo e inversión.s"
     },
     {
       icon: Target,
-      titulo: "Fase 2: Estrategia de Mercado",
-      descripcion: "Identificación de tu público objetivo y desarrollo de estrategias para penetrar efectivamente el mercado"
+      titulo: "Fuentes de financiamiento del negocio",
+      descripcion: "Al principio los negocios son creados con capital de los accionistas, luego de un periodo y si las cosas van por buen camino la empresa puede solicitar financiamiento externo. Este puede ser a corto y largo plazo, dependiendo mucho de qué tipo de inversión desea realizar y como va a generar los flujos para hacer frente a dicha inversión."
     },
     {
       icon: Building,
-      titulo: "Fase 3: Estructura Operativa",
-      descripcion: "Diseño de procesos, organigrama y sistemas para una operación eficiente y escalable"
+      titulo: "Proyecciones de crecimiento y reinversión de utilidades",
+      descripcion: "El crecimiento de las ventas en un negocio está muy relacionado con la reinversión de utilidades. Cuando no existe reinversión, el negocio tendrá que solicitar crédito a terceros y este financiamiento viene de la mano con el costo de la deuda. Con nuestra consultoría te guiaremos en la optimización de capital y el conocimiento del financiamiento requerido externo para el negocio."
     },
     {
       icon: TrendingUp,
-      titulo: "Fase 4: Crecimiento Sostenible",
-      descripcion: "Implementación de estrategias para alcanzar tus objetivos y escalar tu negocio de manera rentable"
+      titulo: "Nuevas líneas de negocio y proyectos de inversión",
+      descripcion: "Crecer es parte de generar nuevas líneas de negocio en tu Empresa. Pero ¿Qué líneas de negocio generan valor para tu Empresa? Nuestra asesoría se enfoca en brindarte información sobre nuevos proyectos que generen utilidades y por ende, mayores beneficios económicos para la caja de tu Empresa. "
     }
   ];
 
@@ -93,12 +93,12 @@ export default function ConsultoriaNegocios() {
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Consultoría%20de%20Negocios"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20información%20sobre%20Consultoría%20de%20Negocios%20%F0%9F%92%BC%F0%9F%93%88"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
+              whileTap={{ scale: 0.95 }}              animate={{ scale: [1, 1.15, 1] }}
+              transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}              className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
               Iniciar mi Negocio
@@ -121,15 +121,9 @@ export default function ConsultoriaNegocios() {
                 De la Idea a la Empresa Exitosa
               </h2>
               <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-Hacer una Empresa va desde elegir el nombre o la razón social, ver los objetos 
-sociales que más se acomodan a tu negocio, inscripción en Registros públicos, buscar 
-el público obje vo, desarrollar las estrategias para obtener los resultados propuestos 
-y todo lo que conlleva tener un negocio listo para empezar a generar ingresos 
-económicos.              </p>
+Hacer una Empresa va desde elegir el nombre o la razón social, ver los objetos sociales que más se acomodan a tu negocio, inscripción en Registros públicos, buscar el público objetivo, desarrollar las estrategias para obtener los resultados propuestos y todo lo que conlleva tener un negocio listo para empezar a generar ingresos económicos.            </p>
               <p className="text-lg text-justify mb-6" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de 
-expertos que te guiarán y te mantendrán a buen recaudo, teniendo como obje vo 
-principal tu salud financiera y el desarrollo de tus obje vos empresariales.               </p>
+Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de expertos que te guiarán y te mantendrán a buen recaudo, teniendo como objetivo principal tu salud financiera y el desarrollo de tus objetivos empresariales.              </p>
             </motion.div>
 
             <motion.div
@@ -206,7 +200,7 @@ principal tu salud financiera y el desarrollo de tus obje vos empresariales.    
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ y: -5 }}
-                className="bg-white rounded-2xl p-8 shadow-lg border-2"
+                className="bg-white rounded-2xl p-8 shadow-lg border-2 text-justify"
                 style={{ borderColor: '#E5E7EB' }}
               >
                 <div className="flex items-start">
@@ -247,10 +241,12 @@ principal tu salud financiera y el desarrollo de tus obje vos empresariales.    
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              animate={{ scale: [1, 1.15, 1] }}
+              transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
-              Agendar Consulta
+              Iniciar mi Negocio
               <ArrowRight className="ml-2 w-5 h-5" />
             </motion.a>
           </motion.div>

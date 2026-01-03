@@ -149,12 +149,12 @@ const navItems = [
         href: "/nosotros"
     },
     {
-        name: "Centro De Aprendizaje",
+        name: "Centro de formación y aprendizaje",
         href: "/centro-de-aprendizaje",
         featured: false
     },
     {
-        name: "Tipo De Cambio",
+        name: "Tipo de cambio del dólar",
         href: "/tipo-cambio"
     }
 ];
@@ -185,7 +185,7 @@ function Navbar() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `flex justify-around items-center transition-all duration-500 ${scrolled ? 'h-24 py-4' : 'h-28 py-5'}`,
+                    className: `flex justify-between items-center transition-all duration-500 ${scrolled ? 'h-24 py-4' : 'h-28 py-5'}`,
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -197,7 +197,7 @@ function Navbar() {
                                     alt: "VALTO Management Consulting",
                                     className: "h-16 md:h-22 w-auto object-contain transition-all duration-500",
                                     style: {
-                                        filter: scrolled ? 'brightness(0) saturate(100%) invert(22%) sepia(93%) saturate(2878%) hue-rotate(210deg) brightness(97%) contrast(101%)' : 'brightness(0) invert(1)'
+                                        filter: scrolled ? 'brightness(0) saturate(100%) invert(14%) sepia(45%) saturate(7490%) hue-rotate(222deg) brightness(96%) contrast(102%)' : 'brightness(0) invert(1)'
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
@@ -292,8 +292,11 @@ function Navbar() {
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/agendar-cita",
-                                    className: `ml-4 px-7 py-3.5 rounded-xl font-semibold text-base transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl ${scrolled ? "bg-valto-blue text-white hover:bg-[#003088]" : "bg-white text-valto-blue hover:bg-blue-50"}`,
-                                    children: "Agendar Consulta"
+                                    className: `ml-4 px-7 py-3.5 rounded-xl font-semibold text-base transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl animate-pulse ${scrolled ? "bg-valto-blue text-white hover:bg-[#003088]" : "bg-white text-valto-blue hover:bg-blue-50"}`,
+                                    style: {
+                                        animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+                                    },
+                                    children: "Solicitar asesoría"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
                                     lineNumber: 154,
@@ -312,18 +315,18 @@ function Navbar() {
                                 size: 26
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 175,
+                                lineNumber: 178,
                                 columnNumber: 23
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 size: 26
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 175,
+                                lineNumber: 178,
                                 columnNumber: 41
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 167,
+                            lineNumber: 170,
                             columnNumber: 11
                         }, this)
                     ]
@@ -385,7 +388,7 @@ function Navbar() {
                                             children: item.name
                                         }, void 0, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 207,
                                             columnNumber: 19
                                         }, this),
                                         item.hasDropdown && item.dropdownItems && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -397,18 +400,18 @@ function Navbar() {
                                                     children: subItem.name
                                                 }, idx, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 214,
+                                                    lineNumber: 217,
                                                     columnNumber: 25
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 212,
+                                            lineNumber: 215,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, item.name, true, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 201,
                                     columnNumber: 17
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -431,12 +434,12 @@ function Navbar() {
                                     children: "Agendar Consulta"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 234,
+                                    lineNumber: 237,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 228,
+                                lineNumber: 231,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -458,7 +461,7 @@ function Navbar() {
                                         children: "Síguenos en:"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 253,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -473,12 +476,12 @@ function Navbar() {
                                                     size: 32
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 258,
+                                                    lineNumber: 261,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 252,
+                                                lineNumber: 255,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -490,12 +493,12 @@ function Navbar() {
                                                     size: 32
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 266,
+                                                    lineNumber: 269,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 260,
+                                                lineNumber: 263,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -507,12 +510,12 @@ function Navbar() {
                                                     size: 32
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 274,
+                                                    lineNumber: 277,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 268,
+                                                lineNumber: 271,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -524,12 +527,12 @@ function Navbar() {
                                                     size: 32
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 285,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 276,
+                                                lineNumber: 279,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -541,40 +544,40 @@ function Navbar() {
                                                     size: 32
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 293,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 284,
+                                                lineNumber: 287,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 251,
+                                        lineNumber: 254,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 244,
+                                lineNumber: 247,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 191,
+                        lineNumber: 194,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Navbar.tsx",
-                    lineNumber: 183,
+                    lineNumber: 186,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 181,
+                lineNumber: 184,
                 columnNumber: 7
             }, this)
         ]
@@ -616,9 +619,9 @@ var _s = __turbopack_context__.k.signature();
 // Lemas rotativos - fuera del componente para evitar recreación
 const lemas = [
     "EMPRESA EXITOSA",
-    "LÍDER DEL MERCADO",
+    "EN UNA MARCA IMPARABLE.",
     "ORGANIZACIÓN RENTABLE",
-    "NEGOCIO SOSTENIBLE"
+    "EN UNA HISTORIA DE ÉXITO."
 ];
 function Hero() {
     _s();
@@ -1418,7 +1421,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book-open.js [app-client] (ecmascript) <export default as BookOpen>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-client] (ecmascript) <export default as Award>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2d$handshake$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__HeartHandshake$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart-handshake.js [app-client] (ecmascript) <export default as HeartHandshake>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$studio$2d$freight$2f$lenis$2f$dist$2f$lenis$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@studio-freight/lenis/dist/lenis.mjs [app-client] (ecmascript)");
 ;
@@ -1428,78 +1430,76 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 const differentiators = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"],
-        title: "Confianza y Transparencia",
-        description: "Te acompañamos en todo el proceso con total claridad.",
-        leftDescription: "Trabajamos con <span class='font-bold text-[#0047BB]'>honestidad y claridad total</span> en cada proyecto. Nuestros procesos son transparentes y sin sorpresas, garantizando tu tranquilidad desde el primer contacto hasta el cierre exitoso.",
+        title: "Claridad",
+        description: "Transparencia total en servicios y costos.",
+        leftDescription: "Establecemos con total <span class='font-bold text-[#0047BB]'>claridad y transparencia</span> los servicios de asesoría o consultoría que se proporcionará y el costo de dichos servicios, en base a las horas de trabajo. Al final de la asesoría se entrega un informe detallado con todo lo realizado y las alternativas de solución más viables para la Empresa.",
         features: [
-            "Brindamos confianza",
-            "Procesos transparentes",
-            "Comunicación clara"
+            "Servicios y costos claros",
+            "Informes detallados",
+            "Alternativas de solución viables"
         ],
         color: "#0047BB"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"],
-        title: "Respuesta Rápida",
-        description: "Evaluación en 24 horas. Resultados en tiempo récord para tu negocio.",
-        leftDescription: "Entendemos que <span class='font-bold text-[#0047BB]'>el tiempo es dinero</span> en los negocios. Por eso garantizamos evaluación inicial en 24 horas y respuestas ágiles en cada etapa del proyecto.",
+        title: "Competencia",
+        description: "Profesionales expertos volcados en tu éxito.",
+        leftDescription: "Contamos con un equipo de <span class='font-bold text-[#0047BB]'>profesionales competentes</span> para la asesoría, consultoría y capacitación empresarial dispuestos a volcar toda su experiencia y conocimiento para la consecución de los objetivos financieros de nuestros clientes.",
         features: [
-            "Evaluación en 24 horas",
-            "Implementación rápida",
-            "Estrategias ágiles"
+            "Equipo profesional competente",
+            "Amplia experiencia",
+            "Enfoque en objetivos financieros"
         ],
         color: "#0047BB"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"],
-        title: "Asesoría Personalizada",
-        description: "Cada empresa es única. Soluciones a medida para tus necesidades específicas.",
-        leftDescription: "No hay dos empresas iguales. Por eso ofrecemos <span class='font-bold text-[#0047BB]'>estrategias personalizadas</span> diseñadas específicamente para tu industria, tamaño y objetivos únicos.",
+        title: "Diligencia",
+        description: "Investigación incisiva y objetivos claros.",
+        leftDescription: "Realizamos una <span class='font-bold text-[#0047BB]'>investigación incisiva</span> a los documentos entregados por el cliente para la ejecución de la asesoría. En base a ello explicamos los objetivos que se espera alcanzar con nuestra consultoría y que impacto tendrán nuestras recomendaciones y sugerencias en la operatividad de la Empresa bajo estos nuevos escenarios.",
         features: [
-            "Análisis personalizado",
-            "Estrategias a medida",
-            "Seguimiento dedicado"
+            "Análisis exhaustivo",
+            "Objetivos claros",
+            "Impacto medible"
         ],
         color: "#0047BB"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"],
-        title: "Centro de Aprendizaje",
-        description: "Accede a recursos gratuitos, tutoriales y soluciones rápidas cuando lo necesites.",
-        leftDescription: "Tu crecimiento es nuestra prioridad. Accede a nuestro <span class='font-bold text-[#0047BB]'>centro de recursos gratuitos</span> con videos, guías y material educativo para potenciar tu negocio.",
+        title: "Integridad",
+        description: "Seriedad, responsabilidad y comunicación efectiva.",
+        leftDescription: "Tomamos con total <span class='font-bold text-[#0047BB]'>seriedad y responsabilidad</span> las labores de consultoría que realizaremos basando todo el proceso en una comunicación efectiva, honesta y profesional, incorporando principios éticos para la consecución de los objetivos en la asesoría.",
         features: [
-            "Videos tutoriales",
-            "Guías descargables",
-            "Enseñarte a crecer"
+            "Comunicación efectiva",
+            "Principios éticos",
+            "Profesionalismo total"
         ],
-        color: "#0047BB",
-        link: "/videos"
+        color: "#0047BB"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"],
-        title: "Experiencia Certificada",
-        description: "Trabajamos +4 años en el sector. ayudando a crecer a muchas empresas.",
-        leftDescription: "Nuestro equipo cuenta con <span class='font-bold text-[#0047BB]'>experiencia suficiente</span> y más de 4 años de experiencia transformando pequeñas y medianas empresas en líderes de su sector.",
+        title: "Objetividad",
+        description: "Las necesidades del cliente en el centro.",
+        leftDescription: "Las necesidades del cliente están en el <span class='font-bold text-[#0047BB]'>centro de nuestras consultorías</span>, para ello, en una reunión inicial, fijamos los objetivos y cuantificamos los resultados esperados. Todo en base a la situación real y cuidando pecar de optimistas al momento de desarrollar las proyecciones futuras.",
         features: [
-            "+4 años de experiencia",
-            "Fortalecimiento empresarial",
-            "Casos de éxito probados"
+            "Enfoque en necesidades reales",
+            "Objetivos cuantificables",
+            "Proyecciones realistas"
         ],
         color: "#0047BB"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2d$handshake$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__HeartHandshake$3e$__["HeartHandshake"],
-        title: "Compromiso con tu Éxito",
-        description: "No cobramos hasta que tu crédito sea aprobado. Tu éxito es nuestro éxito.",
-        leftDescription: "Tu éxito es nuestro éxito. Trabajamos con un <span class='font-bold text-[#0047BB]'>compromiso genuino</span> por alcanzar tus objetivos, acompañándote en cada paso del camino.",
+        title: "Privacidad",
+        description: "Tu información bajo estricta confidencialidad.",
+        leftDescription: "Tomamos toda la información financiera y empresarial como uno de nuestros <span class='font-bold text-[#0047BB]'>secretos mejor guardados</span>, manteniendo todo en estricta confidencialidad, pudiendo, en algún momento, utilizarlos para negociaciones en su representación y bajo consentimiento del cliente.",
         features: [
-            "Orientación 100% al resultado",
-            "Seguimiento personalizado",
-            "Garantía de satisfacción"
+            "Confidencialidad absoluta",
+            "Información protegida",
+            "Consentimiento del cliente"
         ],
         color: "#0047BB"
     }
@@ -1564,7 +1564,7 @@ function ValueProposition() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ValueProposition.tsx",
-                        lineNumber: 112,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1591,13 +1591,13 @@ function ValueProposition() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ValueProposition.tsx",
-                        lineNumber: 125,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ValueProposition.tsx",
-                lineNumber: 111,
+                lineNumber: 110,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1634,11 +1634,11 @@ function ValueProposition() {
                                 className: "inline-block mb-4"
                             }, void 0, false, {
                                 fileName: "[project]/components/ValueProposition.tsx",
-                                lineNumber: 148,
+                                lineNumber: 147,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 font-futura-lux",
+                                className: "text-4xl md:text-6xl lg:text-6xl font-bold text-gray-900 mb-6 font-futura-lux",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
@@ -1647,7 +1647,7 @@ function ValueProposition() {
                                         children: "¿Por que confiar en"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ValueProposition.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 156,
                                         columnNumber: 13
                                     }, this),
                                     " ",
@@ -1659,31 +1659,31 @@ function ValueProposition() {
                                         children: "NOSOTROS?"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ValueProposition.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 156,
                                         columnNumber: 76
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ValueProposition.tsx",
-                                lineNumber: 156,
+                                lineNumber: 155,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-2xl text-justify md:text-3xl text-gray-600 max-w-4xl mx-auto font-futura-book",
+                                className: "text-xl text-justify md:text-xl text-gray-600 max-w-4xl mx-auto font-futura-book",
                                 children: "Contamos con una experiencia de más de nueve (09) años en el campo empresarial y hemos sido testigos de situaciones difíciles a nivel mundial como el Covid 2019, en base a ello, ofrecemos soluciones en asesoría, consultoría y capacitación que permitirán a tu negocio a seguir operando bajo distintos escenarios."
                             }, void 0, false, {
                                 fileName: "[project]/components/ValueProposition.tsx",
-                                lineNumber: 161,
+                                lineNumber: 160,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ValueProposition.tsx",
-                        lineNumber: 142,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8 mb-16",
+                        className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8 mb-16 items-stretch",
                         children: differentiators.map(_s1((item, index)=>{
                             _s1();
                             // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -1698,13 +1698,13 @@ function ValueProposition() {
                             });
                             // Alternamos entre izquierda y derecha según el índice
                             const isLeft = index % 2 === 0;
-                            // Para desktop: parallax horizontal
+                            // Para desktop: parallax horizontal - se acercan más al centro
                             const xDesktop = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
                                 0,
                                 1
                             ], [
-                                isLeft ? -150 : 150,
-                                0
+                                isLeft ? -120 : 120,
+                                isLeft ? 30 : -30
                             ]);
                             // Para móvil: fade in desde abajo
                             const yMobile = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
@@ -1725,7 +1725,7 @@ function ValueProposition() {
                             ]);
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                 ref: cardRef,
-                                className: "group w-full",
+                                className: "group w-full h-full flex",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                         style: {
@@ -1743,157 +1743,14 @@ function ValueProposition() {
                                                 duration: 0.2
                                             }
                                         },
-                                        className: "hidden md:block",
-                                        children: item.link ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: item.link,
+                                        className: "hidden md:block w-full",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 h-full bg-white min-h-[400px]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 h-full cursor-pointer bg-white",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "grid grid-cols-2",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "p-6 lg:p-8 bg-white",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-gray-700 text-sm lg:text-base mb-4 leading-relaxed",
-                                                                    style: {
-                                                                        fontFamily: 'Arial, sans-serif'
-                                                                    },
-                                                                    dangerouslySetInnerHTML: {
-                                                                        __html: item.leftDescription
-                                                                    }
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 210,
-                                                                    columnNumber: 29
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "space-y-2",
-                                                                    children: item.features.map((feature, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "flex items-center space-x-3",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "w-6 h-6 rounded-full bg-[#0047BB] flex items-center justify-center flex-shrink-0",
-                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                                                        className: "w-3.5 h-3.5 text-white",
-                                                                                        fill: "none",
-                                                                                        stroke: "currentColor",
-                                                                                        viewBox: "0 0 24 24",
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                                                            strokeLinecap: "round",
-                                                                                            strokeLinejoin: "round",
-                                                                                            strokeWidth: 3,
-                                                                                            d: "M5 13l4 4L19 7"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                                                            lineNumber: 218,
-                                                                                            columnNumber: 39
-                                                                                        }, this)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/components/ValueProposition.tsx",
-                                                                                        lineNumber: 217,
-                                                                                        columnNumber: 37
-                                                                                    }, this)
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                                    lineNumber: 216,
-                                                                                    columnNumber: 35
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                    className: "text-gray-700 text-xs lg:text-sm font-medium",
-                                                                                    children: feature
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                                    lineNumber: 221,
-                                                                                    columnNumber: 35
-                                                                                }, this)
-                                                                            ]
-                                                                        }, i, true, {
-                                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                                            lineNumber: 215,
-                                                                            columnNumber: 33
-                                                                        }, this))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 213,
-                                                                    columnNumber: 29
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                            lineNumber: 209,
-                                                            columnNumber: 27
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "p-6 lg:p-8 bg-gradient-to-br from-[#002677] to-[#0047BB] flex flex-col justify-center",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                                    whileHover: {
-                                                                        scale: 1.1
-                                                                    },
-                                                                    className: "w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center mb-4 bg-white/10 backdrop-blur-sm mx-auto",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
-                                                                        className: "w-8 h-8 lg:w-10 lg:h-10 text-white"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ValueProposition.tsx",
-                                                                        lineNumber: 233,
-                                                                        columnNumber: 31
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 229,
-                                                                    columnNumber: 29
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-xl lg:text-2xl font-bold text-white mb-3 text-center",
-                                                                    style: {
-                                                                        fontFamily: 'Futura, sans-serif'
-                                                                    },
-                                                                    children: item.title
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 236,
-                                                                    columnNumber: 29
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-white/90 text-sm lg:text-base leading-relaxed text-center",
-                                                                    style: {
-                                                                        fontFamily: 'Arial, sans-serif'
-                                                                    },
-                                                                    children: item.description
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 240,
-                                                                    columnNumber: 29
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                            lineNumber: 228,
-                                                            columnNumber: 27
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                    lineNumber: 207,
-                                                    columnNumber: 25
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/ValueProposition.tsx",
-                                                lineNumber: 206,
-                                                columnNumber: 23
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ValueProposition.tsx",
-                                            lineNumber: 205,
-                                            columnNumber: 21
-                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 h-full bg-white",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "grid grid-cols-2",
+                                                className: "grid grid-cols-2 h-full",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "p-6 lg:p-8 bg-white",
+                                                        className: "p-6 lg:p-8 bg-white flex flex-col justify-between min-h-full",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "text-gray-700 text-sm lg:text-base mb-4 leading-relaxed",
@@ -1905,8 +1762,8 @@ function ValueProposition() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 252,
-                                                                columnNumber: 27
+                                                                lineNumber: 207,
+                                                                columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "space-y-2",
@@ -1927,63 +1784,63 @@ function ValueProposition() {
                                                                                         d: "M5 13l4 4L19 7"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                                                        lineNumber: 260,
-                                                                                        columnNumber: 37
+                                                                                        lineNumber: 215,
+                                                                                        columnNumber: 35
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/ValueProposition.tsx",
-                                                                                    lineNumber: 259,
-                                                                                    columnNumber: 35
+                                                                                    lineNumber: 214,
+                                                                                    columnNumber: 33
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                                lineNumber: 258,
-                                                                                columnNumber: 33
+                                                                                lineNumber: 213,
+                                                                                columnNumber: 31
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-gray-700 text-xs lg:text-sm font-medium",
                                                                                 children: feature
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                                lineNumber: 263,
-                                                                                columnNumber: 33
+                                                                                lineNumber: 218,
+                                                                                columnNumber: 31
                                                                             }, this)
                                                                         ]
                                                                     }, i, true, {
                                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                                        lineNumber: 257,
-                                                                        columnNumber: 31
+                                                                        lineNumber: 212,
+                                                                        columnNumber: 29
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 255,
-                                                                columnNumber: 27
+                                                                lineNumber: 210,
+                                                                columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                        lineNumber: 251,
-                                                        columnNumber: 25
+                                                        lineNumber: 206,
+                                                        columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "p-6 lg:p-8 bg-gradient-to-br from-[#002677] to-[#0047BB] flex flex-col justify-center",
+                                                        className: "p-6 lg:p-8 bg-gradient-to-br from-[#002677] to-[#0047BB] flex flex-col justify-center items-center",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                                                 whileHover: {
                                                                     scale: 1.1
                                                                 },
-                                                                className: "w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center mb-4 bg-white/10 backdrop-blur-sm mx-auto",
+                                                                className: "w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center mb-4 bg-white/10 backdrop-blur-sm",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
                                                                     className: "w-8 h-8 lg:w-10 lg:h-10 text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 275,
-                                                                    columnNumber: 29
+                                                                    lineNumber: 230,
+                                                                    columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 271,
-                                                                columnNumber: 27
+                                                                lineNumber: 226,
+                                                                columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl lg:text-2xl font-bold text-white mb-3 text-center",
@@ -1993,8 +1850,8 @@ function ValueProposition() {
                                                                 children: item.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 278,
-                                                                columnNumber: 27
+                                                                lineNumber: 233,
+                                                                columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "text-white/90 text-sm lg:text-base leading-relaxed text-center",
@@ -2004,29 +1861,29 @@ function ValueProposition() {
                                                                 children: item.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 282,
-                                                                columnNumber: 27
+                                                                lineNumber: 237,
+                                                                columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                        lineNumber: 270,
-                                                        columnNumber: 25
+                                                        lineNumber: 225,
+                                                        columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                lineNumber: 249,
-                                                columnNumber: 23
+                                                lineNumber: 204,
+                                                columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/ValueProposition.tsx",
-                                            lineNumber: 248,
-                                            columnNumber: 21
+                                            lineNumber: 203,
+                                            columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ValueProposition.tsx",
-                                        lineNumber: 195,
+                                        lineNumber: 194,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2040,148 +1897,7 @@ function ValueProposition() {
                                             damping: 20
                                         },
                                         className: "block md:hidden",
-                                        children: item.link ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: item.link,
-                                            className: "block",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 h-full cursor-pointer bg-white",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "grid grid-cols-1",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "p-5 bg-white",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-gray-700 text-sm mb-4 leading-relaxed",
-                                                                    style: {
-                                                                        fontFamily: 'Arial, sans-serif'
-                                                                    },
-                                                                    dangerouslySetInnerHTML: {
-                                                                        __html: item.leftDescription
-                                                                    }
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 306,
-                                                                    columnNumber: 29
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "space-y-2",
-                                                                    children: item.features.map((feature, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "flex items-center space-x-2",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "w-5 h-5 rounded-full bg-[#0047BB] flex items-center justify-center flex-shrink-0",
-                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                                                        className: "w-3 h-3 text-white",
-                                                                                        fill: "none",
-                                                                                        stroke: "currentColor",
-                                                                                        viewBox: "0 0 24 24",
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                                                            strokeLinecap: "round",
-                                                                                            strokeLinejoin: "round",
-                                                                                            strokeWidth: 3,
-                                                                                            d: "M5 13l4 4L19 7"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                                                            lineNumber: 314,
-                                                                                            columnNumber: 39
-                                                                                        }, this)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/components/ValueProposition.tsx",
-                                                                                        lineNumber: 313,
-                                                                                        columnNumber: 37
-                                                                                    }, this)
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                                    lineNumber: 312,
-                                                                                    columnNumber: 35
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                    className: "text-gray-700 text-xs font-medium",
-                                                                                    children: feature
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                                    lineNumber: 317,
-                                                                                    columnNumber: 35
-                                                                                }, this)
-                                                                            ]
-                                                                        }, i, true, {
-                                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                                            lineNumber: 311,
-                                                                            columnNumber: 33
-                                                                        }, this))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 309,
-                                                                    columnNumber: 29
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                            lineNumber: 305,
-                                                            columnNumber: 27
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "p-5 bg-gradient-to-br from-[#002677] to-[#0047BB] flex flex-col justify-center",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                                    className: "w-16 h-16 rounded-xl flex items-center justify-center mb-4 bg-white/10 backdrop-blur-sm mx-auto",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
-                                                                        className: "w-8 h-8 text-white"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ValueProposition.tsx",
-                                                                        lineNumber: 328,
-                                                                        columnNumber: 31
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 325,
-                                                                    columnNumber: 29
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-xl font-bold text-white mb-3 text-center",
-                                                                    style: {
-                                                                        fontFamily: 'Futura, sans-serif'
-                                                                    },
-                                                                    children: item.title
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 331,
-                                                                    columnNumber: 29
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-white/90 text-sm leading-relaxed text-center",
-                                                                    style: {
-                                                                        fontFamily: 'Arial, sans-serif'
-                                                                    },
-                                                                    children: item.description
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 335,
-                                                                    columnNumber: 29
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/ValueProposition.tsx",
-                                                            lineNumber: 324,
-                                                            columnNumber: 27
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/ValueProposition.tsx",
-                                                    lineNumber: 303,
-                                                    columnNumber: 25
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/ValueProposition.tsx",
-                                                lineNumber: 302,
-                                                columnNumber: 23
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ValueProposition.tsx",
-                                            lineNumber: 301,
-                                            columnNumber: 21
-                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 h-full bg-white",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "grid grid-cols-1",
@@ -2199,8 +1915,8 @@ function ValueProposition() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 347,
-                                                                columnNumber: 27
+                                                                lineNumber: 258,
+                                                                columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "space-y-2",
@@ -2221,43 +1937,43 @@ function ValueProposition() {
                                                                                         d: "M5 13l4 4L19 7"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                                                        lineNumber: 355,
-                                                                                        columnNumber: 37
+                                                                                        lineNumber: 266,
+                                                                                        columnNumber: 35
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/ValueProposition.tsx",
-                                                                                    lineNumber: 354,
-                                                                                    columnNumber: 35
+                                                                                    lineNumber: 265,
+                                                                                    columnNumber: 33
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                                lineNumber: 353,
-                                                                                columnNumber: 33
+                                                                                lineNumber: 264,
+                                                                                columnNumber: 31
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-gray-700 text-xs font-medium",
                                                                                 children: feature
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                                lineNumber: 358,
-                                                                                columnNumber: 33
+                                                                                lineNumber: 269,
+                                                                                columnNumber: 31
                                                                             }, this)
                                                                         ]
                                                                     }, i, true, {
                                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                                        lineNumber: 352,
-                                                                        columnNumber: 31
+                                                                        lineNumber: 263,
+                                                                        columnNumber: 29
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 350,
-                                                                columnNumber: 27
+                                                                lineNumber: 261,
+                                                                columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                        lineNumber: 346,
-                                                        columnNumber: 25
+                                                        lineNumber: 257,
+                                                        columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "p-5 bg-gradient-to-br from-[#002677] to-[#0047BB] flex flex-col justify-center",
@@ -2268,13 +1984,13 @@ function ValueProposition() {
                                                                     className: "w-8 h-8 text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ValueProposition.tsx",
-                                                                    lineNumber: 369,
-                                                                    columnNumber: 29
+                                                                    lineNumber: 280,
+                                                                    columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 366,
-                                                                columnNumber: 27
+                                                                lineNumber: 277,
+                                                                columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "text-xl font-bold text-white mb-3 text-center",
@@ -2284,8 +2000,8 @@ function ValueProposition() {
                                                                 children: item.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 372,
-                                                                columnNumber: 27
+                                                                lineNumber: 283,
+                                                                columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "text-white/90 text-sm leading-relaxed text-center",
@@ -2295,35 +2011,35 @@ function ValueProposition() {
                                                                 children: item.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                                lineNumber: 376,
-                                                                columnNumber: 27
+                                                                lineNumber: 287,
+                                                                columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ValueProposition.tsx",
-                                                        lineNumber: 365,
-                                                        columnNumber: 25
+                                                        lineNumber: 276,
+                                                        columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ValueProposition.tsx",
-                                                lineNumber: 344,
-                                                columnNumber: 23
+                                                lineNumber: 255,
+                                                columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/ValueProposition.tsx",
-                                            lineNumber: 343,
-                                            columnNumber: 21
+                                            lineNumber: 254,
+                                            columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ValueProposition.tsx",
-                                        lineNumber: 292,
+                                        lineNumber: 246,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/components/ValueProposition.tsx",
-                                lineNumber: 189,
+                                lineNumber: 188,
                                 columnNumber: 15
                             }, this);
                         }, "jmp+ElYCd9tMfQIirIToJUoAfuY=", false, function() {
@@ -2336,19 +2052,19 @@ function ValueProposition() {
                         }))
                     }, void 0, false, {
                         fileName: "[project]/components/ValueProposition.tsx",
-                        lineNumber: 170,
+                        lineNumber: 169,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ValueProposition.tsx",
-                lineNumber: 140,
+                lineNumber: 139,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ValueProposition.tsx",
-        lineNumber: 109,
+        lineNumber: 108,
         columnNumber: 5
     }, this);
 }
@@ -5109,7 +4825,7 @@ function Footer() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/logo222.png",
                                         alt: "VALTO Management Consulting",
-                                        className: "h-20 w-auto object-contain"
+                                        className: "h-16 md:h-22 w-auto object-contain"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.tsx",
                                         lineNumber: 17,

@@ -103,31 +103,20 @@ export default function NosotrosPage() {
       {/* Modern Hero Section with Parallax */}
       <section ref={heroRef} className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Parallax Background */}
-        <motion.div 
-          className="absolute inset-0 z-0 pt-16 sm:pt-0"
-          style={{ scale }}
+        <div 
+          className="absolute inset-0 z-0 w-full h-full"
         >
-          <div className="absolute inset-0 z-10 mix-blend-multiply pt-20" />
-          
           <Image 
-            src="/fotoportada2.png" 
+            src="/image.png" 
             alt="VALTO Team" 
-            style={{ objectPosition: '10% 0%' }}
             fill
-            className="object-cover object-top"
+            className="object-cover object-center"
             quality={100}
             priority
+            unoptimized
             sizes="100vw"
           />
-        </motion.div>
-
-        {/* Animated Gradient Overlay */}
-        <motion.div
-          className="absolute inset-0 z-10"
-          style={{ opacity }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
-        </motion.div>
+        </div>
 
         {/* Hero Content */}
         <div className="relative z-20 max-w-7xl mx-auto px-4 text-center flex items-end h-full pb-32 sm:pb-40 md:pb-48">
@@ -595,7 +584,7 @@ accionistas e inversionistas de la Empresa.
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20una%20Capacitación%20"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20una%20Capacitación%20%F0%9F%93%9A%F0%9F%92%BC"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 inline-flex items-center justify-center gap-2 font-futura-lux"

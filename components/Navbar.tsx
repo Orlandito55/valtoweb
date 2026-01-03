@@ -47,12 +47,12 @@ const navItems = [
       { name: "Asesoría Académica para estudiantes de pre y postgrado", href: "/servicios/asesoria-academica-universitaria" },
       { name: "Capacitación Empresarial", href: "/servicios/capacitacion-empresarial" },
       { name: "Consultoría de Negocios", href: "/servicios/consultoria-negocios" },
-      { name: "Formación de Emprendedores", href: "/servicios/formacion-emprendedores" },
+      { name: "Formación de emprendedores y empresarios", href: "/servicios/formacion-emprendedores" },
     ]
   },
   { name: "Nosotros", href: "/nosotros" },
-  { name: "Centro De Aprendizaje", href: "/centro-de-aprendizaje", featured: false },
-  { name: "Tipo De Cambio", href: "/tipo-cambio" },
+  { name: "Centro de formación y aprendizaje", href: "/centro-de-aprendizaje", featured: false },
+  { name: "Tipo de cambio del dólar", href: "/tipo-cambio" },
 ];
 
 export default function Navbar() {
@@ -81,7 +81,7 @@ export default function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`flex justify-around items-center transition-all duration-500 ${scrolled ? 'h-24 py-4' : 'h-28 py-5'}`}>
+        <div className={`flex justify-between items-center transition-all duration-500 ${scrolled ? 'h-24 py-4' : 'h-28 py-5'}`}>
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <div className="flex items-center">
@@ -89,7 +89,7 @@ export default function Navbar() {
                 src="/logo222.png" 
                 alt="VALTO Management Consulting" 
                 className="h-16 md:h-22 w-auto object-contain transition-all duration-500"
-                style={{ filter: scrolled ? 'brightness(0) saturate(100%) invert(22%) sepia(93%) saturate(2878%) hue-rotate(210deg) brightness(97%) contrast(101%)' : 'brightness(0) invert(1)' }}
+                style={{ filter: scrolled ? 'brightness(0) saturate(100%) invert(14%) sepia(45%) saturate(7490%) hue-rotate(222deg) brightness(96%) contrast(102%)' : 'brightness(0) invert(1)' }}
               />
             </div>
           </Link>
@@ -153,13 +153,16 @@ export default function Navbar() {
             
             <Link
               href="/agendar-cita"
-              className={`ml-4 px-7 py-3.5 rounded-xl font-semibold text-base transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl ${
+              className={`ml-4 px-7 py-3.5 rounded-xl font-semibold text-base transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl animate-pulse ${
                 scrolled 
                   ? "bg-valto-blue text-white hover:bg-[#003088]" 
                   : "bg-white text-valto-blue hover:bg-blue-50"
               }`}
+              style={{
+                animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+              }}
             >
-              Agendar Consulta
+              Solicitar asesoría 
             </Link>
           </div>
 
@@ -236,7 +239,7 @@ export default function Navbar() {
                   onClick={() => setIsOpen(false)}
                   className="block w-full text-center text-white px-6 py-4 rounded-xl font-semibold transition-all shadow-lg bg-white/10 hover:bg-white/20 border-2 border-white"
                 >
-                  Agendar Consulta
+                  Solicitar asesoría
                 </Link>
               </motion.div>
 

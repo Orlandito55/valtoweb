@@ -25,23 +25,23 @@ export default function FormacionEmprendedores() {
   const modulos = [
     {
       icon: Brain,
-      titulo: "Mentalidad Empresarial",
-      descripcion: "Transforma tu forma de pensar de emprendedor a empresario exitoso"
+      titulo: "Emprendedor VS Empresario",
+      descripcion: "Muchos confunden estos términos y la realidad es que son conceptos totalmente distintos. El emprendedor toma decisiones en base a las compras y ventas del negocio, en cambio, el empresario lee estados financieros, evalúa que le conviene más, comprar o alquilar, entregar mercadería al contado o al crédito, dialoga con el contador para ver temas laborales, tributarios y financieros."
     },
     {
       icon: Target,
-      titulo: "Estrategias de Negocio",
-      descripcion: "Aprende a crear y ejecutar planes estratégicos para tu emprendimiento"
+      titulo: "Contabilidad general",
+      descripcion: "La base de todo negocio es la Contabilidad, todo lo que ingresa a la Empresa tuvo un financiamiento que puede ser propio o de terceros. Esa es la base para la Contabilidad. También se conoce como partida doble. En nuestro programa de formación aprenderás de manera detallada todos estos conceptos."
     },
     {
       icon: Users,
-      titulo: "Liderazgo y Equipos",
-      descripcion: "Desarrolla habilidades para construir y dirigir equipos de alto rendimiento"
+      titulo: "Análisis del punto de equilibrio",
+      descripcion: "Todo negocio necesita un mínimo de ventas para seguir funcionando. Con ese mínimo de ventas cubres los costos fijos y variables de la Empresa. A partir del excedente ya estas generando utilidad y esa utilidad puede ser utilizada en reinversión o entregada a los accionistas como dividendos."
     },
     {
       icon: Award,
-      titulo: "Competitividad",
-      descripcion: "Destaca en el ecosistema empresarial con ventajas competitivas sostenibles en el tiempo"
+      titulo: "Finanzas para la Empresa",
+      descripcion: "Con nuestra formación conocerás postulados como El valor del dinero en el tiempo, valor actual, valor futuro, tasa efectiva, tasa nominal y otros más que van de la mano con la toma d decisones en base a las finanzas del negocio."
     }
   ];
 
@@ -104,11 +104,13 @@ export default function FormacionEmprendedores() {
             </p>
 
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20información%20sobre%20Formación%20de%20Emprendedores"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20información%20sobre%20Formación%20de%20Emprendedores%20%F0%9F%9A%80%F0%9F%92%BC"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              animate={{ scale: [1, 1.15, 1] }}
+              transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
@@ -132,16 +134,9 @@ export default function FormacionEmprendedores() {
                 Formación de emprendedores y empresarios
               </h2>
               <p className="text-xl text-justify mb-4" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-Ser Emprendedor es muy dis nto a ser empresario. El emprendedor es aquella 
-persona que ene las ganas de hacer algo propio, algo diferente, pero esto no basta 
-para tener éxito en el enmarañado mundo de los negocios. A ello es necesario 
-sumarle conocimiento, habilidades financieras, planificación y diferentes so skills 
-que marcarán la diferencia en el ecosistema empresarial.               </p>
+Ser Emprendedor es muy distinto a ser empresario. El emprendedor es aquella persona que tiene las ganas de hacer algo propio, algo diferente, pero esto no basta para tener éxito en el enmarañado mundo de los negocios. A ello es necesario sumarle conocimiento, habilidades financieras, planificación y diferentes soft skills que marcarán la diferencia en el ecosistema empresarial.              </p>
               <p className="text-xl text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-Nos encargamos de conver rte en un empresario que toma decisiones en base a los 
-números del negocio, a factores internos y externos del sector donde te desarrollas, 
-a medir los riesgos que asumes al entrar en nuevas industrias y los beneficios que 
-estas operaciones te pueden generar.               </p>
+Nos encargamos de convertirte en un empresario que toma decisiones en base a los números del negocio, a factores internos y externos del sector donde te desarrollas, a medir los riesgos que asumes al entrar en nuevas industrias y los beneficios que estas operaciones te pueden generar.              </p>
             </motion.div>
 
             <motion.div
@@ -256,7 +251,7 @@ estas operaciones te pueden generar.               </p>
               No dejes que la falta de conocimiento limite tu potencial. Únete a nuestra comunidad de empresarios exitosos y transforma tu emprendimiento en un negocio sólido y rentable.
             </p>
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20inscribirme%20en%20Formación%20de%20Emprendedores"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20inscribirme%20en%20Formación%20de%20Emprendedores%20%F0%9F%9A%80%F0%9F%92%BC%E2%9C%A8"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -264,7 +259,7 @@ estas operaciones te pueden generar.               </p>
               className="inline-flex items-center px-8 py-4 bg-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
               style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
             >
-              Inscribirme Ahora
+              Comenzar mi Transformación 
               <ArrowRight className="ml-2 w-5 h-5" />
             </motion.a>
           </motion.div>

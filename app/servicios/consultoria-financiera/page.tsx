@@ -16,10 +16,11 @@ export default function ConsultoriaFinanciera() {
     "Plan de financiamiento y estructuración de capital.",
     "Flujo de caja libre para la firma",
     "Flujo de caja libre para el accionista.",
-    "Análisis de sensibilidad y de escenarios bajo probabilidades de ocurrencia.",
-    "Planificación financiera. ",
+    "Evaluación por medio de indicadores financieros.",
+    "Análisis de sensibilidad y de escenarios bajo probabilidades de ocurrencia. ",
+    "Planificación financiera.",
     "Portafolio de inversiones.",
-    "Valorización de ac vos financieros.",
+    "Valorización de activos financieros.",
 
   ];
 
@@ -131,16 +132,10 @@ export default function ConsultoriaFinanciera() {
                 Las Finanzas: El Corazón de tu Empresa
               </h2>
               <p className="text-lg mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                 Tomar decisiones en base a los números que brinda tu empresa; proyectando los 
-futuros ingresos y gastos, bajo distintos escenarios, es el camino correcto para 
-generar valor en las inversiones que realizas.
+                 Tomar decisiones en base a los números que brinda tu empresa; proyectando los futuros ingresos y gastos, bajo distintos escenarios, es el camino correcto para generar valor en las inversiones que realizas.
               </p>
               <p className="text-lg mb-6 text-justify" style={{ color: '#4B5563', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.8' }}>
-                Con nuestra asesoría; tus decisiones de inversión y de financiamiento tienen una 
-base sólida en principios como el Valor del dinero en el tiempo y otros postulados 
-de la Economía moderna que mantienen tus finanzas a buen recaudo, siempre 
-tomando en cuenta la relación entre el riesgo y rendimiento que estás dispuesto a 
-aceptar en la industria en la que actualmente te encuentras.
+                Con nuestra asesoría; tus decisiones de inversión y de financiamiento tienen una base sólida en principios como el Valor del dinero en el tiempo y otros postulados de la Economía moderna que mantienen tus finanzas a buen recaudo, siempre tomando en cuenta la relación entre el riesgo y rendimiento que estás dispuesto a aceptar en la industria en la que actualmente te encuentras.
               </p>
               <div className="flex items-center p-6 rounded-xl" style={{ backgroundColor: '#0047BB10' }}>
                 <PieChart className="w-12 h-12 mr-4" style={{ color: '#0047BB' }} />
@@ -181,7 +176,7 @@ aceptar en la industria en la que actualmente te encuentras.
               className="bg-white rounded-2xl shadow-xl p-8"
             >
               <h3 className="text-2xl font-bold mb-6" style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                Servicios Financieros
+                Nuestros servicios de Asesoría financiera incluyen:
               </h3>
               <ul className="grid md:grid-cols-2 gap-4">
                 {servicios.map((servicio, index) => (
@@ -264,7 +259,7 @@ aceptar en la industria en la que actualmente te encuentras.
               Trabaja con especialistas que entienden el valor del dinero en el tiempo y su implicancia en las finanzas empresariales de tu empresa.
             </p>
             <motion.a
-              href="https://wa.me/51920000848?text=Hola,%20quisiera%20solicitar%20un%20análisis%20financiero"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20solicitar%20un%20análisis%20financiero%20%F0%9F%92%B0%F0%9F%93%88%F0%9F%92%BC"
               target="_blank"
               rel="noopener noreferrer"
              animate={{

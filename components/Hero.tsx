@@ -9,9 +9,9 @@ import 'react-phone-number-input/style.css';
 // Lemas rotativos - fuera del componente para evitar recreación
 const lemas = [
   "EMPRESA EXITOSA",
-  "LÍDER DEL MERCADO",
+  "MARCA IMPARABLE.",
   "ORGANIZACIÓN RENTABLE",
-  "NEGOCIO SOSTENIBLE"
+  "HISTORIA DE ÉXITO."
 ];
 
 export default function Hero() {

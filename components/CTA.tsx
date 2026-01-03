@@ -1,7 +1,7 @@
 
 "use client";
 import { motion } from "framer-motion";
-import { ArrowRight, Phone, Mail, MapPin } from "lucide-react";
+import { ArrowRight, Phone, Mail, MapPin, ShieldCheck } from "lucide-react";
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import { useState } from "react";
@@ -115,22 +115,26 @@ ${formData.proyecto}
                 ¿Listo para Impulsar tu Negocio?
               </h2>
               <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-                Agenda una consulta gratuita y descubre cómo podemos ayudarte a
-                alcanzar tus objetivos empresariales.
+                Agenda una asesoría y descubre como podemos ayudarte a alcanzar tus objetivos empresariales.
               </p>
               {/* Contact info */}
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 mr-3" />
-                  <span className="text-lg">+51 963-123-465</span>
+                  <span className="text-lg">+51 920 000 848</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 mr-3" />
-                  <span className="text-lg">info@valto.com.gt</span>
+                  <span className="text-lg">glatorre@valto.com.pe</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-6 h-6 mr-3" />
-                  <span className="text-lg">Perú, Perú</span>
+                  <span className="text-lg">Lima – Perú.</span>
+                </div>
+
+                <div className="flex items-center">
+                  <ShieldCheck className="w-6 h-6 mr-3" />
+                  <span className="text-lg">Marca registrada en Indecopi.</span>
                 </div>
               </div>
               <motion.button
