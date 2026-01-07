@@ -176,8 +176,8 @@ export default function TipoCambioPage() {
                 </div>
               </motion.div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-            Tipo De Cambio <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
-                  Del Dolar Americano
+            Tipo de cambio del dolar <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                   Americano
                 </span>
           </h2>
               <p className="text-xl text-gray-700">
@@ -236,46 +236,6 @@ export default function TipoCambioPage() {
             </div>
           </motion.div>
 
-          {/* Info y Actualizar */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-            className="bg-gray-50 rounded-3xl p-6 border border-gray-200 shadow-2xl mb-8"
-          >
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <div className="text-gray-900">
-                <p className="text-lg font-semibold mb-1">Última actualización</p>
-                <p className="text-gray-700">
-                  {exchangeRate?.fecha ? new Date(exchangeRate.fecha).toLocaleDateString('es-PE', {
-                    weekday: 'long',
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  }) : '-'}
-                  {exchangeRate?.fecha && (
-                    <span className="ml-2">
-                      {new Date(exchangeRate.fecha).toLocaleTimeString('es-PE', {
-                        hour: '2-digit',
-                        minute: '2-digit',
-                        second: '2-digit',
-                        timeZone: 'UTC'
-                      })} UTC
-                    </span>
-                  )}
-                </p>
-              </div>
-              <button
-                onClick={fetchExchangeRate}
-                disabled={loading}
-                className="flex items-center gap-2 bg-[#0047BB] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[#003088] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <RefreshCw className={`w-5 h-5 ${loading ? 'animate-spin' : ''}`} />
-                Actualizar
-              </button>
-            </div>
-          </motion.div>
-
           {/* Calculadora de Conversión */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -304,7 +264,7 @@ export default function TipoCambioPage() {
             <div className="bg-white rounded-3xl p-3 md:p-8 shadow-2xl">
               {/* Input Superior */}
               <div className="relative mb-4 md:mb-6">
-                <label className="text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block uppercase tracking-wide">
+                <label className="text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block tracking-wide">
                   {conversionType === 'PEN_TO_USD' ? 'Tú Envías' : 'Tú Recibes'}
                 </label>
                 <div className="flex items-center gap-2 md:gap-3">
@@ -344,7 +304,7 @@ export default function TipoCambioPage() {
 
               {/* Input Inferior */}
               <div className="relative mt-4 md:mt-6">
-                <label className="text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block uppercase tracking-wide">
+                <label className="text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block tracking-wide">
                   {conversionType === 'PEN_TO_USD' ? 'Tú Recibes' : 'Tú Envías'}
                 </label>
                 <div className="flex items-center gap-2 md:gap-3">

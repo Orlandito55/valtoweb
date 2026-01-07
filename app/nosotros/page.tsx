@@ -268,9 +268,13 @@ export default function NosotrosPage() {
               >
                 {/* Title */}
                 <div className="mb-2 text-center">
-                  <span className="font-futura-book text-sm uppercase tracking-wider" style={{ color: '#0047BB' }}>NUESTRA IDENTIDAD</span>
+            <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
+              Nuestra Identidad
+            </span>
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-2 font-futura-lux">
-                    <span style={{ color: '#9da5b3d1' }}>¿Quiénes</span> <span style={{ color: '#0047BB' }}>Somos?</span>
+                    <span className="text-gray-500">¿Quiénes</span> <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Somos?
+                </span>
                   </h2>
                   <div className="h-1 w-24 mx-auto rounded-full" style={{ background: 'linear-gradient(to right, #0047BB, #002677)' }} />
                 </div>
@@ -331,9 +335,13 @@ accionistas e inversionistas de la Empresa.
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <span className="font-futura-book text-sm uppercase tracking-wider" style={{ color: '#0047BB' }}>Nuestro Propósito</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0047BB] mt-4 font-futura-lux">
-              Visión & Misión
+            <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
+              Nuestro propósito
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-500 mt-4 font-futura-lux">
+              Visión & <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Misión
+                </span>
             </h2>
           </motion.div>
 
@@ -473,8 +481,9 @@ accionistas e inversionistas de la Empresa.
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <span className="font-futura-book text-sm uppercase tracking-wider mb-2 block" style={{ color: '#0047BB' }}>Nuestros Principios</span>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 font-futura-lux">
+<span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
+              Principios
+            </span>            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 font-futura-lux pt-5">
              <span style={{ color: '#0047BB' }}>Nuestros</span> <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
                   Valores
                 </span>
@@ -576,7 +585,7 @@ accionistas e inversionistas de la Empresa.
               ¿Listo para transformar tu negocio?
             </h2>
             <p className="text-xl mb-10 max-w-2xl mx-auto font-futura-book" style={{ color: '#B7BCB4' }}>
-              Únete a cientos de empresas que han confiado en nosotros para alcanzar sus objetivos
+              Únete a la comunidad de empresas que han confiado en nosotros para alcanzar sus objetivos financieros.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -588,7 +597,7 @@ accionistas e inversionistas de la Empresa.
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a
-              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quiero%20una%20solicitar%20una%20consultoria%20para%20mi%20empresa%20%F0%9F%93%9A%F0%9F%92%BC"
+              href="https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quiero%20solicitar%20una%20consultoria%20para%20mi%20empresa%20%F0%9F%93%9A%F0%9F%92%BC"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 inline-flex items-center justify-center gap-2 font-futura-lux animate-heartbeat"

@@ -185,7 +185,7 @@ function Navbar() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `flex justify-center items-center gap-8 transition-all duration-500 ${scrolled ? 'h-20 py-3' : 'h-24 py-4'}`,
+                    className: "flex justify-center items-center gap-8 transition-all duration-500 h-24 py-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -683,15 +683,15 @@ function Footer() {
             fontFamily: 'Arial, sans-serif'
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 py-12",
+            className: "max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 py-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8",
+                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-4",
+                                    className: "mb-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/logo222.png",
                                         alt: "VALTO Management Consulting",
@@ -723,7 +723,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Servicios"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -731,7 +731,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2 text-sm",
+                                    className: "space-y-1 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -823,7 +823,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Legal"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -831,7 +831,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2 text-sm",
+                                    className: "space-y-1 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -893,7 +893,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Contacto"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -901,7 +901,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-3 text-sm",
+                                    className: "space-y-1.5 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             className: "flex items-center text-white/80",
@@ -973,7 +973,7 @@ function Footer() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-white/80",
+                    className: "border-t border-white/20 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-white/80",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "© 2026 VALTO Management Consulting. Todos los derechos reservados."
@@ -1070,7 +1070,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 // Iconos SVG actualizados de redes sociales
-const FacebookIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const FacebookIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1088,7 +1088,7 @@ const FacebookIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__m
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c = FacebookIcon;
-const InstagramIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const InstagramIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1106,7 +1106,7 @@ const InstagramIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c1 = InstagramIcon;
-const TikTokIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const TikTokIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1124,7 +1124,7 @@ const TikTokIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__mod
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c2 = TikTokIcon;
-const LinkedinIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const LinkedinIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1142,7 +1142,7 @@ const LinkedinIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__m
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c3 = LinkedinIcon;
-const YoutubeIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const YoutubeIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1240,7 +1240,7 @@ function FloatingSocial() {
                     title: social.label,
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(social.icon, {
-                            size: 26
+                            size: 36
                         }, void 0, false, {
                             fileName: "[project]/components/FloatingSocial.tsx",
                             lineNumber: 100,
@@ -1298,7 +1298,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 function WhatsAppButton() {
     const whatsappNumber = "51920000848";
-    const message = "Hola 👋, necesito más información o una asesoría 📊💼";
+    const message = "Hola 👋, quiero solicitar una asesoría Financiera 📊💼";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
         href: whatsappUrl,
@@ -1306,7 +1306,7 @@ function WhatsAppButton() {
         rel: "noopener noreferrer",
         className: "fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group",
         style: {
-            backgroundColor: '#0047BB'
+            backgroundColor: '#25D366'
         },
         initial: {
             scale: 0,
@@ -1971,44 +1971,43 @@ function NosotrosPage() {
                                             className: "mb-2 text-center",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "font-futura-book text-sm uppercase tracking-wider",
+                                                    className: "px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold",
                                                     style: {
-                                                        color: '#0047BB'
+                                                        fontFamily: 'Futura, sans-serif'
                                                     },
-                                                    children: "NUESTRA IDENTIDAD"
+                                                    children: "Nuestra Identidad"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/nosotros/page.tsx",
                                                     lineNumber: 271,
-                                                    columnNumber: 19
+                                                    columnNumber: 13
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                     className: "text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-2 font-futura-lux",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            style: {
-                                                                color: '#9da5b3d1'
-                                                            },
+                                                            className: "text-gray-500",
                                                             children: "¿Quiénes"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/nosotros/page.tsx",
-                                                            lineNumber: 273,
+                                                            lineNumber: 275,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block",
                                                             style: {
-                                                                color: '#0047BB'
+                                                                fontFamily: 'Futura, sans-serif'
                                                             },
                                                             children: "Somos?"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/nosotros/page.tsx",
-                                                            lineNumber: 273,
-                                                            columnNumber: 74
+                                                            lineNumber: 275,
+                                                            columnNumber: 69
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                    lineNumber: 272,
+                                                    lineNumber: 274,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2018,7 +2017,7 @@ function NosotrosPage() {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 279,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
@@ -2047,14 +2046,14 @@ function NosotrosPage() {
                                                                         children: "firma de consultoría para negocios"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                                        lineNumber: 283,
+                                                                        lineNumber: 287,
                                                                         columnNumber: 35
                                                                     }, this),
                                                                     " orientada a brindar soluciones para la micro y pequeña Empresa (Mypes). Contamos con un equipo comprome do en proteger y hacer crecer tus inversiones a través de nuestros servicios de asesoría y capacitación empresarial."
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 282,
+                                                                lineNumber: 286,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2063,18 +2062,18 @@ function NosotrosPage() {
                                                                     className: "w-8 h-8 text-blue-200"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                                    lineNumber: 289,
+                                                                    lineNumber: 293,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 288,
+                                                                lineNumber: 292,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 281,
+                                                        lineNumber: 285,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2088,7 +2087,7 @@ function NosotrosPage() {
                                                                 children: "Nuestro Compromiso"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 297,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2096,7 +2095,7 @@ function NosotrosPage() {
                                                                 children: "Transformar emprendimientos y empresas en unidades de negocio que generen fuentes de ingreso propias de su core business, capaces de mantenerse en el empo con una estructura de capital opma y generando beneficios económicos para los accionistas e inversionistas de la Empresa."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 294,
+                                                                lineNumber: 298,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$handshake$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Handshake$3e$__["Handshake"], {
@@ -2106,24 +2105,24 @@ function NosotrosPage() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 300,
+                                                                lineNumber: 304,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 292,
+                                                        lineNumber: 296,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 280,
+                                                lineNumber: 284,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/nosotros/page.tsx",
-                                            lineNumber: 279,
+                                            lineNumber: 283,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -2168,22 +2167,22 @@ function NosotrosPage() {
                                 index: index
                             }, index, false, {
                                 fileName: "[project]/app/nosotros/page.tsx",
-                                lineNumber: 315,
+                                lineNumber: 319,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 313,
+                        lineNumber: 317,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/nosotros/page.tsx",
-                    lineNumber: 312,
+                    lineNumber: 316,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/nosotros/page.tsx",
-                lineNumber: 311,
+                lineNumber: 315,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2194,14 +2193,14 @@ function NosotrosPage() {
                         className: "absolute top-0 left-0 w-72 h-72 bg-blue-100 rounded-full filter blur-3xl opacity-20 -translate-x-1/2 -translate-y-1/2"
                     }, void 0, false, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 324,
+                        lineNumber: 328,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-0 right-0 w-72 h-72 bg-purple-100 rounded-full filter blur-3xl opacity-20 translate-x-1/2 translate-y-1/2"
                     }, void 0, false, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 325,
+                        lineNumber: 329,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2222,28 +2221,41 @@ function NosotrosPage() {
                                 className: "text-center mb-16",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-futura-book text-sm uppercase tracking-wider",
+                                        className: "px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold",
                                         style: {
-                                            color: '#0047BB'
+                                            fontFamily: 'Futura, sans-serif'
                                         },
-                                        children: "Nuestro Propósito"
+                                        children: "Nuestro propósito"
                                     }, void 0, false, {
                                         fileName: "[project]/app/nosotros/page.tsx",
-                                        lineNumber: 334,
+                                        lineNumber: 338,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-4xl md:text-5xl font-bold text-[#0047BB] mt-4 font-futura-lux",
-                                        children: "Visión & Misión"
-                                    }, void 0, false, {
+                                        className: "text-4xl md:text-5xl font-bold text-gray-500 mt-4 font-futura-lux",
+                                        children: [
+                                            "Visión & ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block",
+                                                style: {
+                                                    fontFamily: 'Futura, sans-serif'
+                                                },
+                                                children: "Misión"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/nosotros/page.tsx",
+                                                lineNumber: 342,
+                                                columnNumber: 24
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/app/nosotros/page.tsx",
-                                        lineNumber: 335,
+                                        lineNumber: 341,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/nosotros/page.tsx",
-                                lineNumber: 328,
+                                lineNumber: 332,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2270,7 +2282,7 @@ function NosotrosPage() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 349,
+                                                lineNumber: 357,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2295,7 +2307,7 @@ function NosotrosPage() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 353,
+                                                        lineNumber: 361,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2318,12 +2330,12 @@ function NosotrosPage() {
                                                                     className: "w-8 h-8 text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                                    lineNumber: 373,
+                                                                    lineNumber: 381,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 367,
+                                                                lineNumber: 375,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2333,7 +2345,7 @@ function NosotrosPage() {
                                                                         children: "Visión"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                                        lineNumber: 376,
+                                                                        lineNumber: 384,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2343,19 +2355,19 @@ function NosotrosPage() {
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                                        lineNumber: 377,
+                                                                        lineNumber: 385,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 375,
+                                                                lineNumber: 383,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 366,
+                                                        lineNumber: 374,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2376,20 +2388,20 @@ function NosotrosPage() {
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                                        lineNumber: 384,
+                                                                        lineNumber: 392,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 382,
+                                                                lineNumber: 390,
                                                                 columnNumber: 47
                                                             }, this),
                                                             " a nivel de todo el territorio nacional."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 381,
+                                                        lineNumber: 389,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2401,24 +2413,24 @@ function NosotrosPage() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/nosotros/page.tsx",
-                                                            lineNumber: 390,
+                                                            lineNumber: 398,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 389,
+                                                        lineNumber: 397,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 351,
+                                                lineNumber: 359,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/nosotros/page.tsx",
-                                        lineNumber: 342,
+                                        lineNumber: 350,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2442,7 +2454,7 @@ function NosotrosPage() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 403,
+                                                lineNumber: 411,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2468,7 +2480,7 @@ function NosotrosPage() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 407,
+                                                        lineNumber: 415,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2491,12 +2503,12 @@ function NosotrosPage() {
                                                                     className: "w-8 h-8 text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                                    lineNumber: 428,
+                                                                    lineNumber: 436,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 422,
+                                                                lineNumber: 430,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2506,7 +2518,7 @@ function NosotrosPage() {
                                                                         children: "Misión"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                                        lineNumber: 431,
+                                                                        lineNumber: 439,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2516,19 +2528,19 @@ function NosotrosPage() {
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                                        lineNumber: 432,
+                                                                        lineNumber: 440,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 430,
+                                                                lineNumber: 438,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 421,
+                                                        lineNumber: 429,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2549,20 +2561,20 @@ function NosotrosPage() {
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                                        lineNumber: 439,
+                                                                        lineNumber: 447,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 437,
+                                                                lineNumber: 445,
                                                                 columnNumber: 89
                                                             }, this),
                                                             ", teniendo en cuenta el crecimiento personal y profesional de nuestros colaboradores y el desarrollo de nuestra comunidad empresarial."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 436,
+                                                        lineNumber: 444,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2574,42 +2586,42 @@ function NosotrosPage() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/nosotros/page.tsx",
-                                                            lineNumber: 445,
+                                                            lineNumber: 453,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 444,
+                                                        lineNumber: 452,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 405,
+                                                lineNumber: 413,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/nosotros/page.tsx",
-                                        lineNumber: 396,
+                                        lineNumber: 404,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/nosotros/page.tsx",
-                                lineNumber: 340,
+                                lineNumber: 348,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 327,
+                        lineNumber: 331,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/nosotros/page.tsx",
-                lineNumber: 322,
+                lineNumber: 326,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2637,7 +2649,7 @@ function NosotrosPage() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 456,
+                        lineNumber: 464,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2658,18 +2670,19 @@ function NosotrosPage() {
                                 className: "text-center mb-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-futura-book text-sm uppercase tracking-wider mb-2 block",
+                                        className: "px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold",
                                         style: {
-                                            color: '#0047BB'
+                                            fontFamily: 'Futura, sans-serif'
                                         },
-                                        children: "Nuestros Principios"
+                                        children: "Principios"
                                     }, void 0, false, {
                                         fileName: "[project]/app/nosotros/page.tsx",
-                                        lineNumber: 476,
-                                        columnNumber: 13
+                                        lineNumber: 484,
+                                        columnNumber: 1
                                     }, this),
+                                    "            ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-3xl md:text-4xl font-bold text-gray-900 font-futura-lux",
+                                        className: "text-3xl md:text-4xl font-bold text-gray-900 font-futura-lux pt-5",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 style: {
@@ -2678,7 +2691,7 @@ function NosotrosPage() {
                                                 children: "Nuestros"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 478,
+                                                lineNumber: 487,
                                                 columnNumber: 14
                                             }, this),
                                             " ",
@@ -2690,19 +2703,19 @@ function NosotrosPage() {
                                                 children: "Valores"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 478,
+                                                lineNumber: 487,
                                                 columnNumber: 65
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/nosotros/page.tsx",
-                                        lineNumber: 477,
-                                        columnNumber: 13
+                                        lineNumber: 486,
+                                        columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/nosotros/page.tsx",
-                                lineNumber: 470,
+                                lineNumber: 478,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2737,7 +2750,7 @@ function NosotrosPage() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 499,
+                                                lineNumber: 508,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2769,12 +2782,12 @@ function NosotrosPage() {
                                                                     className: "w-12 h-12 text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                                    lineNumber: 509,
+                                                                    lineNumber: 518,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 508,
+                                                                lineNumber: 517,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2801,13 +2814,13 @@ function NosotrosPage() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                                lineNumber: 513,
+                                                                lineNumber: 522,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 503,
+                                                        lineNumber: 512,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -2818,7 +2831,7 @@ function NosotrosPage() {
                                                         children: valor.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 528,
+                                                        lineNumber: 537,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2826,7 +2839,7 @@ function NosotrosPage() {
                                                         children: valor.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 532,
+                                                        lineNumber: 541,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2849,7 +2862,7 @@ function NosotrosPage() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 537,
+                                                        lineNumber: 546,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2861,42 +2874,42 @@ function NosotrosPage() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/nosotros/page.tsx",
-                                                            lineNumber: 548,
+                                                            lineNumber: 557,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 547,
+                                                        lineNumber: 556,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/nosotros/page.tsx",
-                                                lineNumber: 501,
+                                                lineNumber: 510,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/app/nosotros/page.tsx",
-                                        lineNumber: 489,
+                                        lineNumber: 498,
                                         columnNumber: 17
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/app/nosotros/page.tsx",
-                                lineNumber: 484,
+                                lineNumber: 493,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 469,
+                        lineNumber: 477,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/nosotros/page.tsx",
-                lineNumber: 454,
+                lineNumber: 462,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2915,12 +2928,12 @@ function NosotrosPage() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/app/nosotros/page.tsx",
-                            lineNumber: 562,
+                            lineNumber: 571,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 561,
+                        lineNumber: 570,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2944,7 +2957,7 @@ function NosotrosPage() {
                                     children: "¿Listo para transformar tu negocio?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/nosotros/page.tsx",
-                                    lineNumber: 575,
+                                    lineNumber: 584,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2952,10 +2965,10 @@ function NosotrosPage() {
                                     style: {
                                         color: '#B7BCB4'
                                     },
-                                    children: "Únete a cientos de empresas que han confiado en nosotros para alcanzar sus objetivos"
+                                    children: "Únete a la comunidad de empresas que han confiado en nosotros para alcanzar sus objetivos financieros."
                                 }, void 0, false, {
                                     fileName: "[project]/app/nosotros/page.tsx",
-                                    lineNumber: 578,
+                                    lineNumber: 587,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2973,17 +2986,17 @@ function NosotrosPage() {
                                                     className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                    lineNumber: 588,
+                                                    lineNumber: 597,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/nosotros/page.tsx",
-                                            lineNumber: 582,
+                                            lineNumber: 591,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quiero%20una%20solicitar%20una%20consultoria%20para%20mi%20empresa%20%F0%9F%93%9A%F0%9F%92%BC",
+                                            href: "https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quiero%20solicitar%20una%20consultoria%20para%20mi%20empresa%20%F0%9F%93%9A%F0%9F%92%BC",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 inline-flex items-center justify-center gap-2 font-futura-lux animate-heartbeat",
@@ -2996,47 +3009,47 @@ function NosotrosPage() {
                                                         d: "M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/nosotros/page.tsx",
-                                                        lineNumber: 597,
+                                                        lineNumber: 606,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/nosotros/page.tsx",
-                                                    lineNumber: 596,
+                                                    lineNumber: 605,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Contactar Ahora"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/nosotros/page.tsx",
-                                            lineNumber: 590,
+                                            lineNumber: 599,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/nosotros/page.tsx",
-                                    lineNumber: 581,
+                                    lineNumber: 590,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/nosotros/page.tsx",
-                            lineNumber: 569,
+                            lineNumber: 578,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/nosotros/page.tsx",
-                        lineNumber: 568,
+                        lineNumber: 577,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/nosotros/page.tsx",
-                lineNumber: 559,
+                lineNumber: 568,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/nosotros/page.tsx",
-                lineNumber: 606,
+                lineNumber: 615,
                 columnNumber: 7
             }, this)
         ]

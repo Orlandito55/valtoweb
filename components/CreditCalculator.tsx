@@ -6,7 +6,7 @@ import { Calculator, DollarSign, TrendingUp, Calendar, ExternalLink } from "luci
 import Link from "next/link";
 
 export default function CreditCalculator() {
-  const [amount, setAmount] = useState("10000");
+  const [amount, setAmount] = useState("10,000");
   const [rate, setRate] = useState("15");
   const [months, setMonths] = useState("12");
   const [currency, setCurrency] = useState<"PEN" | "USD">("PEN");
@@ -16,15 +16,41 @@ export default function CreditCalculator() {
     totalInterest: number;
   } | null>(null);
 
+  // Función para formatear número con separador de miles
+  const formatNumber = (value: string): string => {
+    // Remover todo excepto dígitos
+    const numbers = value.replace(/\D/g, '');
+    // Agregar separador de miles
+    return numbers.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  };
+
+  // Función para obtener el valor numérico
+  const getNumericValue = (value: string): number => {
+    return parseFloat(value.replace(/,/g, '')) || 0;
+  };
+
+  // Función para formatear porcentaje
+  const formatPercentage = (value: string): string => {
+    // Remover todo excepto dígitos y punto decimal
+    const cleaned = value.replace(/[^\d.]/g, '');
+    // Limitar a un solo punto decimal
+    const parts = cleaned.split('.');
+    if (parts.length > 2) {
+      return parts[0] + '.' + parts.slice(1).join('');
+    }
+    return cleaned;
+  };
+
   const calculateCredit = () => {
-    const P = parseFloat(amount);
-    const annualRate = parseFloat(rate);
+    const P = getNumericValue(amount);
+    const annualRate = parseFloat(rate.replace('%', ''));
     const n = parseInt(months);
 
     if (P <= 0 || annualRate <= 0 || n <= 0) return;
 
-    // Tasa de interés mensual
-    const i = annualRate / 12 / 100;
+    // Convertir tasa anual efectiva a tasa mensual efectiva
+    // Fórmula: i = (1 + r)^(1/12) - 1
+    const i = Math.pow(1 + (annualRate / 100), 1 / 12) - 1;
 
     // Fórmula de cuota francesa
     const monthlyPayment = P * (i * Math.pow(1 + i, n)) / (Math.pow(1 + i, n) - 1);
@@ -66,13 +92,13 @@ export default function CreditCalculator() {
             </span>
           </h1>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-            ¿Necesitas financiamiento <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
-                  para tu empresa?
+            ¿Buscas financiamiento para tu <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Empresa?
                 </span>
           </h2>
                                        
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-6">
-            Ingresa el importe de tu crédito, la tasa de interés y el periodo de pago para obtener la cuota exacta de tu financiamiento.
+            Ingresa el importe de tu crédito, la tasa de interés efectiva y el periodo de pago para obtener la cuota exacta de tu financiamiento.
           </p>
         </motion.div>
 
@@ -94,7 +120,9 @@ export default function CreditCalculator() {
               {/* Selector de Moneda */}
               <div className="mb-6">
                 <label className="flex items-center text-white mb-2 text-sm font-medium">
-                  <DollarSign className="w-4 h-4 mr-2" />
+                  <span className="w-4 h-4 mr-2 flex items-center justify-center font-bold">
+                    {currency === "PEN" ? "S/" : "$"}
+                  </span>
                   Moneda
                 </label>
                 <div className="grid grid-cols-2 gap-3">
@@ -126,18 +154,20 @@ export default function CreditCalculator() {
               {/* Monto del Préstamo */}
               <div className="mb-6">
                 <label className="flex items-center text-white mb-2 text-sm font-medium">
-                  <DollarSign className="w-4 h-4 mr-2" />
+                  <span className="w-4 h-4 mr-2 flex items-center justify-center font-bold">
+                    {currency === "PEN" ? "S/" : "$"}
+                  </span>
                   Monto del Préstamo
                 </label>
                 <input
-                  type="number"
+                  type="text"
                   value={amount}
-                  onChange={(e) => setAmount(e.target.value)}
+                  onChange={(e) => setAmount(formatNumber(e.target.value))}
                   className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
-                  placeholder="10000"
+                  placeholder="10,000"
                 />
                 <div className="mt-2 text-white/70 text-sm">
-                  {formatCurrency(parseFloat(amount) || 0)}
+                  {formatCurrency(getNumericValue(amount))}
                 </div>
               </div>
 
@@ -145,17 +175,18 @@ export default function CreditCalculator() {
               <div className="mb-6">
                 <label className="flex items-center text-white mb-2 text-sm font-medium">
                   <TrendingUp className="w-4 h-4 mr-2" />
-                  Tasa de Interés Anual (%)
+                  Tasa de Interés Efectiva (%)
                 </label>
-                <input
-                  type="number"
-                  value={rate}
-                  onChange={(e) => setRate(e.target.value)}
-                  className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
-                  placeholder="15"
-                  step="0.1"
-                />
-                <div className="mt-2 text-white/70 text-sm">{rate}% anual</div>
+                <div className="relative">
+                  <input
+                    type="text"
+                    value={rate + '%'}
+                    onChange={(e) => setRate(formatPercentage(e.target.value.replace('%', '')))}
+                    className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
+                    placeholder="15%"
+                  />
+                </div>
+                <div className="mt-2 text-white/70 text-sm">{rate}% Efectiva</div>
               </div>
 
               {/* Plazo */}
@@ -172,7 +203,7 @@ export default function CreditCalculator() {
                   placeholder="12"
                 />
                 <div className="mt-2 text-white/70 text-sm">
-                  {months} {parseInt(months) === 1 ? "mes" : "meses"}
+                  {months} {parseInt(months) === 1 ? "Periodo" : "Periodos"}
                 </div>
               </div>
 
@@ -214,7 +245,7 @@ export default function CreditCalculator() {
                         <span className="text-gray-700 font-semibold text-base">
                           Total a Pagar
                         </span>
-                        <span className="text-2xl font-bold text-gray-900">
+                        <span className="text-2xl font-bold text-gray-500">
                           {formatCurrency(result.totalPayment)}
                         </span>
                       </div>
@@ -237,7 +268,7 @@ export default function CreditCalculator() {
                           Capital Prestado
                         </span>
                         <span className="text-2xl font-bold text-green-600">
-                          {formatCurrency(parseFloat(amount))}
+                          {formatCurrency(getNumericValue(amount))}
                         </span>
                       </div>
                     </div>

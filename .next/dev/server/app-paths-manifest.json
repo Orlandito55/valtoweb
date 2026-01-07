@@ -1,5 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/agendar-cita/page": "app/agendar-cita/page.js",
   "/api/tipo-cambio/route": "app/api/tipo-cambio/route.js",
   "/centro-de-aprendizaje/page": "app/centro-de-aprendizaje/page.js",

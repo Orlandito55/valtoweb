@@ -207,8 +207,8 @@ Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de e
                   <div className="w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#0047BB' }}>
                     <fase.icon className="w-8 h-8 text-white" />
                   </div>
-                  <div className="ml-6">
-                    <h3 className="text-2xl font-bold mb-3" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
+                  <div className="ml-6 flex-1">
+                    <h3 className="text-xl font-bold mb-3 leading-tight" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
                       {fase.titulo}
                     </h3>
                     <p style={{ color: '#6B7280', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.6' }}>
@@ -230,10 +230,10 @@ Con nuestra propuesta te llevamos, por cada una de estas etapas, de la mano de e
             animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Comienza tu Empresa con el Pie Derecho
+              Comienza tu Empresa con el pie derecho
             </h2>
             <p className="text-xl text-blue-50 mb-8" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
-              No dejes al azar el futuro de tu negocio. Trabaja con expertos que han ayudado a decenas de empresas a establecerse y crecer exitosamente.
+              No dejes al azar el futuro de tu negocio. Trabaja con expertos que han ayudado a empresas y crecen exitosamente.
             </p>
             <motion.a
               href="https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20Consultoría%20de%20Negocios%20💸"

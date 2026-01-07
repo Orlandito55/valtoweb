@@ -35,7 +35,7 @@ export default function AgendarCita() {
 
   const horarios = [
     "09:00 AM", "09:30 AM", "10:00 AM", "10:30 AM",
-    "11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM",
+    "11:00 AM", "11:30 AM", "12:00 M", "12:30 M",
     "01:00 PM", "01:30 PM", "02:00 PM", "02:30 PM",
     "03:00 PM", "03:30 PM", "04:00 PM", "04:30 PM",
     "05:00 PM", "05:30 PM", "06:00 PM"
@@ -223,7 +223,7 @@ _Cita agendada desde www.valtomanagement.com_`;
             </motion.div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-              Agenda tu Cita
+              Agenda tu Asesoria
             </h1>
             
             <p className="text-xl lg:text-2xl text-blue-50 max-w-3xl mx-auto" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
@@ -247,7 +247,7 @@ _Cita agendada desde www.valtomanagement.com_`;
             >
               <div className="mb-6">
                 <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif', color: '#0047BB' }}>
-                  Selecciona una Fecha
+                  Selecciona una fecha
                 </h2>
                 
                 <div className="flex items-center justify-between">
@@ -399,7 +399,7 @@ _Cita agendada desde www.valtomanagement.com_`;
               className="bg-white rounded-2xl shadow-2xl p-8"
             >
               <h2 className="text-2xl font-bold mb-6" style={{ fontFamily: 'Futura Lux, Futura, Arial, sans-serif', color: '#0047BB' }}>
-                Información de Contacto
+                Información de contacto
               </h2>
 
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -516,7 +516,7 @@ _Cita agendada desde www.valtomanagement.com_`;
                 <div>
                   <label className="flex items-center gap-2 text-sm font-semibold mb-2" style={{ color: '#002677', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
                     <Briefcase className="w-4 h-4" />
-                    Descripción del Proyecto *
+                    Descripción del proyecto *
                   </label>
                   <textarea
                     name="proyecto"
@@ -539,7 +539,7 @@ _Cita agendada desde www.valtomanagement.com_`;
                     style={{ backgroundColor: '#F5F7FA', border: '2px solid #0047BB' }}
                   >
                     <p className="text-sm font-semibold mb-2" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
-                      📅 Resumen de tu Cita:
+                      📅 Resumen de la reunión:
                     </p>
                     <p className="text-sm" style={{ color: '#002677', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>
                       {selectedDate.toLocaleDateString('es-PE', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
@@ -560,8 +560,8 @@ _Cita agendada desde www.valtomanagement.com_`;
                   `}
                   style={{ background: 'linear-gradient(135deg, #0047BB 0%, #002677 100%)', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}
                 >
-                  <Send className="w-6 h-6" />
-                  Confirmar Cita por WhatsApp
+                  <Send className="w-12 h-12" />
+                  Confirmar asesoria por WhatsApp
                 </motion.button>
 
                 <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif' }}>

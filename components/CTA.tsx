@@ -125,14 +125,17 @@ ${formData.proyecto}
                   <span className="text-lg">Lima – Perú.</span>
                 </div>
               </div>
-              <motion.button
+              <motion.a
+                href="https://wa.me/51920000848?text=Hola%2C%20quiero%20solicitar%20una%20consultoría%20para%20mis%20Inversiones%20💸"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center px-8 py-4 bg-white text-valto-blue rounded-lg font-semibold text-lg hover:shadow-2xl transition-all"
+                className="inline-flex items-center px-8 py-4 bg-white text-valto-blue rounded-xl font-semibold text-lg transition-all duration-300 hover:shadow-xl shadow-lg animate-heartbeat"
               >
                 Contactar Ahora
                 <ArrowRight className="ml-2 w-5 h-5" />
-              </motion.button>
+              </motion.a>
             </motion.div>
             {/* Right content - Contact form */}
             <motion.div
@@ -151,7 +154,7 @@ ${formData.proyecto}
                 className="text-3xl font-extrabold mb-8 text-center tracking-tight"
                 style={{ color: '#0047BB', fontFamily: 'Futura Lux, Futura, Arial, sans-serif', letterSpacing: '-0.01em' }}
               >
-                Solicita tu Consulta Gratuita
+                Solicita tu Consulta
               </h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>

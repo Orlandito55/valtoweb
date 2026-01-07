@@ -1,1198 +1,275 @@
-[00:00:01.357] Server  LOG      ✓ Ready in 957ms
-[00:00:05.997] Server  LOG      ○ Compiling / ...
-[00:00:06.737] Server  LOG     hoveredStep: null
-[00:00:07.004] Server  LOG     hoveredStep: null
-[00:00:13.341] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.489] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[00:00:15.489] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[00:00:15.490] Browser LOG     hoveredStep: null
-[00:00:15.490] Browser LOG     hoveredStep: null
-[00:00:15.490] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:00:15.490] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:00:16.998] Browser LOG     hoveredStep: null
-[00:00:16.998] Browser LOG     hoveredStep: null
-[00:00:17.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:21.418] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[00:00:21.418] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[00:00:21.418] Browser LOG     hoveredStep: null
-[00:00:21.418] Browser LOG     hoveredStep: null
-[00:00:21.418] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:00:28.276] Server  LOG      ✓ Compiled in 80ms
-[00:00:31.843] Browser LOG     hoveredStep: null
-[00:00:31.843] Browser LOG     hoveredStep: null
-[00:00:32.399] Browser LOG     hoveredStep: null
-[00:00:32.399] Browser LOG     hoveredStep: null
-[00:00:44.067] Server  LOG      ✓ Compiled in 54ms
-[00:00:47.948] Browser LOG     hoveredStep: null
-[00:00:47.948] Browser LOG     hoveredStep: null
-[00:00:48.396] Browser LOG     hoveredStep: null
-[00:00:48.396] Browser LOG     hoveredStep: null
-[00:01:33.152] Server  LOG      ✓ Compiled in 37ms
-[00:01:35.238] Browser LOG     hoveredStep: null
-[00:01:35.238] Browser LOG     hoveredStep: null
-[00:01:37.389] Browser LOG     hoveredStep: null
-[00:01:37.389] Browser LOG     hoveredStep: null
-[00:02:31.621] Server  LOG      ✓ Compiled in 54ms
-[00:02:33.868] Browser LOG     hoveredStep: null
-[00:02:33.868] Browser LOG     hoveredStep: null
-[00:02:35.395] Browser LOG     hoveredStep: null
-[00:02:35.395] Browser LOG     hoveredStep: null
-[00:02:51.075] Server  LOG      ✓ Compiled in 66ms
-[00:02:53.208] Browser LOG     hoveredStep: null
-[00:02:53.208] Browser LOG     hoveredStep: null
-[00:02:53.390] Browser LOG     hoveredStep: null
-[00:02:53.390] Browser LOG     hoveredStep: null
-[00:03:25.390] Server  LOG      ✓ Compiled in 56ms
-[00:03:27.480] Browser LOG     hoveredStep: null
-[00:03:27.480] Browser LOG     hoveredStep: null
-[00:03:28.401] Browser LOG     hoveredStep: null
-[00:03:28.401] Browser LOG     hoveredStep: null
-[00:04:50.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:02.066] Server  LOG     hoveredStep: null
-[00:05:09.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:09.797] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[00:05:09.797] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[00:05:09.797] Browser LOG     hoveredStep: null
-[00:05:09.797] Browser LOG     hoveredStep: null
-[00:05:09.797] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:05:09.797] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:05:09.797] Browser LOG     hoveredStep: null
-[00:05:09.797] Browser LOG     hoveredStep: null
-[00:06:33.394] Server  LOG      ✓ Compiled in 42ms
-[00:06:44.899] Server  LOG      ✓ Compiled in 39ms
-[00:06:52.135] Server  LOG      ✓ Compiled in 67ms
-[00:08:42.885] Server  LOG      ✓ Compiled in 43ms
-[00:09:57.516] Server  LOG      ✓ Compiled in 43ms
-[00:10:13.922] Server  LOG      ✓ Compiled in 56ms
-[00:10:26.378] Server  LOG      ✓ Compiled in 33ms
-[00:10:29.499] Server  LOG      ✓ Compiled in 31ms
-[00:10:32.378] Server  LOG      ✓ Compiled in 36ms
-[00:10:39.041] Server  LOG      ✓ Compiled in 76ms
-[00:10:42.431] Server  LOG      ✓ Compiled in 76ms
-[00:10:49.051] Server  LOG      ✓ Compiled in 57ms
-[00:10:54.298] Server  LOG      ✓ Compiled in 53ms
-[00:10:59.799] Server  LOG      ✓ Compiled in 65ms
-[00:11:03.170] Server  LOG      ✓ Compiled in 30ms
-[00:11:06.817] Server  LOG      ✓ Compiled in 49ms
-[00:12:28.258] Server  LOG      ✓ Compiled in 35ms
-[00:12:37.591] Server  LOG      ✓ Compiled in 37ms
-[00:12:49.259] Server  LOG      ✓ Compiled in 35ms
-[00:13:09.291] Server  LOG      ✓ Compiled in 44ms
-[00:13:17.193] Server  LOG      ✓ Compiled in 32ms
-[00:13:42.991] Server  LOG      ✓ Compiled in 41ms
-[00:16:32.202] Server  LOG      ✓ Compiled in 63ms
-[00:16:38.484] Server  LOG      ✓ Compiled in 71ms
-[00:18:14.389] Server  LOG      ✓ Compiled in 45ms
-[00:19:15.205] Server  LOG      ✓ Compiled in 42ms
-[00:19:21.369] Server  LOG      ✓ Compiled in 59ms
-[00:19:30.814] Server  LOG      ✓ Compiled in 38ms
-[00:19:33.469] Server  LOG      ✓ Compiled in 32ms
-[00:19:36.856] Server  LOG      ✓ Compiled in 70ms
-[00:21:15.722] Server  LOG      ✓ Compiled in 36ms
-[00:22:02.509] Server  LOG      ✓ Compiled in 34ms
-[00:23:13.845] Server  LOG      ✓ Compiled in 39ms
-[00:24:13.515] Server  LOG      ✓ Compiled in 47ms
-[00:24:42.897] Server  LOG      ✓ Compiled in 39ms
-[00:24:56.122] Server  LOG      ✓ Compiled in 36ms
-[00:27:21.792] Server  LOG      ✓ Compiled in 38ms
-[00:27:47.510] Server  LOG      ✓ Compiled in 48ms
-[00:29:58.422] Server  LOG      ✓ Compiled in 67ms
-[00:30:27.029] Server  LOG      ✓ Compiled in 89ms
-[00:30:42.231] Server  LOG      ✓ Compiled in 90ms
-[00:31:46.301] Server  LOG      ✓ Compiled in 70ms
-[00:32:11.263] Server  LOG      ✓ Compiled in 38ms
-[00:32:12.537] Browser ERROR   uncaughtError: ReferenceError: ShieldCheck is not defined
-[00:32:13.392] Browser ERROR   uncaughtError: ReferenceError: ShieldCheck is not defined
-[00:32:27.411] Server  LOG      ✓ Compiled in 43ms
-[00:32:28.612] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:32:29.271] Server  LOG     hoveredStep: null
-[00:32:29.423] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:32:29.424] Browser LOG     hoveredStep: null
-[00:32:29.424] Browser LOG     hoveredStep: null
-[00:32:29.424] Browser LOG     hoveredStep: null
-[00:32:29.424] Browser LOG     hoveredStep: null
-[00:32:29.564] Server  LOG     hoveredStep: null
-[00:32:35.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:38.275] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[00:32:38.275] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[00:32:38.275] Browser LOG     hoveredStep: null
-[00:32:38.275] Browser LOG     hoveredStep: null
-[00:32:38.275] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:32:38.275] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:32:41.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:45.414] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[00:32:45.414] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[00:32:45.414] Browser LOG     hoveredStep: null
-[00:32:45.414] Browser LOG     hoveredStep: null
-[00:32:45.414] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:32:54.662] Server  LOG      ✓ Compiled in 43ms
-[00:33:06.136] Server  LOG      ✓ Compiled in 41ms
-[00:33:09.924] Server  LOG      ✓ Compiled in 32ms
-[00:33:13.512] Server  LOG      ✓ Compiled in 37ms
-[00:33:18.185] Server  LOG      ✓ Compiled in 39ms
-[00:33:25.900] Server  LOG      ✓ Compiled in 36ms
-[00:36:18.900] Server  LOG      ✓ Compiled in 108ms
-[00:39:05.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:36.449] Server  LOG      ✓ Compiled in 94ms
-[00:39:53.654] Server  LOG      ✓ Compiled in 37ms
-[00:40:35.167] Server  LOG      ✓ Compiled in 71ms
-[00:42:10.692] Server  LOG      ✓ Compiled in 236ms
-[00:44:47.965] Server  LOG      ✓ Compiled in 45ms
-[00:45:03.209] Server  LOG      ✓ Compiled in 43ms
-[00:46:13.314] Server  LOG      ✓ Compiled in 39ms
-[00:46:27.095] Server  LOG      ✓ Compiled in 37ms
-[00:46:29.656] Server  LOG      ✓ Compiled in 37ms
-[00:46:41.376] Server  LOG      ✓ Compiled in 44ms
-[00:48:29.336] Server  LOG      ✓ Compiled in 35ms
-[00:48:49.854] Server  LOG      ✓ Compiled in 46ms
-[00:49:01.418] Server  LOG      ✓ Compiled in 41ms
-[00:50:46.225] Server  LOG      ✓ Compiled in 40ms
-[00:52:18.118] Server  LOG      ✓ Compiled in 35ms
-[00:52:46.058] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:53:24.364] Server  LOG      ✓ Compiled in 42ms
-[00:57:51.289] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:31.564] Server  LOG      ✓ Compiled in 50ms
-[01:03:16.594] Server  LOG      ✓ Compiled in 42ms
-[01:03:28.395] Server  LOG      ✓ Compiled in 40ms
-[01:03:29.396] Browser ERROR   ./app/servicios/asesoria-academica-universitaria/page.tsx:277:24
-Parsing ecmascript source code failed
-  275 |               rel="noopener noreferrer"
-  276 |                            animate={{
-> 277 |               animate={{
-      |                        ^
-  278 |                 scale: [1, 1.5, 1],
-  279 |               }}
-  280 |               transition={{
-
-Expected '</', got '{'
-
-Import traces:
-  Client Component Browser:
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Client Component Browser]
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Client Component SSR]
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Server Component]
-[01:03:29.396] Browser ERROR   ./app/servicios/asesoria-academica-universitaria/page.tsx:277:24
-Parsing ecmascript source code failed
-  275 |               rel="noopener noreferrer"
-  276 |                            animate={{
-> 277 |               animate={{
-      |                        ^
-  278 |                 scale: [1, 1.5, 1],
-  279 |               }}
-  280 |               transition={{
-
-Expected '</', got '{'
-
-Import traces:
-  Client Component Browser:
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Client Component Browser]
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Client Component SSR]
-    ./app/servicios/asesoria-academica-universitaria/page.tsx [Server Component]
-[01:03:34.395] Browser LOG     hoveredStep: null
-[01:03:34.395] Browser LOG     hoveredStep: null
-[01:03:48.147] Server  LOG      ✓ Compiled in 38ms
-[01:03:56.306] Server  LOG      ✓ Compiled in 51ms
-[01:04:37.557] Server  LOG      ✓ Compiled in 37ms
-[01:05:03.888] Server  LOG      ✓ Compiled in 41ms
-[01:05:04.122] Browser ERROR   ./app/servicios/capacitacion-empresarial/page.tsx:291:15
-Parsing ecmascript source code failed
-  289 |               <ArrowRight className="ml-2 w-5 h-5" />
-  290 |             </motion.a>
-> 291 |         </div>
-      |               ^
-> 292 |       </section>
-      | ^^^^^^^
-  293 |
-  294 |       <Footer />
-  295 |     </>
-
-Expected '</', got 'jsx text (
-      )'
-
-Import traces:
-  Client Component Browser:
-    ./app/servicios/capacitacion-empresarial/page.tsx [Client Component Browser]
-    ./app/servicios/capacitacion-empresarial/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/servicios/capacitacion-empresarial/page.tsx [Client Component SSR]
-    ./app/servicios/capacitacion-empresarial/page.tsx [Server Component]
-[01:05:04.418] Browser ERROR   ./app/servicios/capacitacion-empresarial/page.tsx:291:15
-Parsing ecmascript source code failed
-  289 |               <ArrowRight className="ml-2 w-5 h-5" />
-  290 |             </motion.a>
-> 291 |         </div>
-      |               ^
-> 292 |       </section>
-      | ^^^^^^^
-  293 |
-  294 |       <Footer />
-  295 |     </>
-
-Expected '</', got 'jsx text (
-      )'
-
-Import traces:
-  Client Component Browser:
-    ./app/servicios/capacitacion-empresarial/page.tsx [Client Component Browser]
-    ./app/servicios/capacitacion-empresarial/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/servicios/capacitacion-empresarial/page.tsx [Client Component SSR]
-    ./app/servicios/capacitacion-empresarial/page.tsx [Server Component]
-[01:05:17.397] Browser LOG     hoveredStep: null
-[01:05:17.397] Browser LOG     hoveredStep: null
-[01:05:27.457] Server  LOG      ✓ Compiled in 43ms
-[01:05:40.970] Server  LOG      ✓ Compiled in 59ms
-[01:07:00.837] Server  LOG      ✓ Compiled in 41ms
-[01:07:11.849] Server  LOG      ✓ Compiled in 37ms
-[01:07:35.295] Server  LOG      ✓ Compiled in 43ms
-[01:07:46.303] Server  LOG      ✓ Compiled in 39ms
-[01:09:12.537] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[00:00:01.928] Server  LOG      ✓ Ready in 1427ms
+[00:00:57.694] Server  LOG     hoveredStep: null
+[00:00:58.136] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.362] Browser LOG     hoveredStep: null
+[00:00:58.362] Browser LOG     hoveredStep: null
+[00:00:58.485] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:01:18.390] Browser LOG     hoveredStep: null
+[00:01:18.390] Browser LOG     hoveredStep: null
+[00:02:42.601] Browser LOG     hoveredStep: 4
+[00:02:42.601] Browser LOG     hoveredStep: 4
+[00:02:42.988] Browser LOG     hoveredStep: null
+[00:02:42.988] Browser LOG     hoveredStep: null
+[00:07:01.495] Browser LOG     hoveredStep: 1
+[00:07:01.495] Browser LOG     hoveredStep: 1
+[00:07:01.624] Browser LOG     hoveredStep: 4
+[00:07:01.624] Browser LOG     hoveredStep: 4
+[00:07:01.896] Browser LOG     hoveredStep: null
+[00:07:01.896] Browser LOG     hoveredStep: null
+[00:10:06.807] Browser LOG     hoveredStep: 4
+[00:10:06.807] Browser LOG     hoveredStep: 4
+[00:10:07.324] Browser LOG     hoveredStep: null
+[00:10:07.324] Browser LOG     hoveredStep: null
+[00:10:07.324] Browser LOG     hoveredStep: 1
+[00:10:07.324] Browser LOG     hoveredStep: 1
+[00:10:07.903] Browser LOG     hoveredStep: null
+[00:10:07.903] Browser LOG     hoveredStep: null
+[00:11:12.358] Browser LOG     hoveredStep: 1
+[00:11:12.358] Browser LOG     hoveredStep: 1
+[00:11:13.445] Browser LOG     hoveredStep: null
+[00:11:13.445] Browser LOG     hoveredStep: null
+[00:12:30.497] Server  LOG      ✓ Compiled in 58ms
+[00:12:33.400] Server  LOG      ✓ Compiled in 42ms
+[00:13:17.059] Server  LOG      ✓ Compiled in 45ms
+[00:13:54.446] Server  LOG      ✓ Compiled in 44ms
+[00:13:56.989] Server  LOG      ✓ Compiled in 57ms
+[00:15:07.679] Server  LOG      ✓ Compiled in 42ms
+[00:15:34.745] Server  LOG      ✓ Compiled in 34ms
+[00:20:57.633] Server  LOG      ✓ Compiled in 67ms
+[00:21:01.012] Server  LOG      ✓ Compiled in 58ms
+[00:21:06.749] Server  LOG      ✓ Compiled in 35ms
+[00:21:11.645] Server  LOG      ✓ Compiled in 53ms
+[00:22:44.439] Server  LOG      ✓ Compiled in 40ms
+[00:23:22.587] Server  LOG      ✓ Compiled in 44ms
+[00:23:31.005] Server  LOG      ✓ Compiled in 48ms
+[00:23:49.013] Server  LOG      ✓ Compiled in 43ms
+[00:23:54.271] Server  LOG      ✓ Compiled in 41ms
+[00:25:00.188] Server  LOG      ✓ Compiled in 114ms
+[00:25:40.661] Server  LOG      ✓ Compiled in 82ms
+[00:26:05.282] Server  LOG      ✓ Compiled in 38ms
+[00:26:58.961] Server  LOG      ✓ Compiled in 59ms
+[00:27:14.663] Server  LOG      ✓ Compiled in 41ms
+[00:29:37.122] Server  LOG     hoveredStep: null
+[00:29:47.136] Server  LOG     hoveredStep: null
+[00:29:54.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:55.719] Browser LOG     hoveredStep: null
+[00:29:55.719] Browser LOG     hoveredStep: null
+[00:30:21.929] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:31:38.985] Server  LOG     hoveredStep: null
+[00:31:46.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:46.441] Browser LOG     hoveredStep: null
+[00:31:46.441] Browser LOG     hoveredStep: null
+[00:31:46.628] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:32:02.884] Server  LOG     hoveredStep: null
+[00:32:10.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:10.535] Browser LOG     hoveredStep: null
+[00:32:10.535] Browser LOG     hoveredStep: null
+[00:32:10.535] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:32:23.492] Server  LOG     hoveredStep: null
+[00:32:30.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:31.413] Browser LOG     hoveredStep: null
+[00:32:31.413] Browser LOG     hoveredStep: null
+[00:32:31.413] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:32:42.291] Server  LOG     hoveredStep: null
+[00:32:49.757] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:50.084] Browser LOG     hoveredStep: null
+[00:32:50.084] Browser LOG     hoveredStep: null
+[00:32:50.241] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:33:04.954] Server  LOG     hoveredStep: null
+[00:33:05.436] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:05.436] Browser LOG     hoveredStep: null
+[00:33:05.436] Browser LOG     hoveredStep: null
+[00:33:05.648] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:33:08.576] Browser LOG     hoveredStep: null
+[00:33:08.576] Browser LOG     hoveredStep: null
+[00:33:09.075] Browser LOG     hoveredStep: 1
+[00:33:09.075] Browser LOG     hoveredStep: 1
+[00:33:09.075] Browser LOG     hoveredStep: 2
+[00:33:09.075] Browser LOG     hoveredStep: 2
+[00:33:10.212] Browser LOG     hoveredStep: 1
+[00:33:10.212] Browser LOG     hoveredStep: 1
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 2
+[00:33:10.213] Browser LOG     hoveredStep: 2
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 4
+[00:33:10.213] Browser LOG     hoveredStep: 4
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 1
+[00:33:10.213] Browser LOG     hoveredStep: 1
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 4
+[00:33:10.213] Browser LOG     hoveredStep: 4
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 4
+[00:33:10.213] Browser LOG     hoveredStep: 4
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 0
+[00:33:10.213] Browser LOG     hoveredStep: 0
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 1
+[00:33:10.213] Browser LOG     hoveredStep: 1
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 0
+[00:33:10.213] Browser LOG     hoveredStep: 0
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: 1
+[00:33:10.213] Browser LOG     hoveredStep: 1
+[00:33:10.213] Browser LOG     hoveredStep: 2
+[00:33:10.213] Browser LOG     hoveredStep: 2
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.213] Browser LOG     hoveredStep: null
+[00:33:10.414] Browser LOG     hoveredStep: 2
+[00:33:10.414] Browser LOG     hoveredStep: 2
+[00:33:10.414] Browser LOG     hoveredStep: null
+[00:33:10.414] Browser LOG     hoveredStep: null
+[00:33:10.414] Browser LOG     hoveredStep: 1
+[00:33:10.414] Browser LOG     hoveredStep: 1
+[00:33:10.540] Browser LOG     hoveredStep: null
+[00:33:10.540] Browser LOG     hoveredStep: null
+[00:33:10.540] Browser LOG     hoveredStep: 4
+[00:33:10.540] Browser LOG     hoveredStep: 4
+[00:33:10.838] Browser LOG     hoveredStep: null
+[00:33:10.838] Browser LOG     hoveredStep: null
+[00:33:10.838] Browser LOG     hoveredStep: 3
+[00:33:10.838] Browser LOG     hoveredStep: 3
+[00:33:10.838] Browser LOG     hoveredStep: null
+[00:33:10.838] Browser LOG     hoveredStep: null
+[00:33:10.838] Browser LOG     hoveredStep: 4
+[00:33:10.838] Browser LOG     hoveredStep: 4
+[00:33:11.093] Browser LOG     hoveredStep: null
+[00:33:11.093] Browser LOG     hoveredStep: null
+[00:33:11.094] Browser LOG     hoveredStep: 3
+[00:33:11.094] Browser LOG     hoveredStep: 3
+[00:33:11.094] Browser LOG     hoveredStep: null
+[00:33:11.094] Browser LOG     hoveredStep: null
+[00:33:11.094] Browser LOG     hoveredStep: 4
+[00:33:11.094] Browser LOG     hoveredStep: 4
+[00:33:11.239] Browser LOG     hoveredStep: null
+[00:33:11.239] Browser LOG     hoveredStep: null
+[00:35:26.646] Server  LOG      ✓ Compiled in 41ms
+[00:37:48.121] Browser LOG     hoveredStep: null
+[00:37:48.121] Browser LOG     hoveredStep: null
+[00:37:50.303] Browser LOG     hoveredStep: null
+[00:37:50.303] Browser LOG     hoveredStep: null
+[00:37:50.303] Browser LOG     hoveredStep: 1
+[00:37:50.303] Browser LOG     hoveredStep: 1
+[00:37:50.303] Browser LOG     hoveredStep: 4
+[00:37:50.303] Browser LOG     hoveredStep: 4
+[00:37:50.303] Browser LOG     hoveredStep: null
+[00:37:50.303] Browser LOG     hoveredStep: null
+[00:44:03.095] Server  LOG      ✓ Compiled in 43ms
+[00:46:09.624] Server  LOG      ✓ Compiled in 48ms
+[00:46:28.450] Server  LOG      ✓ Compiled in 36ms
+[00:47:00.372] Server  LOG      ✓ Compiled in 58ms
+[00:50:05.243] Server  LOG      ✓ Compiled in 101ms
+[00:54:34.394] Server  LOG      ✓ Compiled in 40ms
+[00:54:47.142] Server  LOG      ✓ Compiled in 45ms
+[00:55:53.672] Server  LOG      ✓ Compiled in 38ms
+[00:57:19.300] Server  LOG      ✓ Compiled in 56ms
+[00:57:47.894] Server  LOG      ✓ Compiled in 43ms
+[00:57:55.392] Server  LOG      ✓ Compiled in 38ms
+[00:58:10.115] Server  LOG      ✓ Compiled in 38ms
+[00:59:05.751] Server  LOG      ✓ Compiled in 33ms
+[01:00:54.296] Server  LOG     hoveredStep: null
+[01:00:59.098] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:59.494] Browser LOG     hoveredStep: null
+[01:00:59.494] Browser LOG     hoveredStep: null
+[01:00:59.494] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:07:22.588] Server  LOG      ✓ Compiled in 52ms
+[01:07:36.072] Server  LOG      ✓ Compiled in 39ms
+[01:07:40.581] Server  LOG      ✓ Compiled in 36ms
+[01:08:27.729] Server  LOG      ✓ Compiled in 40ms
+[01:08:44.418] Server  LOG      ✓ Compiled in 41ms
+[01:08:47.459] Server  LOG      ✓ Compiled in 47ms
+[01:11:39.546] Server  LOG      ✓ Compiled in 49ms
+[01:13:03.296] Server  LOG      ✓ Compiled in 51ms
+[01:14:35.275] Server  LOG      ✓ Compiled in 34ms
+[01:15:02.285] Server  LOG      ✓ Compiled in 50ms
+[01:15:36.582] Server  LOG      ✓ Compiled in 42ms
+[01:16:11.939] Server  LOG      ✓ Compiled in 46ms
+[01:16:18.019] Server  LOG      ✓ Compiled in 41ms
+[01:18:07.315] Server  LOG      ✓ Compiled in 39ms
+[01:18:14.122] Server  LOG      ✓ Compiled in 46ms
+[01:19:05.425] Server  LOG      ✓ Compiled in 40ms
+[01:20:24.816] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[01:09:12.538] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:13:28.361] Server  LOG      ✓ Compiled in 91ms
-[01:14:25.918] Server  LOG      ✓ Compiled in 44ms
-[01:14:58.939] Server  LOG      ✓ Compiled in 47ms
-[01:15:10.445] Server  LOG      ✓ Compiled in 47ms
-[01:15:32.894] Server  LOG      ✓ Compiled in 80ms
-[01:15:59.800] Server  LOG      ✓ Compiled in 105ms
-[01:16:17.435] Server  LOG      ✓ Compiled in 58ms
-[01:16:23.217] Server  LOG      ✓ Compiled in 44ms
-[01:17:20.780] Server  LOG      ✓ Compiled in 45ms
-[01:17:29.769] Server  LOG      ✓ Compiled in 87ms
-[01:17:35.156] Server  LOG      ✓ Compiled in 41ms
-[01:17:39.489] Server  LOG      ✓ Compiled in 76ms
-[01:18:24.502] Server  LOG      ✓ Compiled in 40ms
-[01:19:06.454] Server  LOG      ✓ Compiled in 46ms
-[01:19:14.017] Server  LOG      ✓ Compiled in 40ms
-[01:19:40.666] Server  LOG      ✓ Compiled in 42ms
-[01:20:15.236] Server  LOG      ✓ Compiled in 76ms
-[01:20:20.339] Server  LOG      ✓ Compiled in 80ms
-[01:20:25.512] Server  LOG      ✓ Compiled in 56ms
-[01:20:32.001] Server  LOG      ✓ Compiled in 74ms
-[01:20:38.103] Server  LOG      ✓ Compiled in 64ms
-[01:21:27.791] Server  LOG      ✓ Compiled in 108ms
-[01:21:32.728] Server  LOG      ✓ Compiled in 54ms
-[01:22:49.892] Server  LOG      ✓ Compiled in 103ms
-[01:23:16.681] Server  LOG      ✓ Compiled in 179ms
-[01:23:35.384] Server  LOG      ✓ Compiled in 91ms
-[01:23:54.097] Server  LOG      ✓ Compiled in 79ms
-[01:23:59.674] Server  LOG      ✓ Compiled in 37ms
-[01:24:56.765] Server  LOG      ✓ Compiled in 42ms
-[01:24:59.037] Browser WARN    Image with src "/image2.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[01:27:22.485] Server  WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[01:25:01.753] Server  LOG      ✓ Compiled in 44ms
-[01:25:21.426] Server  LOG      ✓ Compiled in 44ms
-[01:25:40.379] Server  LOG      ✓ Compiled in 65ms
-[01:25:52.866] Server  LOG      ✓ Compiled in 34ms
-[01:25:58.183] Server  LOG      ✓ Compiled in 47ms
-[01:26:03.045] Server  LOG      ✓ Compiled in 43ms
-[01:26:10.344] Server  LOG      ✓ Compiled in 38ms
-[01:26:15.651] Server  LOG      ✓ Compiled in 39ms
-[01:26:19.826] Server  LOG      ✓ Compiled in 33ms
-[01:27:11.952] Server  LOG      ✓ Compiled in 77ms
-[01:29:08.553] Server  LOG      ✓ Compiled in 49ms
-[01:30:07.259] Server  LOG      ✓ Compiled in 42ms
-[01:30:25.840] Server  LOG      ✓ Compiled in 51ms
-[01:30:33.311] Server  LOG      ✓ Compiled in 41ms
-[01:30:42.141] Server  LOG      ✓ Compiled in 59ms
-[01:31:08.758] Server  LOG      ✓ Compiled in 45ms
-[01:31:18.919] Server  LOG      ✓ Compiled in 95ms
-[01:31:32.206] Server  LOG      ✓ Compiled in 92ms
-[01:31:37.372] Server  LOG      ✓ Compiled in 49ms
-[01:31:52.817] Server  LOG      ✓ Compiled in 46ms
-[01:31:58.604] Server  LOG      ✓ Compiled in 44ms
-[01:32:06.468] Server  LOG      ✓ Compiled in 44ms
-[01:32:12.442] Server  LOG      ✓ Compiled in 53ms
-[01:32:24.990] Server  LOG      ✓ Compiled in 39ms
-[01:32:34.258] Server  LOG      ✓ Compiled in 38ms
-[01:32:58.527] Server  LOG      ✓ Compiled in 45ms
-[01:34:05.140] Server  LOG      ✓ Compiled in 100ms
-[01:34:21.667] Server  LOG      ✓ Compiled in 65ms
-[01:34:45.490] Server  LOG      ✓ Compiled in 46ms
-[01:35:46.187] Server  LOG      ✓ Compiled in 86ms
-[01:35:58.031] Server  LOG      ✓ Compiled in 44ms
-[01:36:10.924] Server  LOG      ✓ Compiled in 80ms
-[01:39:22.264] Server  LOG      ✓ Compiled in 44ms
-[01:41:05.597] Server  LOG      ✓ Compiled in 60ms
-[01:41:36.538] Server  LOG      ✓ Compiled in 183ms
-[01:42:04.678] Server  LOG      ✓ Compiled in 138ms
-[01:42:38.761] Server  LOG      ✓ Compiled in 122ms
-[01:43:30.264] Server  LOG      ✓ Compiled in 65ms
-[01:43:40.833] Server  LOG      ✓ Compiled in 60ms
-[01:44:14.672] Server  LOG      ✓ Compiled in 40ms
-[01:44:25.502] Server  LOG      ✓ Compiled in 52ms
-[01:44:30.799] Server  LOG      ✓ Compiled in 75ms
-[01:44:36.454] Server  LOG      ✓ Compiled in 78ms
-[01:45:16.473] Server  LOG      ✓ Compiled in 37ms
-[01:45:55.795] Server  LOG      ✓ Compiled in 86ms
-[01:48:36.450] Server  LOG      ✓ Compiled in 43ms
-[01:49:22.081] Server  LOG      ✓ Compiled in 55ms
-[01:49:51.547] Server  LOG      ✓ Compiled in 68ms
-[01:51:09.237] Server  LOG      ✓ Compiled in 88ms
-[01:51:52.876] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/#servicios" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[01:51:52.876] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[01:51:53.028] Browser LOG     hoveredStep: null
-[01:51:53.028] Browser LOG     hoveredStep: null
-[01:52:16.998] Browser LOG     hoveredStep: null
-[01:52:16.999] Browser LOG     hoveredStep: null
-[01:52:31.710] Browser LOG     hoveredStep: null
-[01:52:31.710] Browser LOG     hoveredStep: null
-[01:53:36.758] Server  LOG      ✓ Compiled in 59ms
-[01:55:48.530] Server  LOG      ✓ Compiled in 112ms
-[01:57:04.327] Server  WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+[01:27:28.712] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:28.712] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[01:57:11.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:57:12.870] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[01:57:12.870] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:57:24.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:57:24.360] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[01:57:24.360] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:59:33.449] Server  LOG      ✓ Compiled in 256ms
-[01:59:40.550] Server  LOG      ✓ Compiled in 44ms
-[02:00:04.593] Server  WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[02:00:10.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:10.688] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[02:00:10.688] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[02:00:31.533] Server  LOG      ✓ Compiled in 39ms
-[02:01:04.397] Server  WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[02:01:10.547] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:01:10.547] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[02:01:10.547] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[02:03:11.842] Browser WARN    Image with src "/valtoimage.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[02:03:13.501] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:03:13.681] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:05:51.208] Server  LOG      ✓ Compiled in 68ms
-[02:06:16.032] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[02:06:16.032] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[02:06:16.032] Browser LOG     hoveredStep: null
-[02:06:16.032] Browser LOG     hoveredStep: null
-[02:06:37.707] Server  LOG      ✓ Compiled in 80ms
-[02:06:45.589] Browser LOG     hoveredStep: null
-[02:06:45.590] Browser LOG     hoveredStep: null
-[02:06:55.896] Browser LOG     hoveredStep: null
-[02:06:55.896] Browser LOG     hoveredStep: null
-[02:07:01.795] Browser LOG     hoveredStep: null
-[02:07:01.795] Browser LOG     hoveredStep: null
-[02:08:33.978] Server  LOG      ✓ Compiled in 74ms
-[02:08:43.696] Server  LOG      ✓ Compiled in 101ms
-[02:08:51.010] Server  LOG      ✓ Compiled in 73ms
-[02:11:04.926] Browser LOG     hoveredStep: null
-[02:11:04.926] Browser LOG     hoveredStep: null
-[02:11:14.841] Server  LOG      ✓ Compiled in 109ms
-[02:12:07.647] Server  LOG      ✓ Compiled in 39ms
-[02:12:34.574] Server  LOG      ✓ Compiled in 41ms
-[02:14:00.921] Server  LOG      ✓ Compiled in 53ms
-[02:15:44.733] Server  LOG      ✓ Compiled in 42ms
-[02:19:11.029] Server  LOG      ✓ Compiled in 117ms
-[02:19:35.206] Server  LOG      ✓ Compiled in 37ms
-[02:20:03.430] Server  LOG      ✓ Compiled in 101ms
-[02:20:41.278] Server  LOG      ✓ Compiled in 67ms
-[02:24:57.061] Server  LOG     hoveredStep: null
-[02:24:57.466] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:24:57.773] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[02:24:57.773] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[02:24:57.773] Browser LOG     hoveredStep: null
-[02:24:57.773] Browser LOG     hoveredStep: null
-[02:24:57.773] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[02:24:57.773] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[02:25:34.672] Server  LOG     hoveredStep: null
-[02:25:34.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:25:35.317] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[02:25:35.317] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[02:25:35.317] Browser LOG     hoveredStep: null
-[02:25:35.317] Browser LOG     hoveredStep: null
-[02:25:35.317] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[02:25:35.317] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[02:25:45.851] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:29:05.544] Browser WARN    Image with src "/valtoimage.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[02:29:06.256] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:29:06.640] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:31:00.393] Browser LOG     hoveredStep: null
-[02:31:00.393] Browser LOG     hoveredStep: null
-[02:31:25.213] Server  LOG      ✓ Compiled in 69ms
-[02:32:39.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:32:39.577] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:32:43.391] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:32:43.494] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:32:52.316] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[02:32:52.316] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[02:32:52.316] Browser LOG     hoveredStep: null
-[02:32:52.316] Browser LOG     hoveredStep: null
-[02:32:52.316] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[02:33:28.004] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:33:28.094] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:33:36.295] Server  LOG      ✓ Compiled in 39ms
-[02:34:09.617] Server  LOG      ✓ Compiled in 45ms
-[02:36:26.113] Server  LOG      ✓ Compiled in 40ms
-[02:36:28.961] Server  LOG      ✓ Compiled in 44ms
-[02:36:58.422] Server  LOG      ✓ Compiled in 43ms
-[02:37:54.503] Server  LOG      ✓ Compiled in 57ms
-[02:38:11.448] Server  LOG      ✓ Compiled in 53ms
-[02:39:01.288] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[02:39:16.318] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:39:16.690] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[02:42:03.100] Browser LOG     hoveredStep: null
-[02:42:03.100] Browser LOG     hoveredStep: null
-[05:31:03.982] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:32:00.959] Server  LOG      ✓ Compiled in 106ms
-[05:32:13.439] Server  LOG      ✓ Compiled in 47ms
-[05:32:16.118] Server  LOG      ✓ Compiled in 47ms
-[05:32:19.244] Server  LOG      ✓ Compiled in 49ms
-[05:32:25.103] Server  LOG      ✓ Compiled in 40ms
-[05:32:29.623] Server  LOG      ✓ Compiled in 41ms
-[05:32:37.451] Browser LOG     hoveredStep: null
-[05:32:37.451] Browser LOG     hoveredStep: null
-[05:34:01.091] Server  LOG      ✓ Compiled in 120ms
-[05:36:11.672] Server  LOG      ✓ Compiled in 285ms
-[05:36:47.762] Server  LOG      ✓ Compiled in 74ms
-[05:37:41.951] Browser LOG     hoveredStep: null
-[05:37:41.951] Browser LOG     hoveredStep: null
-[05:37:42.274] Browser LOG     hoveredStep: null
-[05:37:42.274] Browser LOG     hoveredStep: null
-[05:38:58.607] Server  LOG      ✓ Compiled in 121ms
-[05:39:26.751] Server  LOG      ✓ Compiled in 117ms
-[05:40:13.464] Server  LOG      ✓ Compiled in 114ms
-[05:40:28.665] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:41:26.485] Server  LOG      ✓ Compiled in 146ms
-[05:41:55.354] Server  LOG      ✓ Compiled in 94ms
-[05:42:22.686] Server  LOG      ✓ Compiled in 117ms
-[05:42:33.271] Server  LOG      ✓ Compiled in 58ms
-[05:43:42.863] Server  LOG      ✓ Compiled in 91ms
-[05:47:34.105] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[05:47:34.105] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:47:54.888] Server  LOG      ✓ Compiled in 203ms
-[05:48:20.107] Server  LOG      ✓ Compiled in 53ms
-[05:48:46.803] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[05:48:47.175] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[05:48:57.218] Server  LOG     hoveredStep: null
-[05:48:57.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:48:58.018] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[05:48:58.018] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[05:48:58.018] Browser LOG     hoveredStep: null
-[05:48:58.018] Browser LOG     hoveredStep: null
-[05:48:58.018] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[05:48:58.018] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:49:11.550] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[05:49:13.793] Server  LOG      ✓ Compiled in 68ms
-[05:50:00.820] Server  LOG      ✓ Compiled in 72ms
-[05:50:25.205] Server  LOG      ✓ Compiled in 46ms
-[05:52:22.089] Server  LOG      ✓ Compiled in 36ms
-[05:52:51.423] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[05:52:51.423] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[05:52:51.423] Browser LOG     hoveredStep: null
-[05:52:51.423] Browser LOG     hoveredStep: null
-[05:52:59.975] Browser LOG     hoveredStep: null
-[05:52:59.975] Browser LOG     hoveredStep: null
-[05:53:36.760] Server  LOG      ✓ Compiled in 39ms
-[05:54:17.393] Server  LOG      ✓ Compiled in 56ms
-[05:55:01.750] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[05:55:02.107] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[05:55:07.954] Browser LOG     hoveredStep: null
-[05:55:07.954] Browser LOG     hoveredStep: null
-[05:56:49.241] Server  LOG     hoveredStep: null
-[05:56:54.608] Server  LOG     hoveredStep: null
-[05:56:55.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:56:55.365] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[05:56:55.365] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[05:56:55.365] Browser LOG     hoveredStep: null
-[05:56:55.365] Browser LOG     hoveredStep: null
-[05:56:55.365] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[05:56:55.365] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:57:03.484] Server  LOG     hoveredStep: null
-[05:57:04.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:57:04.084] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[05:57:04.084] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[05:57:04.084] Browser LOG     hoveredStep: null
-[05:57:04.084] Browser LOG     hoveredStep: null
-[05:57:04.084] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[05:57:04.084] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:57:18.385] Browser LOG     hoveredStep: null
-[05:57:18.385] Browser LOG     hoveredStep: null
-[05:57:20.863] Server  LOG     hoveredStep: null
-[05:57:21.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:57:21.528] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[05:57:21.528] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[05:57:21.528] Browser LOG     hoveredStep: null
-[05:57:21.528] Browser LOG     hoveredStep: null
-[05:57:21.528] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[05:57:21.528] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:57:53.350] Browser LOG     hoveredStep: null
-[05:57:53.350] Browser LOG     hoveredStep: null
-[05:57:57.623] Server  LOG     hoveredStep: null
-[05:57:57.952] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:57:58.225] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
-This will cause a hydration error.%s <h2> h2  
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.tsx">
-            <SegmentTrieNode>
-            <Home>
-              <main className="min-h-screen">
-                <Navbar>
-                <Hero>
-                <Services>
-                  <section className="py-20 rela..." style={{...}} id="servicios">
-                    <div className="w-full max...">
-                      <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
-                        <div className="text-cente..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
-                          <motion.div>
-                          <motion.h2 className="text-4xl m..." initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
->                           <h2
->                             className="text-4xl md:text-5xl font-bold mb-4 text-[#0047BB]"
->                             style={{fontFamily:"Futura, sa...",opacity:0,transform:"translateY..."}}
->                             ref={function useMotionRef.useCallback}
->                           >
->                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-                          ...
-                      ...
-                ...
-          ...
-        ...
-
-[05:57:58.225] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. h2 <h2>
-[05:57:58.225] Browser LOG     hoveredStep: null
-[05:57:58.225] Browser LOG     hoveredStep: null
-[05:57:58.225] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[05:57:58.225] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:58:44.656] Server  LOG      ✓ Compiled in 55ms
-[05:59:44.045] Server  LOG     hoveredStep: null
-[05:59:44.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:59:44.484] Browser LOG     hoveredStep: null
-[05:59:44.484] Browser LOG     hoveredStep: null
-[05:59:44.484] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[05:59:49.209] Browser LOG     hoveredStep: null
-[05:59:49.209] Browser LOG     hoveredStep: null
-[06:00:54.652] Server  LOG     hoveredStep: null
-[06:00:54.976] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[06:00:55.239] Browser LOG     hoveredStep: null
-[06:00:55.239] Browser LOG     hoveredStep: null
-[06:00:55.239] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[06:00:56.148] Browser WARN    Image with src "/image.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[06:01:09.325] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[06:01:09.417] Server  LOG     ✅ Tasa interbancaria: 3.360139 "→ Tasa comercial ajustada:" 3.343
-[06:01:30.547] Browser LOG     hoveredStep: null
-[06:01:30.547] Browser LOG     hoveredStep: null
+[01:27:28.712] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:32:41.188] Server  LOG      ✓ Compiled in 54ms
+[01:32:47.768] Server  LOG      ✓ Compiled in 51ms
+[01:33:01.088] Browser LOG     hoveredStep: null
+[01:33:01.088] Browser LOG     hoveredStep: null
+[01:34:09.834] Server  LOG      ✓ Compiled in 45ms
+[01:34:21.723] Server  LOG      ✓ Compiled in 41ms
+[01:34:49.864] Server  LOG     hoveredStep: null
+[01:34:50.318] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:50.671] Browser LOG     hoveredStep: null
+[01:34:50.671] Browser LOG     hoveredStep: null
+[01:34:50.671] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:35:09.069] Server  LOG      ✓ Compiled in 48ms
+[01:35:36.713] Server  LOG      ✓ Compiled in 44ms
+[01:35:39.416] Server  LOG      ✓ Compiled in 39ms
+[01:36:16.980] Server  LOG      ✓ Compiled in 42ms
+[01:37:12.932] Server  LOG      ✓ Compiled in 42ms
+[01:39:25.203] Server  LOG      ✓ Compiled in 72ms
+[01:39:33.476] Server  LOG      ✓ Compiled in 65ms
+[01:40:17.799] Server  LOG      ✓ Compiled in 56ms
+[01:40:37.849] Server  LOG      ✓ Compiled in 44ms
+[01:41:08.795] Server  LOG      ✓ Compiled in 42ms
+[01:41:20.149] Server  LOG      ✓ Compiled in 41ms
+[01:44:55.616] Server  LOG      ✓ Compiled in 39ms
+[01:45:07.677] Server  LOG      ✓ Compiled in 102ms
+[01:45:25.590] Server  LOG      ✓ Compiled in 58ms
+[01:47:08.562] Server  LOG      ✓ Compiled in 35ms
+[01:47:26.726] Server  LOG      ✓ Compiled in 42ms
+[01:48:34.625] Server  LOG      ✓ Compiled in 42ms
+[01:49:36.801] Server  LOG      ✓ Compiled in 42ms
+[01:49:49.055] Server  LOG      ✓ Compiled in 44ms
+[01:52:52.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:02.904] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:53:03.032] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:53:34.942] Server  LOG      ✓ Compiled in 52ms
+[01:54:01.978] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:55:01.964] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:55:24.425] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:55:26.282] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:55:27.989] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:56:01.966] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:56:57.263] Server  LOG      ✓ Compiled in 128ms
+[01:57:01.973] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:58:02.014] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:59:01.960] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[01:59:58.788] Server  LOG      ✓ Compiled in 44ms
+[02:00:01.962] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[02:00:28.279] Server  LOG      ✓ Compiled in 42ms
+[02:00:39.813] Server  LOG      ✓ Compiled in 42ms
+[02:01:01.960] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[02:02:02.936] Server  LOG     ✅ Tasa interbancaria: 3.36425 "→ Tasa comercial ajustada:" 3.347
+[02:02:47.272] Server  LOG      ✓ Compiled in 53ms
+[02:04:55.807] Server  LOG      ✓ Compiled in 42ms
+[02:05:11.050] Server  LOG      ✓ Compiled in 35ms
+[02:05:40.734] Server  LOG      ✓ Compiled in 40ms
+[02:06:01.714] Server  LOG      ✓ Compiled in 41ms
+[02:06:35.295] Server  LOG      ✓ Compiled in 38ms
+[02:08:43.749] Server  LOG      ✓ Compiled in 39ms
+[02:09:52.992] Server  LOG      ✓ Compiled in 34ms
+[02:09:59.690] Server  LOG      ✓ Compiled in 62ms
+[02:14:09.042] Browser LOG     hoveredStep: null
+[02:14:09.042] Browser LOG     hoveredStep: null
+[02:14:09.275] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:14:16.795] Browser LOG     hoveredStep: null
+[02:14:16.795] Browser LOG     hoveredStep: null

@@ -81,7 +81,7 @@ export default function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`flex justify-center items-center gap-8 transition-all duration-500 ${scrolled ? 'h-20 py-3' : 'h-24 py-4'}`}>
+        <div className="flex justify-center items-center gap-8 transition-all duration-500 h-24 py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <div className="flex items-center">

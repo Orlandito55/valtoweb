@@ -437,8 +437,8 @@ export default function VideosPage() {
               </motion.div>
           </motion.div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-            Centro de <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
-                  Formacion y Aprendizaje
+            Centro de formacion y <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                   Aprendizaje
                 </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">

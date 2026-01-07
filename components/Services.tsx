@@ -223,7 +223,7 @@ export default function Services() {
             className="inline-block mb-4"
           >
             <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
-              Tu éxito es nuestra máxima prioridad
+              Expertor en Finanzas empresariales
             </span>
           </motion.div>
           

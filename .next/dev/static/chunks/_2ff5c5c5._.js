@@ -185,7 +185,7 @@ function Navbar() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `flex justify-center items-center gap-8 transition-all duration-500 ${scrolled ? 'h-20 py-3' : 'h-24 py-4'}`,
+                    className: "flex justify-center items-center gap-8 transition-all duration-500 h-24 py-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -683,15 +683,15 @@ function Footer() {
             fontFamily: 'Arial, sans-serif'
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 py-12",
+            className: "max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 py-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8",
+                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-4",
+                                    className: "mb-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/logo222.png",
                                         alt: "VALTO Management Consulting",
@@ -723,7 +723,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Servicios"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -731,7 +731,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2 text-sm",
+                                    className: "space-y-1 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -823,7 +823,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Legal"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -831,7 +831,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2 text-sm",
+                                    className: "space-y-1 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -893,7 +893,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Contacto"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -901,7 +901,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-3 text-sm",
+                                    className: "space-y-1.5 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             className: "flex items-center text-white/80",
@@ -973,7 +973,7 @@ function Footer() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-white/80",
+                    className: "border-t border-white/20 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-white/80",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "© 2026 VALTO Management Consulting. Todos los derechos reservados."
@@ -1070,7 +1070,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 // Iconos SVG actualizados de redes sociales
-const FacebookIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const FacebookIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1088,7 +1088,7 @@ const FacebookIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__m
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c = FacebookIcon;
-const InstagramIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const InstagramIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1106,7 +1106,7 @@ const InstagramIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c1 = InstagramIcon;
-const TikTokIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const TikTokIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1124,7 +1124,7 @@ const TikTokIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__mod
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c2 = TikTokIcon;
-const LinkedinIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const LinkedinIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1142,7 +1142,7 @@ const LinkedinIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__m
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c3 = LinkedinIcon;
-const YoutubeIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const YoutubeIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -1240,7 +1240,7 @@ function FloatingSocial() {
                     title: social.label,
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(social.icon, {
-                            size: 26
+                            size: 36
                         }, void 0, false, {
                             fileName: "[project]/components/FloatingSocial.tsx",
                             lineNumber: 100,
@@ -1298,7 +1298,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 function WhatsAppButton() {
     const whatsappNumber = "51920000848";
-    const message = "Hola 👋, necesito más información o una asesoría 📊💼";
+    const message = "Hola 👋, quiero solicitar una asesoría Financiera 📊💼";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
         href: whatsappUrl,
@@ -1306,7 +1306,7 @@ function WhatsAppButton() {
         rel: "noopener noreferrer",
         className: "fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group",
         style: {
-            backgroundColor: '#0047BB'
+            backgroundColor: '#25D366'
         },
         initial: {
             scale: 0,
@@ -1388,7 +1388,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trending-up.js [app-client] (ecmascript) <export default as TrendingUp>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trending-down.js [app-client] (ecmascript) <export default as TrendingDown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-client] (ecmascript) <export default as DollarSign>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$refresh$2d$cw$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__RefreshCw$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/refresh-cw.js [app-client] (ecmascript) <export default as RefreshCw>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$column$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BarChart3$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chart-column.js [app-client] (ecmascript) <export default as BarChart3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Navbar.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.tsx [app-client] (ecmascript)");
@@ -1621,17 +1620,17 @@ function TipoCambioPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6",
                                             children: [
-                                                "Tipo De Cambio ",
+                                                "Tipo de cambio del dolar ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block",
                                                     style: {
                                                         fontFamily: 'Futura, sans-serif'
                                                     },
-                                                    children: "Del Dolar Americano"
+                                                    children: "Americano"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
                                                     lineNumber: 179,
-                                                    columnNumber: 28
+                                                    columnNumber: 38
                                                 }, this)
                                             ]
                                         }, void 0, true, {
@@ -1844,100 +1843,6 @@ function TipoCambioPage() {
                                     y: 0
                                 },
                                 transition: {
-                                    delay: 0.4
-                                },
-                                className: "bg-gray-50 rounded-3xl p-6 border border-gray-200 shadow-2xl mb-8",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col md:flex-row items-center justify-between gap-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-gray-900",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-lg font-semibold mb-1",
-                                                    children: "Última actualización"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                    lineNumber: 248,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-gray-700",
-                                                    children: [
-                                                        exchangeRate?.fecha ? new Date(exchangeRate.fecha).toLocaleDateString('es-PE', {
-                                                            weekday: 'long',
-                                                            year: 'numeric',
-                                                            month: 'long',
-                                                            day: 'numeric'
-                                                        }) : '-',
-                                                        exchangeRate?.fecha && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "ml-2",
-                                                            children: [
-                                                                new Date(exchangeRate.fecha).toLocaleTimeString('es-PE', {
-                                                                    hour: '2-digit',
-                                                                    minute: '2-digit',
-                                                                    second: '2-digit',
-                                                                    timeZone: 'UTC'
-                                                                }),
-                                                                " UTC"
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                            lineNumber: 257,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                    lineNumber: 249,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/tipo-cambio/page.tsx",
-                                            lineNumber: 247,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            onClick: fetchExchangeRate,
-                                            disabled: loading,
-                                            className: "flex items-center gap-2 bg-[#0047BB] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[#003088] transition-all disabled:opacity-50 disabled:cursor-not-allowed",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$refresh$2d$cw$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__RefreshCw$3e$__["RefreshCw"], {
-                                                    className: `w-5 h-5 ${loading ? 'animate-spin' : ''}`
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                    lineNumber: 273,
-                                                    columnNumber: 17
-                                                }, this),
-                                                "Actualizar"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/tipo-cambio/page.tsx",
-                                            lineNumber: 268,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/tipo-cambio/page.tsx",
-                                    lineNumber: 246,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/app/tipo-cambio/page.tsx",
-                                lineNumber: 240,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                animate: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                transition: {
                                     delay: 0.45
                                 },
                                 className: "bg-gray-50 rounded-3xl p-8 md:p-10 border border-gray-200 shadow-2xl mb-8",
@@ -1950,7 +1855,7 @@ function TipoCambioPage() {
                                                 children: "Tipo de Cambio del dólar hoy en Perú"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 288,
+                                                lineNumber: 248,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1964,7 +1869,7 @@ function TipoCambioPage() {
                                                                 children: "Compra:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 253,
                                                                 columnNumber: 19
                                                             }, this),
                                                             ' ',
@@ -1973,13 +1878,13 @@ function TipoCambioPage() {
                                                                 children: exchangeRate?.compra.toFixed(3)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 294,
+                                                                lineNumber: 254,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 292,
+                                                        lineNumber: 252,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1990,7 +1895,7 @@ function TipoCambioPage() {
                                                                 children: "Venta:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 257,
                                                                 columnNumber: 19
                                                             }, this),
                                                             ' ',
@@ -1999,25 +1904,25 @@ function TipoCambioPage() {
                                                                 children: exchangeRate?.venta.toFixed(3)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 298,
+                                                                lineNumber: 258,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 296,
+                                                        lineNumber: 256,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 291,
+                                                lineNumber: 251,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 287,
+                                        lineNumber: 247,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2027,11 +1932,11 @@ function TipoCambioPage() {
                                                 className: "relative mb-4 md:mb-6",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                        className: "text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block uppercase tracking-wide",
+                                                        className: "text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block tracking-wide",
                                                         children: conversionType === 'PEN_TO_USD' ? 'Tú Envías' : 'Tú Recibes'
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 307,
+                                                        lineNumber: 267,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2051,7 +1956,7 @@ function TipoCambioPage() {
                                                                 step: "0.01"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 311,
+                                                                lineNumber: 271,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2059,19 +1964,19 @@ function TipoCambioPage() {
                                                                 children: "Soles"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 324,
+                                                                lineNumber: 284,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 310,
+                                                        lineNumber: 270,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 306,
+                                                lineNumber: 266,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2094,33 +1999,33 @@ function TipoCambioPage() {
                                                             d: "M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                            lineNumber: 340,
+                                                            lineNumber: 300,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 339,
+                                                        lineNumber: 299,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                    lineNumber: 332,
+                                                    lineNumber: 292,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 331,
+                                                lineNumber: 291,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "relative mt-4 md:mt-6",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                        className: "text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block uppercase tracking-wide",
+                                                        className: "text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3 block tracking-wide",
                                                         children: conversionType === 'PEN_TO_USD' ? 'Tú Recibes' : 'Tú Envías'
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 347,
+                                                        lineNumber: 307,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2140,7 +2045,7 @@ function TipoCambioPage() {
                                                                 step: "0.01"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 351,
+                                                                lineNumber: 311,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2148,19 +2053,19 @@ function TipoCambioPage() {
                                                                 children: "Dólares"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 364,
+                                                                lineNumber: 324,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 350,
+                                                        lineNumber: 310,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 346,
+                                                lineNumber: 306,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2178,7 +2083,7 @@ function TipoCambioPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                            lineNumber: 374,
+                                                            lineNumber: 334,
                                                             columnNumber: 19
                                                         }, this),
                                                         ' ',
@@ -2188,18 +2093,18 @@ function TipoCambioPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                    lineNumber: 372,
+                                                    lineNumber: 332,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 371,
+                                                lineNumber: 331,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 304,
+                                        lineNumber: 264,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2207,13 +2112,13 @@ function TipoCambioPage() {
                                         children: "* Los tipos de cambio se actualizan en tiempo real y pueden variar según la entidad financiera."
                                     }, void 0, false, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 386,
+                                        lineNumber: 346,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                lineNumber: 280,
+                                lineNumber: 240,
                                 columnNumber: 11
                             }, this),
                             history.length > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -2242,7 +2147,7 @@ function TipoCambioPage() {
                                                                 className: "w-6 h-6 text-[#0047BB]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 403,
+                                                                lineNumber: 363,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2250,13 +2155,13 @@ function TipoCambioPage() {
                                                                 children: "Evolución del Tipo de Cambio"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 404,
+                                                                lineNumber: 364,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 402,
+                                                        lineNumber: 362,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2268,7 +2173,7 @@ function TipoCambioPage() {
                                                                 children: "1D"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 409,
+                                                                lineNumber: 369,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2277,7 +2182,7 @@ function TipoCambioPage() {
                                                                 children: "1S"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 419,
+                                                                lineNumber: 379,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2286,7 +2191,7 @@ function TipoCambioPage() {
                                                                 children: "1M"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 429,
+                                                                lineNumber: 389,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2295,7 +2200,7 @@ function TipoCambioPage() {
                                                                 children: "3M"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 439,
+                                                                lineNumber: 399,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2304,7 +2209,7 @@ function TipoCambioPage() {
                                                                 children: "6M"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 449,
+                                                                lineNumber: 409,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2313,19 +2218,19 @@ function TipoCambioPage() {
                                                                 children: "1A"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 459,
+                                                                lineNumber: 419,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 408,
+                                                        lineNumber: 368,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 401,
+                                                lineNumber: 361,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2349,7 +2254,7 @@ function TipoCambioPage() {
                                                                     vertical: false
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                    lineNumber: 478,
+                                                                    lineNumber: 438,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
@@ -2369,7 +2274,7 @@ function TipoCambioPage() {
                                                                         })
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                    lineNumber: 479,
+                                                                    lineNumber: 439,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {
@@ -2389,7 +2294,7 @@ function TipoCambioPage() {
                                                                     tickFormatter: (value)=>value.toFixed(3)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                    lineNumber: 490,
+                                                                    lineNumber: 450,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {
@@ -2416,7 +2321,7 @@ function TipoCambioPage() {
                                                                         ]
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                    lineNumber: 498,
+                                                                    lineNumber: 458,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Line"], {
@@ -2433,18 +2338,18 @@ function TipoCambioPage() {
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                    lineNumber: 518,
+                                                                    lineNumber: 478,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                            lineNumber: 474,
+                                                            lineNumber: 434,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 473,
+                                                        lineNumber: 433,
                                                         columnNumber: 19
                                                     }, this),
                                                     exchangeRate && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2458,7 +2363,7 @@ function TipoCambioPage() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 532,
+                                                                lineNumber: 492,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2479,25 +2384,25 @@ function TipoCambioPage() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 535,
+                                                                lineNumber: 495,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                        lineNumber: 531,
+                                                        lineNumber: 491,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 472,
+                                                lineNumber: 432,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 395,
+                                        lineNumber: 355,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2519,7 +2424,7 @@ function TipoCambioPage() {
                                                 children: "Historial Detallado"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 558,
+                                                lineNumber: 518,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2536,7 +2441,7 @@ function TipoCambioPage() {
                                                                         children: "Fecha"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                        lineNumber: 563,
+                                                                        lineNumber: 523,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2544,7 +2449,7 @@ function TipoCambioPage() {
                                                                         children: "Compra"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                        lineNumber: 564,
+                                                                        lineNumber: 524,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2552,7 +2457,7 @@ function TipoCambioPage() {
                                                                         children: "Venta"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                        lineNumber: 565,
+                                                                        lineNumber: 525,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2560,18 +2465,18 @@ function TipoCambioPage() {
                                                                         children: "Tendencia"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                        lineNumber: 566,
+                                                                        lineNumber: 526,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                lineNumber: 562,
+                                                                lineNumber: 522,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                            lineNumber: 561,
+                                                            lineNumber: 521,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -2586,7 +2491,7 @@ function TipoCambioPage() {
                                                                             children: new Date(rate.fecha).toLocaleDateString('es-PE')
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                            lineNumber: 578,
+                                                                            lineNumber: 538,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2594,7 +2499,7 @@ function TipoCambioPage() {
                                                                             children: rate.compra.toFixed(3)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                            lineNumber: 581,
+                                                                            lineNumber: 541,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2602,7 +2507,7 @@ function TipoCambioPage() {
                                                                             children: rate.venta.toFixed(3)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                            lineNumber: 584,
+                                                                            lineNumber: 544,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2612,14 +2517,14 @@ function TipoCambioPage() {
                                                                                     className: "w-5 h-5 text-green-500 inline"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                                    lineNumber: 588,
+                                                                                    lineNumber: 548,
                                                                                     columnNumber: 53
                                                                                 }, this),
                                                                                 localTrend === 'down' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingDown$3e$__["TrendingDown"], {
                                                                                     className: "w-5 h-5 text-red-500 inline"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                                    lineNumber: 589,
+                                                                                    lineNumber: 549,
                                                                                     columnNumber: 55
                                                                                 }, this),
                                                                                 localTrend === 'stable' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2627,42 +2532,42 @@ function TipoCambioPage() {
                                                                                     children: "-"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                                    lineNumber: 590,
+                                                                                    lineNumber: 550,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                            lineNumber: 587,
+                                                                            lineNumber: 547,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, rate.fecha, true, {
                                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                                    lineNumber: 577,
+                                                                    lineNumber: 537,
                                                                     columnNumber: 25
                                                                 }, this);
                                                             })
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                            lineNumber: 569,
+                                                            lineNumber: 529,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                    lineNumber: 560,
+                                                    lineNumber: 520,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 559,
+                                                lineNumber: 519,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 552,
+                                        lineNumber: 512,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -2683,12 +2588,12 @@ function TipoCambioPage() {
                                     children: "Tipo de cambio referencial de BCRP."
                                 }, void 0, false, {
                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                    lineNumber: 609,
+                                    lineNumber: 569,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                lineNumber: 603,
+                                lineNumber: 563,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2710,7 +2615,7 @@ function TipoCambioPage() {
                                         children: "¿Necesitas una asesoría o consultoría financiera?"
                                     }, void 0, false, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 621,
+                                        lineNumber: 581,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2718,7 +2623,7 @@ function TipoCambioPage() {
                                         children: "Contáctanos ahora y recibe orientación personalizada sobre tus inversiones, finanzas y negocios"
                                     }, void 0, false, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 624,
+                                        lineNumber: 584,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -2753,25 +2658,25 @@ function TipoCambioPage() {
                                                     d: "M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                    lineNumber: 644,
+                                                    lineNumber: 604,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                                lineNumber: 643,
+                                                lineNumber: 603,
                                                 columnNumber: 15
                                             }, this),
                                             "Contáctanos por WhatsApp"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tipo-cambio/page.tsx",
-                                        lineNumber: 627,
+                                        lineNumber: 587,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                                lineNumber: 615,
+                                lineNumber: 575,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -2788,7 +2693,7 @@ function TipoCambioPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/tipo-cambio/page.tsx",
-                lineNumber: 651,
+                lineNumber: 611,
                 columnNumber: 7
             }, this)
         ]

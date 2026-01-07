@@ -42,10 +42,7 @@ export default function Process() {
   return (
     <section 
       ref={sectionRef} 
-      className="py-24 relative overflow-hidden"
-      style={{ 
-        background: 'linear-gradient(135deg, #f8fafc 0%, #e0e7ff 50%, #f8fafc 100%)'
-      }}
+      className="py-24 bg-gradient-to-br from-blue-50 via-white to-blue-50 relative overflow-hidden"
     >
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -61,7 +58,7 @@ export default function Process() {
             ease: "linear"
           }}
           className="absolute -top-40 -right-40 w-96 h-96 rounded-full"
-          style={{ background: 'radial-gradient(circle, rgba(0,71,187,0.1) 0%, transparent 70%)' }}
+          style={{ background: 'r ' }}
         />
         <motion.div
           animate={{
@@ -75,7 +72,7 @@ export default function Process() {
             ease: "linear"
           }}
           className="absolute -bottom-40 -left-40 w-96 h-96 rounded-full"
-          style={{ background: 'radial-gradient(circle, rgba(0,86,214,0.1) 0%, transparent 70%)' }}
+          style={{ background: 'radial-gradient(circle, rgba(231, 235, 15, 0.1) 0%, transparent 70%)' }}
         />
       </div>
 
@@ -94,18 +91,18 @@ export default function Process() {
             className="inline-block mb-4"
           >
                       <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
-              Tu éxito es nuestra máxima prioridad
+              Un proceso rápido y efectivo
             </span>
           </motion.div>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-            ¿Como nosotros <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+            ¿Como <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
                   Trabajamos?
                 </span>
           </h2>
           
           <p className="text-xl text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: 'Arial, sans-serif' }}>
-            Un proceso simple y efectivo para impulsar tu negocio
+            Metodología y procesos con acompañamiento personalizado.
           </p>
         </motion.div>
 

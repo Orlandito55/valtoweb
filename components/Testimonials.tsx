@@ -7,14 +7,14 @@ const testimonials = [
   {
     name: "Henry Borda",
     company: "Empresario",
-    text: "Profesionales con acetado conocimiento financiero, de gran utilidad para decisiones estratégicas en empresarios que desean crecer.",
+    text: "Profesionales con acertado conocimiento financiero, de gran utilidad para decisiones estratégicas en empresarios que desean crecer.",
     rating: 5,
     image: "https://ui-avatars.com/api/?name=Henry+Borda&background=0047BB&color=fff&size=128&bold=true",
   },
   {
     name: "Yanet Huamanttica Joruro",
-    company: "Estudiante Univercitario",
-    text: "Es exelente la ayuda es inmediata y amable y no te cobra nada la ayuda es totalmente gratis exelente servicio estoy agradecido con GLT Business Consulting gracias por llegar a mas personas como mi persona que necesita conocer y aprender sobre contabilidad muchas gracias lo recomiendo 100% 😊😊",
+    company: "Estudiante Universitario",
+    text: "Es excelente la ayuda es inmediata y amable y no te cobra nada la ayuda es totalmente gratis exelente servicio estoy agradecido con Valto Management Consulting gracias por llegar a mas personas como mi persona que necesita conocer y aprender sobre contabilidad muchas gracias lo recomiendo 100% 😊😊",
     rating: 5,
     image: "https://ui-avatars.com/api/?name=Yanet+Huammantica&background=0047BB&color=fff&size=128&bold=true",
   },
@@ -41,16 +41,16 @@ export default function Testimonials() {
         >
 
                       <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
-              Tu éxito es nuestra máxima prioridad
+              Testimonios reales y recomendaciones 
             </span>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-            Lo Que Dicen <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
-                  Nuestros Clientes
+            ¿Que dicen nuestros <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                  Clientes?
                 </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Historias de éxito de empresarios que confiaron en nosotros
+            Historias de éxito en la micro y pequeña Empresa
           </p>
         </motion.div>
 
@@ -93,12 +93,12 @@ export default function Testimonials() {
 
               {/* Author with photo */}
               <div className="flex items-center pt-6 border-t border-gray-100 relative z-10">
-                <div className="relative">
+                <div className="relative flex-shrink-0">
                   <div className="absolute inset-0 bg-valto-blue rounded-full blur-md opacity-20"></div>
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="w-14 h-14 rounded-full ring-4 ring-white shadow-lg relative z-10"
+                    className="w-14 h-14 rounded-full ring-4 ring-white shadow-lg relative z-10 object-cover aspect-square"
                   />
                 </div>
                 <div className="ml-4">

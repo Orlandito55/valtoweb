@@ -226,7 +226,7 @@ Nos encargamos de convertirte en un empresario que toma decisiones en base a los
                     <h3 className="text-2xl font-bold mb-3" style={{ color: '#002677', fontFamily: 'Futura Lux, Futura, Arial, sans-serif' }}>
                       {modulo.titulo}
                     </h3>
-                    <p style={{ color: '#6B7280', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.6' }}>
+                    <p style={{ color: '#6B7280', fontFamily: 'Futura Lt Book, Futura, Arial, sans-serif', lineHeight: '1.6', textAlign: 'justify' }}>
                       {modulo.descripcion}
                     </p>
                   </div>

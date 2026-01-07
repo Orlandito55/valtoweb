@@ -154,16 +154,16 @@ export default function ValueProposition() {
           </motion.div>
 
                       <span className="px-4 py-2 bg-[#0047BB]/10 text-[#0047BB] rounded-full text-sm font-bold" style={{ fontFamily: 'Futura, sans-serif' }}>
-              Respaldo y confianza
+              Garantía, seguridad y respaldo
             </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6">
-            ¿Por que confiar <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
-                  en Nosotros?
+            ¿Por que confiar en <span className="font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block" style={{ fontFamily: 'Futura, sans-serif' }}>
+                   Nosotros?
                 </span>
           </h2>
 
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            El éxito de tus inversiones son la maxima prioridad.
+            El éxito de tus inversiones son nuestra máxima prioridad.
           </p>
 
 

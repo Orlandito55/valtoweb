@@ -185,7 +185,7 @@ function Navbar() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `flex justify-center items-center gap-8 transition-all duration-500 ${scrolled ? 'h-20 py-3' : 'h-24 py-4'}`,
+                    className: "flex justify-center items-center gap-8 transition-all duration-500 h-24 py-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -1361,7 +1361,7 @@ function Services() {
                                 style: {
                                     fontFamily: 'Futura, sans-serif'
                                 },
-                                children: "Tu éxito es nuestra máxima prioridad"
+                                children: "Expertor en Finanzas empresariales"
                             }, void 0, false, {
                                 fileName: "[project]/components/Services.tsx",
                                 lineNumber: 225,
@@ -1713,7 +1713,7 @@ function ValueProposition() {
                                 style: {
                                     fontFamily: 'Futura, sans-serif'
                                 },
-                                children: "Respaldo y confianza"
+                                children: "Garantía, seguridad y respaldo"
                             }, void 0, false, {
                                 fileName: "[project]/components/ValueProposition.tsx",
                                 lineNumber: 156,
@@ -1722,17 +1722,17 @@ function ValueProposition() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6",
                                 children: [
-                                    "¿Por que confiar ",
+                                    "¿Por que confiar en ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block",
                                         style: {
                                             fontFamily: 'Futura, sans-serif'
                                         },
-                                        children: "en Nosotros?"
+                                        children: "Nosotros?"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ValueProposition.tsx",
                                         lineNumber: 160,
-                                        columnNumber: 30
+                                        columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1742,7 +1742,7 @@ function ValueProposition() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xl text-gray-600 max-w-2xl mx-auto",
-                                children: "El éxito de tus inversiones son la maxima prioridad."
+                                children: "El éxito de tus inversiones son nuestra máxima prioridad."
                             }, void 0, false, {
                                 fileName: "[project]/components/ValueProposition.tsx",
                                 lineNumber: 165,
@@ -2220,10 +2220,7 @@ function Process() {
     console.log('hoveredStep:', hoveredStep);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         ref: sectionRef,
-        className: "py-24 relative overflow-hidden",
-        style: {
-            background: 'linear-gradient(135deg, #f8fafc 0%, #e0e7ff 50%, #f8fafc 100%)'
-        },
+        className: "py-24 bg-gradient-to-br from-blue-50 via-white to-blue-50 relative overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 overflow-hidden pointer-events-none",
@@ -2253,11 +2250,11 @@ function Process() {
                         },
                         className: "absolute -top-40 -right-40 w-96 h-96 rounded-full",
                         style: {
-                            background: 'radial-gradient(circle, rgba(0,71,187,0.1) 0%, transparent 70%)'
+                            background: 'r '
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/Process.tsx",
-                        lineNumber: 52,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2285,17 +2282,17 @@ function Process() {
                         },
                         className: "absolute -bottom-40 -left-40 w-96 h-96 rounded-full",
                         style: {
-                            background: 'radial-gradient(circle, rgba(0,86,214,0.1) 0%, transparent 70%)'
+                            background: 'radial-gradient(circle, rgba(231, 235, 15, 0.1) 0%, transparent 70%)'
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/Process.tsx",
-                        lineNumber: 66,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Process.tsx",
-                lineNumber: 51,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2337,21 +2334,21 @@ function Process() {
                                     style: {
                                         fontFamily: 'Futura, sans-serif'
                                     },
-                                    children: "Tu éxito es nuestra máxima prioridad"
+                                    children: "Un proceso rápido y efectivo"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Process.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 93,
                                     columnNumber: 23
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Process.tsx",
-                                lineNumber: 90,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6",
                                 children: [
-                                    "¿Como nosotros ",
+                                    "¿Como ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block",
                                         style: {
@@ -2360,13 +2357,13 @@ function Process() {
                                         children: "Trabajamos?"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Process.tsx",
-                                        lineNumber: 102,
-                                        columnNumber: 28
+                                        lineNumber: 99,
+                                        columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Process.tsx",
-                                lineNumber: 101,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2374,16 +2371,16 @@ function Process() {
                                 style: {
                                     fontFamily: 'Arial, sans-serif'
                                 },
-                                children: "Un proceso simple y efectivo para impulsar tu negocio"
+                                children: "Metodología y procesos con acompañamiento personalizado."
                             }, void 0, false, {
                                 fileName: "[project]/components/Process.tsx",
-                                lineNumber: 107,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Process.tsx",
-                        lineNumber: 84,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2396,7 +2393,7 @@ function Process() {
                                         className: "absolute inset-0 bg-gradient-to-r from-transparent via-gray-300 to-transparent opacity-30 rounded-full"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Process.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 113,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2414,13 +2411,13 @@ function Process() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/Process.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 114,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Process.tsx",
-                                lineNumber: 115,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2471,7 +2468,7 @@ function Process() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 157,
+                                                                lineNumber: 154,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2480,12 +2477,12 @@ function Process() {
                                                                     className: "absolute top-0 right-0 w-full h-full bg-[#0047BB] rounded-bl-full"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 169,
+                                                                    lineNumber: 166,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 168,
+                                                                lineNumber: 165,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2520,7 +2517,7 @@ function Process() {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Process.tsx",
-                                                                            lineNumber: 183,
+                                                                            lineNumber: 180,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2531,18 +2528,18 @@ function Process() {
                                                                             children: step.number
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Process.tsx",
-                                                                            lineNumber: 195,
+                                                                            lineNumber: 192,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 181,
+                                                                    lineNumber: 178,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 173,
+                                                                lineNumber: 170,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2554,7 +2551,7 @@ function Process() {
                                                                 children: step.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 202,
+                                                                lineNumber: 199,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2565,7 +2562,7 @@ function Process() {
                                                                 children: step.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 213,
+                                                                lineNumber: 210,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2587,17 +2584,17 @@ function Process() {
                                                                         strokeWidth: 3
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Process.tsx",
-                                                                        lineNumber: 229,
+                                                                        lineNumber: 226,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 228,
+                                                                    lineNumber: 225,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 221,
+                                                                lineNumber: 218,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2610,13 +2607,13 @@ function Process() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 234,
+                                                                lineNumber: 231,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Process.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 141,
                                                         columnNumber: 17
                                                     }, this),
                                                     index < 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2646,33 +2643,33 @@ function Process() {
                                                                     strokeLinejoin: "round"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 252,
+                                                                    lineNumber: 249,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 251,
+                                                                lineNumber: 248,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Process.tsx",
-                                                            lineNumber: 246,
+                                                            lineNumber: 243,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Process.tsx",
-                                                        lineNumber: 245,
+                                                        lineNumber: 242,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, step.number, true, {
                                                 fileName: "[project]/components/Process.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 126,
                                                 columnNumber: 15
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Process.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 124,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2722,7 +2719,7 @@ function Process() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 300,
+                                                                lineNumber: 297,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2731,12 +2728,12 @@ function Process() {
                                                                     className: "absolute top-0 right-0 w-full h-full bg-[#0047BB] rounded-bl-full"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 312,
+                                                                    lineNumber: 309,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 311,
+                                                                lineNumber: 308,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2771,7 +2768,7 @@ function Process() {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Process.tsx",
-                                                                            lineNumber: 326,
+                                                                            lineNumber: 323,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2782,18 +2779,18 @@ function Process() {
                                                                             children: step.number
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Process.tsx",
-                                                                            lineNumber: 338,
+                                                                            lineNumber: 335,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 324,
+                                                                    lineNumber: 321,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 316,
+                                                                lineNumber: 313,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2805,7 +2802,7 @@ function Process() {
                                                                 children: step.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 345,
+                                                                lineNumber: 342,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2816,7 +2813,7 @@ function Process() {
                                                                 children: step.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 356,
+                                                                lineNumber: 353,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2838,17 +2835,17 @@ function Process() {
                                                                         strokeWidth: 3
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Process.tsx",
-                                                                        lineNumber: 372,
+                                                                        lineNumber: 369,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 371,
+                                                                    lineNumber: 368,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 364,
+                                                                lineNumber: 361,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2861,13 +2858,13 @@ function Process() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 377,
+                                                                lineNumber: 374,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Process.tsx",
-                                                        lineNumber: 287,
+                                                        lineNumber: 284,
                                                         columnNumber: 17
                                                     }, this),
                                                     index < 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2897,46 +2894,46 @@ function Process() {
                                                                     strokeLinejoin: "round"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Process.tsx",
-                                                                    lineNumber: 395,
+                                                                    lineNumber: 392,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Process.tsx",
-                                                                lineNumber: 394,
+                                                                lineNumber: 391,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Process.tsx",
-                                                            lineNumber: 389,
+                                                            lineNumber: 386,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Process.tsx",
-                                                        lineNumber: 388,
+                                                        lineNumber: 385,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, step.number, true, {
                                                 fileName: "[project]/components/Process.tsx",
-                                                lineNumber: 272,
+                                                lineNumber: 269,
                                                 columnNumber: 15
                                             }, this);
                                         })
                                     }, void 0, false, {
                                         fileName: "[project]/components/Process.tsx",
-                                        lineNumber: 268,
+                                        lineNumber: 265,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Process.tsx",
-                                lineNumber: 126,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Process.tsx",
-                        lineNumber: 113,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2968,7 +2965,7 @@ function Process() {
                                     children: "¡Comienza Ahora!"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Process.tsx",
-                                    lineNumber: 429,
+                                    lineNumber: 426,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].svg, {
@@ -2996,29 +2993,29 @@ function Process() {
                                         strokeLinejoin: "round"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Process.tsx",
-                                        lineNumber: 444,
+                                        lineNumber: 441,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Process.tsx",
-                                    lineNumber: 430,
+                                    lineNumber: 427,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Process.tsx",
-                            lineNumber: 420,
+                            lineNumber: 417,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Process.tsx",
-                        lineNumber: 414,
+                        lineNumber: 411,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Process.tsx",
-                lineNumber: 82,
+                lineNumber: 79,
                 columnNumber: 7
             }, this)
         ]
@@ -3059,14 +3056,14 @@ const testimonials = [
     {
         name: "Henry Borda",
         company: "Empresario",
-        text: "Profesionales con acetado conocimiento financiero, de gran utilidad para decisiones estratégicas en empresarios que desean crecer.",
+        text: "Profesionales con acertado conocimiento financiero, de gran utilidad para decisiones estratégicas en empresarios que desean crecer.",
         rating: 5,
         image: "https://ui-avatars.com/api/?name=Henry+Borda&background=0047BB&color=fff&size=128&bold=true"
     },
     {
         name: "Yanet Huamanttica Joruro",
-        company: "Estudiante Univercitario",
-        text: "Es exelente la ayuda es inmediata y amable y no te cobra nada la ayuda es totalmente gratis exelente servicio estoy agradecido con GLT Business Consulting gracias por llegar a mas personas como mi persona que necesita conocer y aprender sobre contabilidad muchas gracias lo recomiendo 100% 😊😊",
+        company: "Estudiante Universitario",
+        text: "Es excelente la ayuda es inmediata y amable y no te cobra nada la ayuda es totalmente gratis exelente servicio estoy agradecido con Valto Management Consulting gracias por llegar a mas personas como mi persona que necesita conocer y aprender sobre contabilidad muchas gracias lo recomiendo 100% 😊😊",
         rating: 5,
         image: "https://ui-avatars.com/api/?name=Yanet+Huammantica&background=0047BB&color=fff&size=128&bold=true"
     },
@@ -3106,7 +3103,7 @@ function Testimonials() {
                             style: {
                                 fontFamily: 'Futura, sans-serif'
                             },
-                            children: "Tu éxito es nuestra máxima prioridad"
+                            children: "Testimonios reales y recomendaciones"
                         }, void 0, false, {
                             fileName: "[project]/components/Testimonials.tsx",
                             lineNumber: 43,
@@ -3115,17 +3112,17 @@ function Testimonials() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6",
                             children: [
-                                "Lo Que Dicen ",
+                                "¿Que dicen nuestros ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block",
                                     style: {
                                         fontFamily: 'Futura, sans-serif'
                                     },
-                                    children: "Nuestros Clientes"
+                                    children: "Clientes?"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Testimonials.tsx",
                                     lineNumber: 48,
-                                    columnNumber: 26
+                                    columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -3135,7 +3132,7 @@ function Testimonials() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-xl text-gray-600 max-w-2xl mx-auto",
-                            children: "Historias de éxito de empresarios que confiaron en nosotros"
+                            children: "Historias de éxito en la micro y pequeña Empresa"
                         }, void 0, false, {
                             fileName: "[project]/components/Testimonials.tsx",
                             lineNumber: 52,
@@ -3227,7 +3224,7 @@ function Testimonials() {
                                     className: "flex items-center pt-6 border-t border-gray-100 relative z-10",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "relative",
+                                            className: "relative flex-shrink-0",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-valto-blue rounded-full blur-md opacity-20"
@@ -3239,7 +3236,7 @@ function Testimonials() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: testimonial.image,
                                                     alt: testimonial.name,
-                                                    className: "w-14 h-14 rounded-full ring-4 ring-white shadow-lg relative z-10"
+                                                    className: "w-14 h-14 rounded-full ring-4 ring-white shadow-lg relative z-10 object-cover aspect-square"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Testimonials.tsx",
                                                     lineNumber: 98,
@@ -3323,7 +3320,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calculator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calculator$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calculator.js [app-client] (ecmascript) <export default as Calculator>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-client] (ecmascript) <export default as DollarSign>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trending-up.js [app-client] (ecmascript) <export default as TrendingUp>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript) <export default as Calendar>");
 ;
@@ -3334,18 +3330,41 @@ var _s = __turbopack_context__.k.signature();
 ;
 function CreditCalculator() {
     _s();
-    const [amount, setAmount] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("10000");
+    const [amount, setAmount] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("10,000");
     const [rate, setRate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("15");
     const [months, setMonths] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("12");
     const [currency, setCurrency] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("PEN");
     const [result, setResult] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Función para formatear número con separador de miles
+    const formatNumber = (value)=>{
+        // Remover todo excepto dígitos
+        const numbers = value.replace(/\D/g, '');
+        // Agregar separador de miles
+        return numbers.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    };
+    // Función para obtener el valor numérico
+    const getNumericValue = (value)=>{
+        return parseFloat(value.replace(/,/g, '')) || 0;
+    };
+    // Función para formatear porcentaje
+    const formatPercentage = (value)=>{
+        // Remover todo excepto dígitos y punto decimal
+        const cleaned = value.replace(/[^\d.]/g, '');
+        // Limitar a un solo punto decimal
+        const parts = cleaned.split('.');
+        if (parts.length > 2) {
+            return parts[0] + '.' + parts.slice(1).join('');
+        }
+        return cleaned;
+    };
     const calculateCredit = ()=>{
-        const P = parseFloat(amount);
-        const annualRate = parseFloat(rate);
+        const P = getNumericValue(amount);
+        const annualRate = parseFloat(rate.replace('%', ''));
         const n = parseInt(months);
         if (P <= 0 || annualRate <= 0 || n <= 0) return;
-        // Tasa de interés mensual
-        const i = annualRate / 12 / 100;
+        // Convertir tasa anual efectiva a tasa mensual efectiva
+        // Fórmula: i = (1 + r)^(1/12) - 1
+        const i = Math.pow(1 + annualRate / 100, 1 / 12) - 1;
         // Fórmula de cuota francesa
         const monthlyPayment = P * (i * Math.pow(1 + i, n)) / (Math.pow(1 + i, n) - 1);
         const totalPayment = monthlyPayment * n;
@@ -3394,12 +3413,12 @@ function CreditCalculator() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                lineNumber: 60,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/CreditCalculator.tsx",
-                            lineNumber: 59,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -3411,47 +3430,47 @@ function CreditCalculator() {
                                 children: "Calculadora de Créditos"
                             }, void 0, false, {
                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                lineNumber: 64,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/CreditCalculator.tsx",
-                            lineNumber: 63,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl lg:text-5xl font-bold text-gray-500 mb-4 mt-6",
                             children: [
-                                "¿Necesitas financiamiento ",
+                                "¿Buscas financiamiento para tu ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-bold text-white bg-[#0056D6] px-3 py-1 rounded-lg inline-block",
                                     style: {
                                         fontFamily: 'Futura, sans-serif'
                                     },
-                                    children: "para tu empresa?"
+                                    children: "Empresa?"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                    lineNumber: 69,
-                                    columnNumber: 39
+                                    lineNumber: 95,
+                                    columnNumber: 44
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CreditCalculator.tsx",
-                            lineNumber: 68,
+                            lineNumber: 94,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-xl text-gray-600 max-w-2xl mx-auto mb-6",
-                            children: "Ingresa el importe de tu crédito, la tasa de interés y el periodo de pago para obtener la cuota exacta de tu financiamiento."
+                            children: "Ingresa el importe de tu crédito, la tasa de interés efectiva y el periodo de pago para obtener la cuota exacta de tu financiamiento."
                         }, void 0, false, {
                             fileName: "[project]/components/CreditCalculator.tsx",
-                            lineNumber: 74,
+                            lineNumber: 100,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CreditCalculator.tsx",
-                    lineNumber: 53,
+                    lineNumber: 79,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3484,7 +3503,7 @@ function CreditCalculator() {
                                         children: "Datos del Crédito"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 90,
+                                        lineNumber: 116,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3493,18 +3512,19 @@ function CreditCalculator() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "flex items-center text-white mb-2 text-sm font-medium",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
-                                                        className: "w-4 h-4 mr-2"
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "w-4 h-4 mr-2 flex items-center justify-center font-bold",
+                                                        children: currency === "PEN" ? "S/" : "$"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 97,
+                                                        lineNumber: 123,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Moneda"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 122,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3517,7 +3537,7 @@ function CreditCalculator() {
                                                         children: "S/ Soles"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 101,
+                                                        lineNumber: 129,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3527,19 +3547,19 @@ function CreditCalculator() {
                                                         children: "$ Dólares"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 140,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 100,
+                                                lineNumber: 128,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 121,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3548,43 +3568,44 @@ function CreditCalculator() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "flex items-center text-white mb-2 text-sm font-medium",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
-                                                        className: "w-4 h-4 mr-2"
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "w-4 h-4 mr-2 flex items-center justify-center font-bold",
+                                                        children: currency === "PEN" ? "S/" : "$"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 157,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Monto del Préstamo"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 156,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                type: "number",
+                                                type: "text",
                                                 value: amount,
-                                                onChange: (e)=>setAmount(e.target.value),
+                                                onChange: (e)=>setAmount(formatNumber(e.target.value)),
                                                 className: "w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all",
-                                                placeholder: "10000"
+                                                placeholder: "10,000"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 132,
+                                                lineNumber: 162,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "mt-2 text-white/70 text-sm",
-                                                children: formatCurrency(parseFloat(amount) || 0)
+                                                children: formatCurrency(getNumericValue(amount))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 169,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3597,43 +3618,49 @@ function CreditCalculator() {
                                                         className: "w-4 h-4 mr-2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 177,
                                                         columnNumber: 19
                                                     }, this),
-                                                    "Tasa de Interés Anual (%)"
+                                                    "Tasa de Interés Efectiva (%)"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 146,
+                                                lineNumber: 176,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                type: "number",
-                                                value: rate,
-                                                onChange: (e)=>setRate(e.target.value),
-                                                className: "w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all",
-                                                placeholder: "15",
-                                                step: "0.1"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "relative",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    type: "text",
+                                                    value: rate + '%',
+                                                    onChange: (e)=>setRate(formatPercentage(e.target.value.replace('%', ''))),
+                                                    className: "w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all",
+                                                    placeholder: "15%"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CreditCalculator.tsx",
+                                                    lineNumber: 181,
+                                                    columnNumber: 19
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 150,
+                                                lineNumber: 180,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "mt-2 text-white/70 text-sm",
                                                 children: [
                                                     rate,
-                                                    "% anual"
+                                                    "% Efectiva"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 189,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 175,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3646,14 +3673,14 @@ function CreditCalculator() {
                                                         className: "w-4 h-4 mr-2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 164,
+                                                        lineNumber: 195,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Plazo del Crédito"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 194,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3664,7 +3691,7 @@ function CreditCalculator() {
                                                 placeholder: "12"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 167,
+                                                lineNumber: 198,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3672,17 +3699,17 @@ function CreditCalculator() {
                                                 children: [
                                                     months,
                                                     " ",
-                                                    parseInt(months) === 1 ? "mes" : "meses"
+                                                    parseInt(months) === 1 ? "Periodo" : "Periodos"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 174,
+                                                lineNumber: 205,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 193,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3691,13 +3718,13 @@ function CreditCalculator() {
                                         children: "Calcular Cuota"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 211,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                lineNumber: 89,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3708,7 +3735,7 @@ function CreditCalculator() {
                                         children: "Resultado"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 221,
                                         columnNumber: 15
                                     }, this),
                                     result ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3735,7 +3762,7 @@ function CreditCalculator() {
                                                         children: "Cuota Mensual"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 202,
+                                                        lineNumber: 233,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3743,13 +3770,13 @@ function CreditCalculator() {
                                                         children: formatCurrency(result.monthlyPayment)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 205,
+                                                        lineNumber: 236,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 201,
+                                                lineNumber: 232,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3765,26 +3792,26 @@ function CreditCalculator() {
                                                                     children: "Total a Pagar"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                                                    lineNumber: 214,
+                                                                    lineNumber: 245,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-2xl font-bold text-gray-900",
+                                                                    className: "text-2xl font-bold text-gray-500",
                                                                     children: formatCurrency(result.totalPayment)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                                                    lineNumber: 217,
+                                                                    lineNumber: 248,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CreditCalculator.tsx",
-                                                            lineNumber: 213,
+                                                            lineNumber: 244,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 212,
+                                                        lineNumber: 243,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3797,7 +3824,7 @@ function CreditCalculator() {
                                                                     children: "Total Intereses"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                                                    lineNumber: 225,
+                                                                    lineNumber: 256,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3805,18 +3832,18 @@ function CreditCalculator() {
                                                                     children: formatCurrency(result.totalInterest)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                                                    lineNumber: 228,
+                                                                    lineNumber: 259,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CreditCalculator.tsx",
-                                                            lineNumber: 224,
+                                                            lineNumber: 255,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 223,
+                                                        lineNumber: 254,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3829,32 +3856,32 @@ function CreditCalculator() {
                                                                     children: "Capital Prestado"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                                                    lineNumber: 236,
+                                                                    lineNumber: 267,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "text-2xl font-bold text-green-600",
-                                                                    children: formatCurrency(parseFloat(amount))
+                                                                    children: formatCurrency(getNumericValue(amount))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                                                    lineNumber: 239,
+                                                                    lineNumber: 270,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CreditCalculator.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 266,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                                        lineNumber: 234,
+                                                        lineNumber: 265,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 211,
+                                                lineNumber: 242,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3870,18 +3897,18 @@ function CreditCalculator() {
                                                     children: "Solicitar Asesoría"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CreditCalculator.tsx",
-                                                    lineNumber: 248,
+                                                    lineNumber: 279,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 247,
+                                                lineNumber: 278,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 195,
+                                        lineNumber: 226,
                                         columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex flex-col items-center justify-center h-full text-center py-12",
@@ -3890,7 +3917,7 @@ function CreditCalculator() {
                                                 className: "w-20 h-20 text-gray-300 mb-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 261,
+                                                lineNumber: 292,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3898,7 +3925,7 @@ function CreditCalculator() {
                                                 children: "Ingresa los datos y presiona"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 262,
+                                                lineNumber: 293,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3906,45 +3933,45 @@ function CreditCalculator() {
                                                 children: '"Calcular Cuota"'
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                                lineNumber: 265,
+                                                lineNumber: 296,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CreditCalculator.tsx",
-                                        lineNumber: 260,
+                                        lineNumber: 291,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CreditCalculator.tsx",
-                                lineNumber: 189,
+                                lineNumber: 220,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CreditCalculator.tsx",
-                        lineNumber: 87,
+                        lineNumber: 113,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CreditCalculator.tsx",
-                    lineNumber: 80,
+                    lineNumber: 106,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/CreditCalculator.tsx",
-            lineNumber: 51,
+            lineNumber: 77,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/CreditCalculator.tsx",
-        lineNumber: 50,
+        lineNumber: 76,
         columnNumber: 5
     }, this);
 }
-_s(CreditCalculator, "SO/8PoGiaSBv1eBRvVq/Z9GiF/I=");
+_s(CreditCalculator, "ZjA1QP6E4Hg8IH8TwR1EruCKU0Q=");
 _c = CreditCalculator;
 var _c;
 __turbopack_context__.k.register(_c, "CreditCalculator");
@@ -4213,7 +4240,7 @@ function FAQ() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "https://wa.me/51920000848?text=Hola%20%F0%9F%91%8B%2C%20quisiera%20información%20sobre%20su%20servicio%20%F0%9F%93%8A%F0%9F%92%BC",
+                            href: "https://wa.me/51920000848?text=Hola,%20quiero%20solicitar%20una%20asesoria%20para%20mi%20Empresa%20💸",
                             className: "inline-block px-8 py-4 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg transform hover:scale-105 animate-heartbeat",
                             style: {
                                 backgroundColor: '#0047BB'
@@ -4519,21 +4546,24 @@ ${formData.proyecto}
                                         lineNumber: 114,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                                        href: "https://wa.me/51920000848?text=Hola%2C%20quiero%20solicitar%20una%20consultoría%20para%20mis%20Inversiones%20💸",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
                                         whileHover: {
                                             scale: 1.05
                                         },
                                         whileTap: {
                                             scale: 0.95
                                         },
-                                        className: "inline-flex items-center px-8 py-4 bg-white text-valto-blue rounded-lg font-semibold text-lg hover:shadow-2xl transition-all",
+                                        className: "inline-flex items-center px-8 py-4 bg-white text-valto-blue rounded-xl font-semibold text-lg transition-all duration-300 hover:shadow-xl shadow-lg animate-heartbeat",
                                         children: [
                                             "Contactar Ahora",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                 className: "ml-2 w-5 h-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CTA.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 137,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -4577,10 +4607,10 @@ ${formData.proyecto}
                                             fontFamily: 'Futura Lux, Futura, Arial, sans-serif',
                                             letterSpacing: '-0.01em'
                                         },
-                                        children: "Solicita tu Consulta Gratuita"
+                                        children: "Solicita tu Consulta"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CTA.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 153,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -4602,12 +4632,12 @@ ${formData.proyecto}
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CTA.tsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 161,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CTA.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 160,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4625,12 +4655,12 @@ ${formData.proyecto}
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CTA.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 173,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CTA.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 172,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4643,12 +4673,12 @@ ${formData.proyecto}
                                                     placeholder: "Teléfono"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CTA.tsx",
-                                                    lineNumber: 182,
+                                                    lineNumber: 185,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CTA.tsx",
-                                                lineNumber: 181,
+                                                lineNumber: 184,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4669,7 +4699,7 @@ ${formData.proyecto}
                                                             children: "Servicio de interés"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CTA.tsx",
-                                                            lineNumber: 200,
+                                                            lineNumber: 203,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -4677,7 +4707,7 @@ ${formData.proyecto}
                                                             children: "Asesoría Financiera"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CTA.tsx",
-                                                            lineNumber: 201,
+                                                            lineNumber: 204,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -4685,7 +4715,7 @@ ${formData.proyecto}
                                                             children: "Asesoría Académica para estudiantes de pre y postgrado"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CTA.tsx",
-                                                            lineNumber: 202,
+                                                            lineNumber: 205,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -4693,7 +4723,7 @@ ${formData.proyecto}
                                                             children: "Capacitación Empresarial"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CTA.tsx",
-                                                            lineNumber: 203,
+                                                            lineNumber: 206,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -4701,7 +4731,7 @@ ${formData.proyecto}
                                                             children: "Consultoria de Negocios"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CTA.tsx",
-                                                            lineNumber: 204,
+                                                            lineNumber: 207,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -4709,18 +4739,18 @@ ${formData.proyecto}
                                                             children: "Formación de Emprendedores y Empresarios"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CTA.tsx",
-                                                            lineNumber: 205,
+                                                            lineNumber: 208,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CTA.tsx",
-                                                    lineNumber: 192,
+                                                    lineNumber: 195,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CTA.tsx",
-                                                lineNumber: 191,
+                                                lineNumber: 194,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4738,12 +4768,12 @@ ${formData.proyecto}
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CTA.tsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 212,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CTA.tsx",
-                                                lineNumber: 208,
+                                                lineNumber: 211,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4757,24 +4787,24 @@ ${formData.proyecto}
                                                     children: "Enviar Solicitud"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CTA.tsx",
-                                                    lineNumber: 221,
+                                                    lineNumber: 224,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CTA.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 223,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CTA.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 159,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CTA.tsx",
-                                lineNumber: 138,
+                                lineNumber: 141,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -4833,15 +4863,15 @@ function Footer() {
             fontFamily: 'Arial, sans-serif'
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 py-12",
+            className: "max-w-5xl mx-auto px-8 sm:px-10 lg:px-12 xl:px-16 py-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8",
+                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-4",
+                                    className: "mb-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/logo222.png",
                                         alt: "VALTO Management Consulting",
@@ -4873,7 +4903,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Servicios"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -4881,7 +4911,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2 text-sm",
+                                    className: "space-y-1 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4973,7 +5003,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Legal"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -4981,7 +5011,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2 text-sm",
+                                    className: "space-y-1 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -5043,7 +5073,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold mb-4",
+                                    className: "font-semibold mb-2",
                                     children: "Contacto"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
@@ -5051,7 +5081,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-3 text-sm",
+                                    className: "space-y-1.5 text-sm",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             className: "flex items-center text-white/80",
@@ -5123,7 +5153,7 @@ function Footer() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-white/80",
+                    className: "border-t border-white/20 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-white/80",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "© 2026 VALTO Management Consulting. Todos los derechos reservados."
@@ -5218,7 +5248,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 function WhatsAppButton() {
     const whatsappNumber = "51920000848";
-    const message = "Hola 👋, necesito más información o una asesoría 📊💼";
+    const message = "Hola 👋, quiero solicitar una asesoría Financiera 📊💼";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
         href: whatsappUrl,
@@ -5226,7 +5256,7 @@ function WhatsAppButton() {
         rel: "noopener noreferrer",
         className: "fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group",
         style: {
-            backgroundColor: '#0047BB'
+            backgroundColor: '#25D366'
         },
         initial: {
             scale: 0,
@@ -5311,7 +5341,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 // Iconos SVG actualizados de redes sociales
-const FacebookIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const FacebookIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -5329,7 +5359,7 @@ const FacebookIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__m
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c = FacebookIcon;
-const InstagramIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const InstagramIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -5347,7 +5377,7 @@ const InstagramIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c1 = InstagramIcon;
-const TikTokIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const TikTokIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -5365,7 +5395,7 @@ const TikTokIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__mod
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c2 = TikTokIcon;
-const LinkedinIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const LinkedinIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -5383,7 +5413,7 @@ const LinkedinIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__m
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c3 = LinkedinIcon;
-const YoutubeIcon = ({ size = 22 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const YoutubeIcon = ({ size = 30 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: size,
         height: size,
         viewBox: "0 0 24 24",
@@ -5481,7 +5511,7 @@ function FloatingSocial() {
                     title: social.label,
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(social.icon, {
-                            size: 26
+                            size: 36
                         }, void 0, false, {
                             fileName: "[project]/components/FloatingSocial.tsx",
                             lineNumber: 100,
